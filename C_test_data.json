@@ -1,0 +1,345 @@
+[
+  {
+    "query": "resources/C/data_structures/binary_trees/avl_tree.c@leftRotate",
+    "pos_list_dependence": [
+      "resources/C/data_structures/binary_trees/avl_tree.c@LeftRightRotate",
+      "resources/C/data_structures/binary_trees/avl_tree.c@RightLeftRotate",
+      "resources/C/data_structures/binary_trees/avl_tree.c@insert",
+      "resources/C/data_structures/binary_trees/avl_tree.c@delete"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/C/data_structures/binary_trees/avl_tree.c@rightRotate",
+    "pos_list_dependence": [
+      "resources/C/data_structures/binary_trees/avl_tree.c@LeftRightRotate",
+      "resources/C/data_structures/binary_trees/avl_tree.c@RightLeftRotate",
+      "resources/C/data_structures/binary_trees/avl_tree.c@insert",
+      "resources/C/data_structures/binary_trees/avl_tree.c@delete"
+    ],
+    "pos_list_logic": [
+      "resources/C/data_structures/binary_trees/recursive_traversals.c@main"
+    ]
+  },
+  {
+    "query": "resources/C/data_structures/graphs/graph.c@adjacent",
+    "pos_list_dependence": [
+      "resources/C/data_structures/graphs/bfs_queue.c@findPathBFS",
+      "resources/C/data_structures/graphs/dfs_recursive.c@dfsPathCheck",
+      "resources/C/data_structures/graphs/euler.c@degree",
+      "resources/C/data_structures/graphs/hamiltonian.c@hamiltonR"
+    ],
+    "pos_list_logic": [
+      "resources/C/math/fibonacci_dp.c@main"
+    ]
+  },
+  {
+    "query": "resources/C/data_structures/graphs/graph.c@newGraph",
+    "pos_list_dependence": [
+      "resources/C/data_structures/graphs/bfs_queue.c@main",
+      "resources/C/data_structures/graphs/dfs_recursive.c@main",
+      "resources/C/data_structures/graphs/euler.c@main",
+      "resources/C/data_structures/graphs/hamiltonian.c@main"
+    ],
+    "pos_list_logic": [
+      "resources/C/leetcode/src/101.c@checkSymmetric",
+      "resources/C/leetcode/src/16.c@cmp"
+    ]
+  },
+  {
+    "query": "resources/C/data_structures/graphs/graph.c@insertEdge",
+    "pos_list_dependence": [
+      "resources/C/data_structures/graphs/bfs_queue.c@main",
+      "resources/C/data_structures/graphs/dfs_recursive.c@main",
+      "resources/C/data_structures/graphs/euler.c@main",
+      "resources/C/data_structures/graphs/hamiltonian.c@main"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/C/machine_learning/adaline_learning.c@adaline_get_weights_str",
+    "pos_list_dependence": [
+      "resources/C/machine_learning/adaline_learning.c@adaline_fit",
+      "resources/C/machine_learning/adaline_learning.c@test1",
+      "resources/C/machine_learning/adaline_learning.c@test2",
+      "resources/C/machine_learning/adaline_learning.c@test3"
+    ],
+    "pos_list_logic": [
+      "resources/C/data_structures/binary_trees/avl_tree.c@minNode",
+      "resources/C/misc/rselect.c@main",
+      "resources/C/math/armstrong_number.c@power"
+    ]
+  },
+  {
+    "query": "resources/C/developer_tools/test_min_printf.c@put_char",
+    "pos_list_dependence": [
+      "resources/C/developer_tools/test_min_printf.c@print_int_value",
+      "resources/C/developer_tools/test_min_printf.c@print_double_value",
+      "resources/C/developer_tools/test_min_printf.c@print_string",
+      "resources/C/developer_tools/test_min_printf.c@min_printf"
+    ],
+    "pos_list_logic": [
+      "resources/C/sorting/partition_sort.c@partitionSort",
+      "resources/C/numerical_methods/qr_decomposition.c@print_matrix",
+      "resources/C/numerical_methods/qr_eigen_values.c@create_matrix"
+    ]
+  },
+  {
+    "query": "resources/C/games/tic_tac_toe.c@placex",
+    "pos_list_dependence": [
+      "resources/C/games/tic_tac_toe.c@singlemode",
+      "resources/C/games/tic_tac_toe.c@doublemode",
+      "resources/C/games/tic_tac_toe.c@placex",
+      "resources/C/games/tic_tac_toe.c@placey"
+    ],
+    "pos_list_logic": [
+      "resources/C/conversions/hexadecimal_to_octal2.c@hex_to_oct",
+      "resources/C/leetcode/src/110.c@isBalanced",
+      "resources/C/data_structures/trie/trie.c@main"
+    ]
+  },
+  {
+    "query": "resources/C/misc/poly_add.c@create_polynomial",
+    "pos_list_dependence": [
+      "resources/C/misc/poly_add.c@test1",
+      "resources/C/misc/poly_add.c@test2",
+      "resources/C/misc/poly_add.c@test3"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/C/misc/poly_add.c@display_polynomial",
+    "pos_list_dependence": [
+      "resources/C/misc/poly_add.c@test1",
+      "resources/C/misc/poly_add.c@test2",
+      "resources/C/misc/poly_add.c@test3"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/C/misc/poly_add.c@poly_add",
+    "pos_list_dependence": [
+      "resources/C/misc/poly_add.c@test1",
+      "resources/C/misc/poly_add.c@test2",
+      "resources/C/misc/poly_add.c@test3"
+    ],
+    "pos_list_logic": [
+      "resources/C/data_structures/array/carray.c@swap",
+      "resources/C/data_structures/graphs/strongly_connected_components.c@main"
+    ]
+  },
+  {
+    "query": "resources/C/misc/poly_add.c@free_poly",
+    "pos_list_dependence": [
+      "resources/C/misc/poly_add.c@test1",
+      "resources/C/misc/poly_add.c@test2",
+      "resources/C/misc/poly_add.c@test3"
+    ],
+    "pos_list_logic": [
+      "resources/C/misc/sudoku_solver.c@solve"
+    ]
+  },
+  {
+    "query": "resources/C/misc/union_find.c@find",
+    "pos_list_dependence": [
+      "resources/C/misc/union_find.c@find",
+      "resources/C/misc/union_find.c@join",
+      "resources/C/misc/union_find.c@main"
+    ],
+    "pos_list_logic": [
+      "resources/C/machine_learning/adaline_learning.c@adaline_predict"
+    ]
+  },
+  {
+    "query": "resources/C/misc/mcnaughton_yamada_thompson.c@destroyNode",
+    "pos_list_dependence": [
+      "resources/C/misc/mcnaughton_yamada_thompson.c@buildAST",
+      "resources/C/misc/mcnaughton_yamada_thompson.c@testHelper",
+      "resources/C/misc/mcnaughton_yamada_thompson.c@destroyNode"
+    ],
+    "pos_list_logic": [
+      "resources/C/machine_learning/kohonen_som_topology.c@test_3d_classes2",
+      "resources/C/data_structures/linked_list/stack_using_linked_lists.c@main",
+      "resources/C/project_euler/problem_20/sol1.c@add_digit"
+    ]
+  },
+  {
+    "query": "resources/C/misc/mcnaughton_yamada_thompson.c@destroyNFA",
+    "pos_list_dependence": [
+      "resources/C/misc/mcnaughton_yamada_thompson.c@compileFromAST",
+      "resources/C/misc/mcnaughton_yamada_thompson.c@testHelper",
+      "resources/C/misc/mcnaughton_yamada_thompson.c@destroyNFA"
+    ],
+    "pos_list_logic": [
+      "resources/C/sorting/radix_sort_2.c@radixsort2"
+    ]
+  },
+  {
+    "query": "resources/C/misc/mcnaughton_yamada_thompson.c@contains",
+    "pos_list_dependence": [
+      "resources/C/misc/mcnaughton_yamada_thompson.c@findEmpty",
+      "resources/C/misc/mcnaughton_yamada_thompson.c@transit",
+      "resources/C/data_structures/hash_set/main.c@main"
+    ],
+    "pos_list_logic": [
+      "resources/C/data_structures/graphs/queue.c@QueueDequeue"
+    ]
+  },
+  {
+    "query": "resources/C/data_structures/vector.c@delete",
+    "pos_list_dependence": [
+      "resources/C/data_structures/vector.c@clear",
+      "resources/C/data_structures/hash_set/main.c@main",
+      "resources/C/data_structures/dynamic_array/main.c@main"
+    ],
+    "pos_list_logic": [
+      "resources/C/conversions/octal_to_hexadecimal.c@octalToHexadecimal",
+      "resources/C/sorting/bubble_sort_recursion.c@swap",
+      "resources/C/client_server/remote_command_exec_udp_client.c@main"
+    ]
+  },
+  {
+    "query": "resources/C/data_structures/vector.c@init",
+    "pos_list_dependence": [
+      "resources/C/data_structures/vector.c@clear",
+      "resources/C/data_structures/vector.c@test",
+      "resources/C/data_structures/vector.c@main"
+    ],
+    "pos_list_logic": [
+      "resources/C/process_scheduling_algorithms/non_preemptive_priority_scheduling.c@calculate_tat",
+      "resources/C/conversions/infix_to_postfix2.c@test",
+      "resources/C/geometry/vectors_3d.c@get_cross_matrix"
+    ]
+  },
+  {
+    "query": "resources/C/data_structures/hash_set/hash_set.c@put",
+    "pos_list_dependence": [
+      "resources/C/data_structures/hash_set/hash_set.c@add",
+      "resources/C/data_structures/hash_set/hash_set.c@put",
+      "resources/C/data_structures/dynamic_array/main.c@main"
+    ],
+    "pos_list_logic": [
+      "resources/C/sorting/bead_sort.c@main",
+      "resources/C/project_euler/problem_401/sol1.c@sigma",
+      "resources/C/data_structures/linked_list/circular_linked_list.c@deletenode"
+    ]
+  },
+  {
+    "query": "resources/C/data_structures/hash_set/hash_set.c@hash",
+    "pos_list_dependence": [
+      "resources/C/data_structures/hash_set/hash_set.c@add",
+      "resources/C/data_structures/hash_set/hash_set.c@contains",
+      "resources/C/data_structures/hash_set/hash_set.c@resize"
+    ],
+    "pos_list_logic": [
+      "resources/C/math/palindrome.c@isPalindrome",
+      "resources/C/cipher/rot13.c@rot13",
+      "resources/C/data_structures/heap/min_heap.c@top"
+    ]
+  },
+  {
+    "query": "resources/C/data_structures/linked_list/ascending_priority_queue.c@empty",
+    "pos_list_dependence": [
+      "resources/C/data_structures/linked_list/ascending_priority_queue.c@insert",
+      "resources/C/data_structures/linked_list/ascending_priority_queue.c@removes",
+      "resources/C/data_structures/linked_list/ascending_priority_queue.c@show"
+    ],
+    "pos_list_logic": [
+      "resources/C/searching/sentinel_linear_search.c@main",
+      "resources/C/project_euler/problem_14/sol1.c@main"
+    ]
+  },
+  {
+    "query": "resources/C/data_structures/linked_list/queue_linked_list.c@empty",
+    "pos_list_dependence": [
+      "resources/C/data_structures/linked_list/queue_linked_list.c@insert",
+      "resources/C/data_structures/linked_list/queue_linked_list.c@removes",
+      "resources/C/data_structures/linked_list/queue_linked_list.c@show"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/C/data_structures/binary_trees/words_alphabetical.c@endProgramAbruptly",
+    "pos_list_dependence": [
+      "resources/C/data_structures/binary_trees/words_alphabetical.c@getPointerToWord",
+      "resources/C/data_structures/binary_trees/words_alphabetical.c@closeFile",
+      "resources/C/data_structures/binary_trees/words_alphabetical.c@allocateMemoryForNode"
+    ],
+    "pos_list_logic": [
+      "resources/C/data_structures/linked_list/circular_doubly_linked_list.c@insert_at_head",
+      "resources/C/data_structures/linked_list/middle_element_in_list.c@printList",
+      "resources/C/misc/poly_add.c@display_polynomial"
+    ]
+  },
+  {
+    "query": "resources/C/data_structures/graphs/kruskal.c@find",
+    "pos_list_dependence": [
+      "resources/C/data_structures/graphs/kruskal.c@find",
+      "resources/C/data_structures/graphs/kruskal.c@Union",
+      "resources/C/data_structures/graphs/kruskal.c@KruskalMST"
+    ],
+    "pos_list_logic": [
+      "resources/C/sorting/cycle_sort.c@main"
+    ]
+  },
+  {
+    "query": "resources/C/machine_learning/kohonen_som_trace.c@save_nd_data",
+    "pos_list_dependence": [
+      "resources/C/machine_learning/kohonen_som_trace.c@test1",
+      "resources/C/machine_learning/kohonen_som_trace.c@test2",
+      "resources/C/machine_learning/kohonen_som_trace.c@test3"
+    ],
+    "pos_list_logic": [
+      "resources/C/machine_learning/kohonen_som_topology.c@save_2d_data"
+    ]
+  },
+  {
+    "query": "resources/C/machine_learning/kohonen_som_trace.c@kohonen_som_tracer",
+    "pos_list_dependence": [
+      "resources/C/machine_learning/kohonen_som_trace.c@test1",
+      "resources/C/machine_learning/kohonen_som_trace.c@test2",
+      "resources/C/machine_learning/kohonen_som_trace.c@test3"
+    ],
+    "pos_list_logic": [
+      "resources/C/sorting/multikey_quick_sort.c@pmsearch"
+    ]
+  },
+  {
+    "query": "resources/C/machine_learning/kohonen_som_topology.c@save_2d_data",
+    "pos_list_dependence": [
+      "resources/C/machine_learning/kohonen_som_topology.c@test1",
+      "resources/C/machine_learning/kohonen_som_topology.c@test2",
+      "resources/C/machine_learning/kohonen_som_topology.c@test3"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/C/machine_learning/kohonen_som_topology.c@save_u_matrix",
+    "pos_list_dependence": [
+      "resources/C/machine_learning/kohonen_som_topology.c@test1",
+      "resources/C/machine_learning/kohonen_som_topology.c@test2",
+      "resources/C/machine_learning/kohonen_som_topology.c@test3"
+    ],
+    "pos_list_logic": [
+      "resources/C/numerical_methods/ode_midpoint_euler.c@problem"
+    ]
+  },
+  {
+    "query": "resources/C/machine_learning/kohonen_som_topology.c@kohonen_som",
+    "pos_list_dependence": [
+      "resources/C/machine_learning/kohonen_som_topology.c@test1",
+      "resources/C/machine_learning/kohonen_som_topology.c@test2",
+      "resources/C/machine_learning/kohonen_som_topology.c@test3"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/C/machine_learning/adaline_learning.c@new_adaline",
+    "pos_list_dependence": [
+      "resources/C/machine_learning/adaline_learning.c@test1",
+      "resources/C/machine_learning/adaline_learning.c@test2",
+      "resources/C/machine_learning/adaline_learning.c@test3"
+    ],
+    "pos_list_logic": []
+  }
+]

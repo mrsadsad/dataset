@@ -1,0 +1,419 @@
+[
+  {
+    "query": "resources/libbpf/src/libbpf.c@btf_var_secinfos",
+    "pos_list_dependence": [
+      "resources/libbpf/src/libbpf.c@init_struct_ops_maps",
+      "resources/libbpf/src/libbpf.c@map_is_mmapable",
+      "resources/libbpf/src/libbpf.c@bpf_object__init_user_btf_map",
+      "resources/libbpf/src/libbpf.c@bpf_object__sanitize_btf",
+      "resources/libbpf/src/libbpf.c@find_extern_sec_btf_id",
+      "resources/libbpf/src/libbpf.c@add_dummy_ksym_var",
+      "resources/libbpf/src/libbpf.c@bpf_object__collect_externs",
+      "resources/libbpf/src/libbpf.c@bpf_object__collect_map_relos",
+      "resources/libbpf/src/libbpf.c@bpf_object__open_subskeleton"
+    ],
+    "pos_list_logic": [
+      "resources/libbpf/src/libbpf.c@find_prog_by_sec_insn"
+    ]
+  },
+  {
+    "query": "resources/libbpf/src/libbpf.c@bpf_map__name",
+    "pos_list_dependence": [
+      "resources/libbpf/src/libbpf.c@build_map_pin_path",
+      "resources/libbpf/src/libbpf.c@bpf_map__pin",
+      "resources/libbpf/src/libbpf.c@bpf_map__unpin",
+      "resources/libbpf/src/libbpf.c@bpf_object__pin_maps",
+      "resources/libbpf/src/libbpf.c@bpf_object__unpin_maps",
+      "resources/libbpf/src/libbpf.c@map_btf_datasec_resize",
+      "resources/libbpf/src/libbpf.c@bpf_map__set_value_size",
+      "resources/libbpf/src/libbpf.c@bpf_object__open_subskeleton",
+      "resources/libbpf/src/libbpf.c@bpf_object__load_skeleton"
+    ],
+    "pos_list_logic": [
+      "resources/libbpf/src/linker.c@btf_enum64"
+    ]
+  },
+  {
+    "query": "resources/libbpf/src/hashmap.c@hashmap__free",
+    "pos_list_dependence": [
+      "resources/libbpf/src/strset.c@strset__free",
+      "resources/libbpf/src/btf_dump.c@btf_dump_free_names",
+      "resources/libbpf/src/usdt.c@usdt_manager_attach_usdt",
+      "resources/libbpf/src/btf.c@btf__add_btf",
+      "resources/libbpf/src/btf.c@btf_dedup_free",
+      "resources/libbpf/src/btf.c@btf_dedup_ref_types",
+      "resources/libbpf/src/btf.c@btf_dedup_resolve_fwds",
+      "resources/libbpf/src/libbpf.c@bpf_object__relocate_core"
+    ],
+    "pos_list_logic": [
+      "resources/libbpf/src/libbpf_errno.c@str_is_empty"
+    ]
+  },
+  {
+    "query": "resources/libbpf/src/btf.c@btf_params",
+    "pos_list_dependence": [
+      "resources/libbpf/src/btf.c@btf_validate_type",
+      "resources/libbpf/src/btf.c@btf_hash_fnproto",
+      "resources/libbpf/src/btf.c@btf_equal_fnproto",
+      "resources/libbpf/src/btf.c@btf_compat_fnproto",
+      "resources/libbpf/src/btf.c@btf_dedup_is_equiv",
+      "resources/libbpf/src/btf.c@btf_dedup_ref_type",
+      "resources/libbpf/src/btf.c@btf_type_visit_type_ids",
+      "resources/libbpf/src/btf.c@btf_type_visit_str_offs"
+    ],
+    "pos_list_logic": [
+      "resources/libbpf/src/usdt.c@calc_pt_regs_off",
+      "resources/libbpf/src/btf.c@str_is_empty"
+    ]
+  },
+  {
+    "query": "resources/libbpf/src/btf.c@libbpf_err",
+    "pos_list_dependence": [
+      "resources/libbpf/src/btf.c@btf_load_into_kernel",
+      "resources/libbpf/src/btf.c@btf__find_str",
+      "resources/libbpf/src/btf.c@btf__add_str",
+      "resources/libbpf/src/btf.c@btf_commit_type",
+      "resources/libbpf/src/btf.c@btf__add_type",
+      "resources/libbpf/src/btf.c@btf__add_btf",
+      "resources/libbpf/src/btf.c@btf__add_func",
+      "resources/libbpf/src/btf.c@btf__dedup"
+    ],
+    "pos_list_logic": [
+      "resources/libbpf/src/libbpf.c@tracefs_available_filter_functions_addrs"
+    ]
+  },
+  {
+    "query": "resources/libbpf/src/netlink.c@libbpf_err",
+    "pos_list_dependence": [
+      "resources/libbpf/src/netlink.c@bpf_xdp_attach",
+      "resources/libbpf/src/netlink.c@bpf_xdp_query",
+      "resources/libbpf/src/netlink.c@bpf_xdp_query_id",
+      "resources/libbpf/src/netlink.c@bpf_tc_hook_create",
+      "resources/libbpf/src/netlink.c@bpf_tc_hook_destroy",
+      "resources/libbpf/src/netlink.c@bpf_tc_attach",
+      "resources/libbpf/src/netlink.c@bpf_tc_detach",
+      "resources/libbpf/src/netlink.c@bpf_tc_query"
+    ],
+    "pos_list_logic": [
+      "resources/libbpf/src/btf.c@btf_is_datasec"
+    ]
+  },
+  {
+    "query": "resources/libbpf/src/libbpf.c@bpf_map__is_struct_ops",
+    "pos_list_dependence": [
+      "resources/libbpf/src/libbpf.c@bpf_object_adjust_struct_ops_autoload",
+      "resources/libbpf/src/libbpf.c@bpf_object__init_kern_struct_ops_maps",
+      "resources/libbpf/src/libbpf.c@map_needs_vmlinux_btf",
+      "resources/libbpf/src/libbpf.c@map_fill_btf_type_info",
+      "resources/libbpf/src/libbpf.c@bpf_object__create_map",
+      "resources/libbpf/src/libbpf.c@bpf_object_prepare_struct_ops",
+      "resources/libbpf/src/libbpf.c@find_struct_ops_map_by_offset",
+      "resources/libbpf/src/libbpf.c@bpf_map__initial_value"
+    ],
+    "pos_list_logic": [
+      "resources/libbpf/src/strset.c@btf_vlen"
+    ]
+  },
+  {
+    "query": "resources/libbpf/src/libbpf.c@prog_is_subprog",
+    "pos_list_dependence": [
+      "resources/libbpf/src/libbpf.c@bpf_object__sanitize_and_load_btf",
+      "resources/libbpf/src/libbpf.c@bpf_object__find_program_by_name",
+      "resources/libbpf/src/libbpf.c@bpf_object__relocate_calls",
+      "resources/libbpf/src/libbpf.c@bpf_prog_assign_exc_cb",
+      "resources/libbpf/src/libbpf.c@bpf_object__relocate",
+      "resources/libbpf/src/libbpf.c@bpf_object__load_progs",
+      "resources/libbpf/src/libbpf.c@bpf_object__next_program",
+      "resources/libbpf/src/libbpf.c@bpf_object__prev_program"
+    ],
+    "pos_list_logic": [
+      "resources/libbpf/src/zip.c@btf_var"
+    ]
+  },
+  {
+    "query": "resources/libbpf/src/hashmap.c@hashmap__new",
+    "pos_list_dependence": [
+      "resources/libbpf/src/strset.c@strset__new",
+      "resources/libbpf/src/btf_dump.c@btf_dump__new",
+      "resources/libbpf/src/usdt.c@usdt_manager_attach_usdt",
+      "resources/libbpf/src/btf.c@btf__add_btf",
+      "resources/libbpf/src/btf.c@btf_dedup_new",
+      "resources/libbpf/src/btf.c@btf_dedup_resolve_fwds",
+      "resources/libbpf/src/libbpf.c@bpf_object__relocate_core"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/libbpf/src/libbpf.c@bpf_core_essential_name_len",
+    "pos_list_dependence": [
+      "resources/libbpf/src/relo_core.c@bpf_core_fields_are_compat",
+      "resources/libbpf/src/relo_core.c@bpf_core_spec_match",
+      "resources/libbpf/src/relo_core.c@bpf_core_names_match",
+      "resources/libbpf/src/libbpf.c@find_struct_ops_kern_types",
+      "resources/libbpf/src/libbpf.c@bpf_object__collect_externs",
+      "resources/libbpf/src/libbpf.c@bpf_core_add_cands",
+      "resources/libbpf/src/libbpf.c@bpf_core_find_cands"
+    ],
+    "pos_list_logic": [
+      "resources/libbpf/src/usdt.c@btf_type_info"
+    ]
+  },
+  {
+    "query": "resources/libbpf/src/strset.c@strset__add_str",
+    "pos_list_dependence": [
+      "resources/libbpf/src/linker.c@init_output_elf",
+      "resources/libbpf/src/linker.c@init_sec",
+      "resources/libbpf/src/linker.c@linker_append_elf_sym",
+      "resources/libbpf/src/linker.c@emit_elf_data_sec",
+      "resources/libbpf/src/btf.c@btf__add_str",
+      "resources/libbpf/src/btf.c@strs_dedup_remap_str_off",
+      "resources/libbpf/src/btf.c@btf_dedup_strings"
+    ],
+    "pos_list_logic": [
+      "resources/libbpf/src/libbpf.c@bpf_object__collect_prog_relos"
+    ]
+  },
+  {
+    "query": "resources/libbpf/src/btf_dump.c@btf_kflag",
+    "pos_list_dependence": [
+      "resources/libbpf/src/btf_dump.c@btf_member_bit_offset",
+      "resources/libbpf/src/btf_dump.c@btf_member_bitfield_size",
+      "resources/libbpf/src/btf_dump.c@btf_dump_emit_enum32_val",
+      "resources/libbpf/src/btf_dump.c@btf_dump_emit_enum64_val",
+      "resources/libbpf/src/btf_dump.c@btf_dump_emit_fwd_def",
+      "resources/libbpf/src/btf_dump.c@btf_dump_get_enum_value",
+      "resources/libbpf/src/btf_dump.c@btf_dump_enum_data"
+    ],
+    "pos_list_logic": [
+      "resources/libbpf/src/libbpf.c@btf_is_struct"
+    ]
+  },
+  {
+    "query": "resources/libbpf/src/btf_dump.c@btf_array",
+    "pos_list_dependence": [
+      "resources/libbpf/src/btf_dump.c@btf_dump_mark_referenced",
+      "resources/libbpf/src/btf_dump.c@btf_dump_order_type",
+      "resources/libbpf/src/btf_dump.c@btf_dump_emit_type",
+      "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_decl",
+      "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_chain",
+      "resources/libbpf/src/btf_dump.c@btf_dump_array_data",
+      "resources/libbpf/src/btf_dump.c@btf_dump_type_data_check_zero"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/libbpf/src/btf_dump.c@btf_dump_data_delim",
+    "pos_list_dependence": [
+      "resources/libbpf/src/btf_dump.c@btf_dump_int_data",
+      "resources/libbpf/src/btf_dump.c@btf_dump_float_data",
+      "resources/libbpf/src/btf_dump.c@btf_dump_array_data",
+      "resources/libbpf/src/btf_dump.c@btf_dump_struct_data",
+      "resources/libbpf/src/btf_dump.c@btf_dump_ptr_data",
+      "resources/libbpf/src/btf_dump.c@btf_dump_enum_data",
+      "resources/libbpf/src/btf_dump.c@btf_dump_datasec_data"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/libbpf/src/btf_dump.c@btf_dump_data_newline",
+    "pos_list_dependence": [
+      "resources/libbpf/src/btf_dump.c@btf_dump_int_data",
+      "resources/libbpf/src/btf_dump.c@btf_dump_float_data",
+      "resources/libbpf/src/btf_dump.c@btf_dump_array_data",
+      "resources/libbpf/src/btf_dump.c@btf_dump_struct_data",
+      "resources/libbpf/src/btf_dump.c@btf_dump_ptr_data",
+      "resources/libbpf/src/btf_dump.c@btf_dump_enum_data",
+      "resources/libbpf/src/btf_dump.c@btf_dump_datasec_data"
+    ],
+    "pos_list_logic": [
+      "resources/libbpf/src/libbpf.c@cmp_relo_by_insn_idx"
+    ]
+  },
+  {
+    "query": "resources/libbpf/src/features.c@probe_fd",
+    "pos_list_dependence": [
+      "resources/libbpf/src/features.c@probe_kern_prog_name",
+      "resources/libbpf/src/features.c@probe_kern_global_data",
+      "resources/libbpf/src/features.c@probe_kern_array_mmap",
+      "resources/libbpf/src/features.c@probe_kern_exp_attach_type",
+      "resources/libbpf/src/features.c@probe_kern_probe_read_kernel",
+      "resources/libbpf/src/features.c@probe_kern_bpf_cookie",
+      "resources/libbpf/src/features.c@probe_kern_arg_ctx_tag"
+    ],
+    "pos_list_logic": [
+      "resources/libbpf/src/linker.c@remap_type_id"
+    ]
+  },
+  {
+    "query": "resources/libbpf/src/btf.c@btf_hash_common",
+    "pos_list_dependence": [
+      "resources/libbpf/src/btf.c@btf_hash_int_decl_tag",
+      "resources/libbpf/src/btf.c@btf_hash_struct",
+      "resources/libbpf/src/btf.c@btf_hash_array",
+      "resources/libbpf/src/btf.c@btf_hash_fnproto",
+      "resources/libbpf/src/btf.c@btf_dedup_prep",
+      "resources/libbpf/src/btf.c@btf_dedup_prim_type",
+      "resources/libbpf/src/btf.c@btf_dedup_ref_type"
+    ],
+    "pos_list_logic": [
+      "resources/libbpf/src/relo_core.c@bpf_core_parse_spec",
+      "resources/libbpf/src/netlink.c@btf_is_ptr"
+    ]
+  },
+  {
+    "query": "resources/libbpf/src/btf.c@libbpf_ensure_mem",
+    "pos_list_dependence": [
+      "resources/libbpf/src/elf.c@elf_resolve_pattern_offsets",
+      "resources/libbpf/src/libbpf.c@bpf_object__add_map",
+      "resources/libbpf/src/libbpf.c@load_module_btfs",
+      "resources/libbpf/src/libbpf.c@bpf_object__resolve_ksym_func_btf_id",
+      "resources/libbpf/src/libbpf.c@avail_kallsyms_cb",
+      "resources/libbpf/src/libbpf.c@libbpf_available_kallsyms_parse",
+      "resources/libbpf/src/libbpf.c@libbpf_available_kprobes_parse"
+    ],
+    "pos_list_logic": [
+      "resources/libbpf/src/ringbuf.c@is_ldimm64_insn"
+    ]
+  },
+  {
+    "query": "resources/libbpf/src/libbpf.c@btf_is_datasec",
+    "pos_list_dependence": [
+      "resources/libbpf/src/libbpf.c@map_is_mmapable",
+      "resources/libbpf/src/libbpf.c@bpf_object__init_user_btf_maps",
+      "resources/libbpf/src/libbpf.c@bpf_object__sanitize_btf",
+      "resources/libbpf/src/libbpf.c@bpf_object_fixup_btf",
+      "resources/libbpf/src/libbpf.c@find_extern_sec_btf_id",
+      "resources/libbpf/src/libbpf.c@map_btf_datasec_resize",
+      "resources/libbpf/src/libbpf.c@bpf_object__open_subskeleton"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/libbpf/src/nlattr.c@libbpf_nla_data",
+    "pos_list_dependence": [
+      "resources/libbpf/src/nlattr.c@libbpf_nla_getattr_u8",
+      "resources/libbpf/src/nlattr.c@libbpf_nla_getattr_u16",
+      "resources/libbpf/src/nlattr.c@libbpf_nla_getattr_u32",
+      "resources/libbpf/src/nlattr.c@libbpf_nla_getattr_u64",
+      "resources/libbpf/src/nlattr.c@libbpf_nla_getattr_str",
+      "resources/libbpf/src/nlattr.c@validate_nla",
+      "resources/libbpf/src/nlattr.c@libbpf_nla_parse_nested"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/libbpf/src/hashmap.c@hashmap_insert",
+    "pos_list_dependence": [
+      "resources/libbpf/src/strset.c@strset__new",
+      "resources/libbpf/src/strset.c@strset__add_str",
+      "resources/libbpf/src/btf_dump.c@btf_dump_name_dups",
+      "resources/libbpf/src/usdt.c@allocate_spec_id",
+      "resources/libbpf/src/btf.c@btf_rewrite_str",
+      "resources/libbpf/src/btf.c@btf_dedup_table_add"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/libbpf/src/relo_core.c@btf_members",
+    "pos_list_dependence": [
+      "resources/libbpf/src/relo_core.c@btf_member_bit_offset",
+      "resources/libbpf/src/relo_core.c@btf_member_bitfield_size",
+      "resources/libbpf/src/relo_core.c@bpf_core_parse_spec",
+      "resources/libbpf/src/relo_core.c@bpf_core_match_member",
+      "resources/libbpf/src/relo_core.c@bpf_core_calc_field_relo",
+      "resources/libbpf/src/relo_core.c@bpf_core_composites_match"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/libbpf/src/libbpf.c@btf_is_var",
+    "pos_list_dependence": [
+      "resources/libbpf/src/libbpf.c@map_is_mmapable",
+      "resources/libbpf/src/libbpf.c@bpf_object__init_user_btf_map",
+      "resources/libbpf/src/libbpf.c@bpf_object__sanitize_btf",
+      "resources/libbpf/src/libbpf.c@find_extern_btf_id",
+      "resources/libbpf/src/libbpf.c@kallsyms_cb",
+      "resources/libbpf/src/libbpf.c@bpf_object__resolve_ksyms_btf_id"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/libbpf/src/libbpf.c@parse_uint_from_file",
+    "pos_list_dependence": [
+      "resources/libbpf/src/libbpf.c@determine_kprobe_perf_type",
+      "resources/libbpf/src/libbpf.c@determine_uprobe_perf_type",
+      "resources/libbpf/src/libbpf.c@determine_kprobe_retprobe_bit",
+      "resources/libbpf/src/libbpf.c@determine_uprobe_retprobe_bit",
+      "resources/libbpf/src/libbpf.c@determine_kprobe_perf_type_legacy",
+      "resources/libbpf/src/libbpf.c@determine_uprobe_perf_type_legacy"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/libbpf/src/libbpf.c@bpf_program_attach_fd",
+    "pos_list_dependence": [
+      "resources/libbpf/src/libbpf.c@bpf_program__attach_cgroup",
+      "resources/libbpf/src/libbpf.c@bpf_program__attach_netns",
+      "resources/libbpf/src/libbpf.c@bpf_program__attach_xdp",
+      "resources/libbpf/src/libbpf.c@bpf_program__attach_tcx",
+      "resources/libbpf/src/libbpf.c@bpf_program__attach_netkit",
+      "resources/libbpf/src/libbpf.c@bpf_program__attach_freplace"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/libbpf/src/strset.c@strset__free",
+    "pos_list_dependence": [
+      "resources/libbpf/src/strset.c@strset__new",
+      "resources/libbpf/src/linker.c@bpf_linker__free",
+      "resources/libbpf/src/btf.c@btf__free",
+      "resources/libbpf/src/btf.c@btf_ensure_modifiable",
+      "resources/libbpf/src/btf.c@btf_dedup_strings"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/libbpf/src/hashmap.c@hashmap_find",
+    "pos_list_dependence": [
+      "resources/libbpf/src/strset.c@strset__find_str",
+      "resources/libbpf/src/btf_dump.c@btf_dump_name_dups",
+      "resources/libbpf/src/usdt.c@allocate_spec_id",
+      "resources/libbpf/src/btf.c@btf_rewrite_str",
+      "resources/libbpf/src/btf.c@btf_dedup_resolve_fwd"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/libbpf/src/relo_core.c@btf_array",
+    "pos_list_dependence": [
+      "resources/libbpf/src/relo_core.c@__bpf_core_types_are_compat",
+      "resources/libbpf/src/relo_core.c@bpf_core_parse_spec",
+      "resources/libbpf/src/relo_core.c@bpf_core_fields_are_compat",
+      "resources/libbpf/src/relo_core.c@bpf_core_spec_match",
+      "resources/libbpf/src/relo_core.c@__bpf_core_types_match"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/libbpf/src/btf.c@btf_ext__free",
+    "pos_list_dependence": [
+      "resources/libbpf/src/linker.c@bpf_linker__free",
+      "resources/libbpf/src/linker.c@bpf_linker__add_file",
+      "resources/libbpf/src/btf.c@btf_parse_elf",
+      "resources/libbpf/src/btf.c@btf_ext__new",
+      "resources/libbpf/src/libbpf.c@bpf_object__close"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/libbpf/src/usdt.c@libbpf_reallocarray",
+    "pos_list_dependence": [
+      "resources/libbpf/src/usdt.c@parse_elf_segs",
+      "resources/libbpf/src/usdt.c@parse_vma_segs",
+      "resources/libbpf/src/usdt.c@collect_usdt_targets",
+      "resources/libbpf/src/usdt.c@bpf_link_usdt_detach",
+      "resources/libbpf/src/usdt.c@allocate_spec_id"
+    ],
+    "pos_list_logic": []
+  }
+]

@@ -1,0 +1,337 @@
+[
+  {
+    "query": "resources/librdkafka/src/rdkafka_sasl_cyrus.c@rd_refcnt_add0",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/rdkafka_sasl_cyrus.c@rd_kafka_lwtopic_keep",
+      "resources/librdkafka/src/rdkafka_sasl_cyrus.c@rd_kafka_topic_keep",
+      "resources/librdkafka/src/rdkafka_sasl_cyrus.c@rd_kafka_toppar_keep0",
+      "resources/librdkafka/src/rdkafka_sasl_cyrus.c@rd_kafka_partition_leader_new"
+    ],
+    "pos_list_logic": [
+      "resources/librdkafka/tests/0031-get_offsets.c@test_query_watermark_offsets_timeout",
+      "resources/librdkafka/src/rdkafka_sasl_scram.c@rd_kafka_q_deq0"
+    ]
+  },
+  {
+    "query": "resources/librdkafka/src/rdkafka_pattern.c@rd_kafka_q_fwd_get",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/rdkafka_pattern.c@rd_kafka_q_yield",
+      "resources/librdkafka/src/rdkafka_pattern.c@rd_kafka_q_enq1",
+      "resources/librdkafka/src/rdkafka_pattern.c@rd_kafka_q_len",
+      "resources/librdkafka/src/rdkafka_pattern.c@rd_kafka_q_size"
+    ],
+    "pos_list_logic": [
+      "resources/librdkafka/src/rdkafka_feature.c@rd_uvarint_enc_i32"
+    ]
+  },
+  {
+    "query": "resources/librdkafka/src/rdkafka_pattern.c@rd_kafka_q_io_event",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/rdkafka_pattern.c@rd_kafka_q_yield",
+      "resources/librdkafka/src/rdkafka_pattern.c@rd_kafka_q_enq1",
+      "resources/librdkafka/src/rdkafka_pattern.c@rd_kafka_q_concat0",
+      "resources/librdkafka/src/rdkafka_pattern.c@rd_kafka_q_prepend0"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/librdkafka/src/rdkafka_pattern.c@rd_refcnt_add0",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/rdkafka_pattern.c@rd_kafka_lwtopic_keep",
+      "resources/librdkafka/src/rdkafka_pattern.c@rd_kafka_topic_keep",
+      "resources/librdkafka/src/rdkafka_pattern.c@rd_kafka_toppar_keep0",
+      "resources/librdkafka/src/rdkafka_pattern.c@rd_kafka_partition_leader_new"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/librdkafka/src/snappy.c@rd_kafka_q_keep",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/snappy.c@rd_kafka_q_fwd_get",
+      "resources/librdkafka/src/snappy.c@rd_kafka_replyq_make",
+      "resources/librdkafka/src/snappy.c@rd_kafka_set_replyq",
+      "resources/librdkafka/src/snappy.c@rd_kafka_replyq_copy"
+    ],
+    "pos_list_logic": [
+      "resources/librdkafka/tests/0009-mock_cluster.c@rd_atomic32_set",
+      "resources/librdkafka/src/rdkafka_offset.c@rd_kafka_broker_is_up"
+    ]
+  },
+  {
+    "query": "resources/librdkafka/src/snappy.c@rd_kafka_q_fwd_get",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/snappy.c@rd_kafka_q_yield",
+      "resources/librdkafka/src/snappy.c@rd_kafka_q_enq1",
+      "resources/librdkafka/src/snappy.c@rd_kafka_q_len",
+      "resources/librdkafka/src/snappy.c@rd_kafka_q_size"
+    ],
+    "pos_list_logic": [
+      "resources/librdkafka/src/snappy.c@available"
+    ]
+  },
+  {
+    "query": "resources/librdkafka/src/snappy.c@rd_kafka_q_io_event",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/snappy.c@rd_kafka_q_yield",
+      "resources/librdkafka/src/snappy.c@rd_kafka_q_enq1",
+      "resources/librdkafka/src/snappy.c@rd_kafka_q_concat0",
+      "resources/librdkafka/src/snappy.c@rd_kafka_q_prepend0"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/librdkafka/src/snappy.c@rd_kafka_buf_write_uvarint",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/snappy.c@rd_kafka_buf_write_arraycnt",
+      "resources/librdkafka/src/snappy.c@rd_kafka_buf_write_kstr",
+      "resources/librdkafka/src/snappy.c@rd_kafka_buf_write_str",
+      "resources/librdkafka/src/snappy.c@rd_kafka_buf_write_kbytes"
+    ],
+    "pos_list_logic": [
+      "resources/librdkafka/src/tinycthread.c@rd_free",
+      "resources/librdkafka/tests/0012-produce_consume.c@dr_cb"
+    ]
+  },
+  {
+    "query": "resources/librdkafka/src/snappy.c@rd_refcnt_add0",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/snappy.c@rd_kafka_lwtopic_keep",
+      "resources/librdkafka/src/snappy.c@rd_kafka_topic_keep",
+      "resources/librdkafka/src/snappy.c@rd_kafka_toppar_keep0",
+      "resources/librdkafka/src/snappy.c@rd_kafka_partition_leader_new"
+    ],
+    "pos_list_logic": [
+      "resources/librdkafka/src/rdhttp.c@rd_kafka_msgq_prepend",
+      "resources/librdkafka/src/rdkafka_mock_cgrp.c@rd_kafka_mock_cgrp_elect_leader"
+    ]
+  },
+  {
+    "query": "resources/librdkafka/src/snappy.c@get_unaligned32",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/snappy.c@unaligned_copy64",
+      "resources/librdkafka/src/snappy.c@hash",
+      "resources/librdkafka/src/snappy.c@compress_fragment",
+      "resources/librdkafka/src/snappy.c@decompress_all_tags"
+    ],
+    "pos_list_logic": [
+      "resources/librdkafka/src/rdrand.c@rd_malloc"
+    ]
+  },
+  {
+    "query": "resources/librdkafka/src/snappy.c@unaligned_copy64",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/snappy.c@incremental_copy_fast_path",
+      "resources/librdkafka/src/snappy.c@writer_append_from_self",
+      "resources/librdkafka/src/snappy.c@writer_try_fast_append",
+      "resources/librdkafka/src/snappy.c@emit_literal"
+    ],
+    "pos_list_logic": [
+      "resources/librdkafka/src/rdunittest.c@rd_kafka_curr_msgs_add",
+      "resources/librdkafka/tests/0045-subscribe_update.c@rtrim"
+    ]
+  },
+  {
+    "query": "resources/librdkafka/src/snappy.c@peek",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/snappy.c@read_uncompressed_length",
+      "resources/librdkafka/src/snappy.c@decompress_all_tags",
+      "resources/librdkafka/src/snappy.c@refill_tag",
+      "resources/librdkafka/src/snappy.c@sn_compress"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/librdkafka/src/rdkafka_transport.c@rd_kafka_q_fwd_get",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/rdkafka_transport.c@rd_kafka_q_yield",
+      "resources/librdkafka/src/rdkafka_transport.c@rd_kafka_q_enq1",
+      "resources/librdkafka/src/rdkafka_transport.c@rd_kafka_q_len",
+      "resources/librdkafka/src/rdkafka_transport.c@rd_kafka_q_size"
+    ],
+    "pos_list_logic": [
+      "resources/librdkafka/src/rdkafka_sasl_oauthbearer_oidc.c@rd_kafka_q_destroy_owner",
+      "resources/librdkafka/src/rdhttp.c@rd_crc32"
+    ]
+  },
+  {
+    "query": "resources/librdkafka/src/rdkafka_transport.c@rd_kafka_q_io_event",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/rdkafka_transport.c@rd_kafka_q_yield",
+      "resources/librdkafka/src/rdkafka_transport.c@rd_kafka_q_enq1",
+      "resources/librdkafka/src/rdkafka_transport.c@rd_kafka_q_concat0",
+      "resources/librdkafka/src/rdkafka_transport.c@rd_kafka_q_prepend0"
+    ],
+    "pos_list_logic": [
+      "resources/librdkafka/src/rdkafka_aux.c@rd_malloc"
+    ]
+  },
+  {
+    "query": "resources/librdkafka/src/rdkafka_transport.c@rd_refcnt_add0",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/rdkafka_transport.c@rd_kafka_lwtopic_keep",
+      "resources/librdkafka/src/rdkafka_transport.c@rd_kafka_topic_keep",
+      "resources/librdkafka/src/rdkafka_transport.c@rd_kafka_toppar_keep0",
+      "resources/librdkafka/src/rdkafka_transport.c@rd_kafka_partition_leader_new"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/librdkafka/src/rdkafka_transport.c@rd_refcnt_sub0",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/rdkafka_transport.c@rd_kafka_topic_destroy0",
+      "resources/librdkafka/src/rdkafka_transport.c@rd_kafka_toppar_ver_destroy",
+      "resources/librdkafka/src/rdkafka_transport.c@rd_kafka_partition_leader_destroy",
+      "resources/librdkafka/src/rdkafka_transport.c@rd_kafka_transport_close"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/librdkafka/src/rdkafka_sasl_plain.c@rd_kafka_q_fwd_get",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/rdkafka_sasl_plain.c@rd_kafka_q_yield",
+      "resources/librdkafka/src/rdkafka_sasl_plain.c@rd_kafka_q_enq1",
+      "resources/librdkafka/src/rdkafka_sasl_plain.c@rd_kafka_q_len",
+      "resources/librdkafka/src/rdkafka_sasl_plain.c@rd_kafka_q_size"
+    ],
+    "pos_list_logic": [
+      "resources/librdkafka/src/rdkafka_event.c@rd_kafka_buf_write_i8"
+    ]
+  },
+  {
+    "query": "resources/librdkafka/src/rdkafka_sasl_plain.c@rd_kafka_q_io_event",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/rdkafka_sasl_plain.c@rd_kafka_q_yield",
+      "resources/librdkafka/src/rdkafka_sasl_plain.c@rd_kafka_q_enq1",
+      "resources/librdkafka/src/rdkafka_sasl_plain.c@rd_kafka_q_concat0",
+      "resources/librdkafka/src/rdkafka_sasl_plain.c@rd_kafka_q_prepend0"
+    ],
+    "pos_list_logic": [
+      "resources/librdkafka/src/rdkafka_msg.c@rd_kafka_curr_msgs_add",
+      "resources/librdkafka/examples/user_scram.c@parse_mechanism"
+    ]
+  },
+  {
+    "query": "resources/librdkafka/src/rdkafka_sasl_plain.c@rd_refcnt_add0",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/rdkafka_sasl_plain.c@rd_kafka_lwtopic_keep",
+      "resources/librdkafka/src/rdkafka_sasl_plain.c@rd_kafka_topic_keep",
+      "resources/librdkafka/src/rdkafka_sasl_plain.c@rd_kafka_toppar_keep0",
+      "resources/librdkafka/src/rdkafka_sasl_plain.c@rd_kafka_partition_leader_new"
+    ],
+    "pos_list_logic": [
+      "resources/librdkafka/src/rdkafka_header.c@rd_kafka_buf_update_i16"
+    ]
+  },
+  {
+    "query": "resources/librdkafka/src/rdkafka_buf.c@rd_kafka_q_fwd_get",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/rdkafka_buf.c@rd_kafka_q_yield",
+      "resources/librdkafka/src/rdkafka_buf.c@rd_kafka_q_enq1",
+      "resources/librdkafka/src/rdkafka_buf.c@rd_kafka_q_len",
+      "resources/librdkafka/src/rdkafka_buf.c@rd_kafka_q_size"
+    ],
+    "pos_list_logic": [
+      "resources/librdkafka/tests/0006-symbols.c@rd_atomic64_sub",
+      "resources/librdkafka/src/rdavl.c@rd_timeout_remains_us"
+    ]
+  },
+  {
+    "query": "resources/librdkafka/src/rdkafka_buf.c@rd_kafka_q_io_event",
+    "pos_list_dependence": [
+      "resources/librdkafka/src/rdkafka_buf.c@rd_kafka_q_yield",
+      "resources/librdkafka/src/rdkafka_buf.c@rd_kafka_q_enq1",
+      "resources/librdkafka/src/rdkafka_buf.c@rd_kafka_q_concat0",
+      "resources/librdkafka/src/rdkafka_buf.c@rd_kafka_q_prepend0"
+    ],
+    "pos_list_logic": [
+      "resources/librdkafka/src/rdkafka_idempotence.c@rd_avl_insert"
+    ]
+  },
+  {
+    "query": "resources/librdkafka/tests/0101-fetch-from-follower.cpp@Fail",
+    "pos_list_dependence": [
+      "resources/librdkafka/tests/0101-fetch-from-follower.cpp@conf_set",
+      "resources/librdkafka/tests/0101-fetch-from-follower.cpp@incremental_assign",
+      "resources/librdkafka/tests/0101-fetch-from-follower.cpp@incremental_unassign"
+    ],
+    "pos_list_logic": [
+      "resources/librdkafka/src/rdkafka_mock_cgrp.c@rd_slice_pos"
+    ]
+  },
+  {
+    "query": "resources/librdkafka/tests/0113-cooperative_rebalance.cpp@unsubscribe",
+    "pos_list_dependence": [
+      "resources/librdkafka/tests/0113-cooperative_rebalance.cpp@m_unsubscribe_2",
+      "resources/librdkafka/tests/0113-cooperative_rebalance.cpp@s_subscribe_when_rebalancing",
+      "resources/librdkafka/tests/0113-cooperative_rebalance.cpp@u_multiple_subscription_changes"
+    ],
+    "pos_list_logic": [
+      "resources/librdkafka/src/rdkafka_interceptor.c@rd_kafka_q_disable0"
+    ]
+  },
+  {
+    "query": "resources/librdkafka/tests/test.c@test_consumer_incremental_assign",
+    "pos_list_dependence": [
+      "resources/librdkafka/tests/0113-cooperative_rebalance.cpp@rebalance_cb",
+      "resources/librdkafka/tests/0113-cooperative_rebalance.cpp@v_rebalance_cb",
+      "resources/librdkafka/tests/test.c@test_incremental_rebalance_cb"
+    ],
+    "pos_list_logic": [
+      "resources/librdkafka/src/rdkafka_interceptor.c@rd_list_string_copy"
+    ]
+  },
+  {
+    "query": "resources/librdkafka/tests/test.c@test_consumer_incremental_unassign",
+    "pos_list_dependence": [
+      "resources/librdkafka/tests/0113-cooperative_rebalance.cpp@rebalance_cb",
+      "resources/librdkafka/tests/0113-cooperative_rebalance.cpp@v_rebalance_cb",
+      "resources/librdkafka/tests/test.c@test_incremental_rebalance_cb"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/librdkafka/src/rdkafka_mock.c@rd_kafka_mock_coordinator_set",
+    "pos_list_dependence": [
+      "resources/librdkafka/tests/0113-cooperative_rebalance.cpp@p_lost_partitions_heartbeat_illegal_generation_test",
+      "resources/librdkafka/tests/0113-cooperative_rebalance.cpp@q_lost_partitions_illegal_generation_test",
+      "resources/librdkafka/tests/0113-cooperative_rebalance.cpp@r_lost_partitions_commit_illegal_generation_test_local"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/librdkafka/tests/test.c@test_prepare_msg",
+    "pos_list_dependence": [
+      "resources/librdkafka/tests/0103-transactions.c@do_produce_batch",
+      "resources/librdkafka/tests/0052-msg_timestamps.c@produce_msgs",
+      "resources/librdkafka/tests/test.c@test_produce_msgs_nowait"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/librdkafka/tests/test.c@test_msgver_verify_compare0",
+    "pos_list_dependence": [
+      "resources/librdkafka/tests/0103-transactions.c@do_test_consumer_producer_txn",
+      "resources/librdkafka/tests/0103-transactions.c@do_test_fatal_idempo_error_without_kip360",
+      "resources/librdkafka/tests/0077-compaction.c@do_test_compaction"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/librdkafka/tests/0098-consumer-txn.cpp@Fail",
+    "pos_list_dependence": [
+      "resources/librdkafka/tests/0098-consumer-txn.cpp@conf_set",
+      "resources/librdkafka/tests/0098-consumer-txn.cpp@incremental_assign",
+      "resources/librdkafka/tests/0098-consumer-txn.cpp@incremental_unassign"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/librdkafka/tests/test.c@test_kafka_cmd",
+    "pos_list_dependence": [
+      "resources/librdkafka/tests/0119-consumer_auth.cpp@do_test_fetch_unauth",
+      "resources/librdkafka/tests/0115-producer_auth.cpp@do_test_producer",
+      "resources/librdkafka/tests/0109-auto_create_topics.cpp@do_test_consumer"
+    ],
+    "pos_list_logic": []
+  }
+]

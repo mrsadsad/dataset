@@ -1,0 +1,1682 @@
+[
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@report_and_exit",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@json_print_section_footer"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_number_or_die",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@show_help_bsf"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_time_or_die",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@do_audio_out"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@show_help_children",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@show_help_children",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@process_input"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@write_option",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@grow_array",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_opt.c@opt_recording_timestamp"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@write_option",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_number_or_die",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@video_sync_process"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@write_option",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_time_or_die",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ifilter_parameters_from_codecpar"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@write_option",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@writer_open"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_option",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@find_option",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@flat_escape_key_str"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_option",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@write_option",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_thread_queue.c@tq_receive_finish"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_options",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@prepare_app_arguments",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@writer_print_data"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_options",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux_init.c@map_auto_audio"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_options",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_option",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@copy_av_subtitle"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_optgroup",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@write_option",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/ffmpegkit.c@mutexInit"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@locate_option",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@find_option",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux.c@ms_from_ost"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_loglevel",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@locate_option",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@show_hwaccels"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_loglevel",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@check_options",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux.c@muxer_thread"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@finish_group",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@grow_array",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@read_packets"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@add_opt",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@grow_array",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@encode_frame"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@uninit_parse_context",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@uninit_opts",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@file_read"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@split_commandline",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@prepare_app_arguments",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_demux.c@thread_stop"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@split_commandline",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@init_parse_context",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@psnr"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@split_commandline",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@finish_group",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@sub2video_copy_rect"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@split_commandline",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@match_group_separator",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_data_codec"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@split_commandline",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@find_option",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@ifilter_send_eof"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@split_commandline",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@add_opt",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@opt_data_frames"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@filter_codec_opts",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_demux.c@ifile_duration_update"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@grow_array",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_objpool.c@objpool_get"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@stream_update_ts",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@finish_stream",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux.c@submit_packet"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@stream_update_ts",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@queue_head_update",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@writer_get_name"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@overflow_heartbeat",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@stream_update_ts",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@writer_printf_avio"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@sq_send",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@frame_null",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@show_decoders"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@sq_send",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@finish_stream",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@c_escape_str"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@sq_send",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_objpool.c@objpool_get",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_thread_queue.c@tq_receive"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@sq_send",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@frame_move",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@show_help_default_ffmpeg"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@sq_send",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@frame_ts",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@transcode_step"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@sq_send",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_objpool.c@objpool_release",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@sub2video_push_ref"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@sq_send",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@stream_update_ts",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux.c@bsf_init"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@receive_for_stream",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@frame_ts",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@transcode_init"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@receive_for_stream",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@frame_move",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@writer_register_all"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@receive_for_stream",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_objpool.c@objpool_release",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_demux.c@ifile_duration_update"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@receive_internal",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@receive_for_stream",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_objpool.c@objpool_alloc_packets"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@sq_receive",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@receive_internal",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_hw.c@hwaccel_decode_init"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@sq_limit_frames",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@finish_stream",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@log_callback_report"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@sq_alloc",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_objpool.c@objpool_alloc_packets",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_log"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@sq_alloc",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_objpool.c@objpool_alloc_frames",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@show_chapters"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@sq_free",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_objpool.c@objpool_release",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_filter.c@configure_output_video_filter"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@sq_free",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_objpool.c@objpool_free",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@apply_sync_offsets"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@seek_to_start",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@ifile_duration_update",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_sync_queue.c@sq_send"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@input_thread",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@thread_set_name",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@show_stream"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@input_thread",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@seek_to_start",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@process_forced_keyframes"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@ifile_get_packet",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@demuxer_from_ifile",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_hw.c@hw_device_get_by_name"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@ifile_get_packet",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@thread_start",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@opt_old2new"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@ifile_close",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@demuxer_from_ifile",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux.c@ost_free"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@ifile_close",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@thread_stop",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux_init.c@check_opt_bitexact"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@ifile_close",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@ist_free",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_cmdutils.c@exit_program"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@choose_decoder",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_objpool.c@objpool_release"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@add_display_matrix_to_stream",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_objpool.c@free_packet"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@dump_attachment",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@sub2video_update"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@dump_attachment",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@assert_file_overwrite",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@init_output_stream_wrapper"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@ifile_open",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@init_output_stream_wrapper"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@ifile_open",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@print_error",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@reset_eagain"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@ifile_open",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@remove_avoptions",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@assert_avoptions"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@ifile_open",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@assert_avoptions",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@compact_print_section_footer"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@ifile_open",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@allocate_array_elem",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux.c@muxer_thread"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@ifile_open",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@add_input_streams",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@process_subtitle"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_objpool.c@objpool_alloc_packets",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_objpool.c@objpool_alloc",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_integer"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_objpool.c@objpool_alloc_frames",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_objpool.c@objpool_alloc",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@opt_show_error"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@value_string",
+        "pos": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/android_lts_support.c@log2",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@print_ambient_viewing_environment"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_open",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_close",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_codecs"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_string",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@validate_string",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_filter_complex_script"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_time",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_string",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@ffprobe_cleanup"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_time",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@value_string",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@show_subtitle"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_ts",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_string",
+        "neg": "resources/ffmpeg-kit/linux/src/FFprobeKit.cpp@defaultGetMediaInformationCommandArguments"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_ts",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_integer",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@writer_register"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@json_print_str",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@json_print_item_str",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@ffmpeg_cleanup"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_register_all",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_register",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@mux_stream_alloc"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_tags",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_header",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_filter.c@read_binary"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_tags",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@get_preset_file_2"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_dovi_metadata",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_string",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@opt_audio_qscale"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_dovi_metadata",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_header",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@check_section_show_entries"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_dovi_metadata",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_cmdutils.c@setup_find_stream_info_opts"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_dynamic_hdr10_plus",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_rational",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux_init.c@set_channel_layout"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_dynamic_hdr_vivid",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_rational",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@check_section_show_entries"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_ambient_viewing_environment",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_rational",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/ffmpegkit.c@removeSession"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_pkt_side_data",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_header",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_hw.c@hw_device_get_by_type"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_pkt_side_data",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_string",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux.c@write_packet"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_pkt_side_data",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_integer",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/android_lts_support.c@posix_memalign"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_pkt_side_data",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@show_help_options"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_color_range",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_string",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@opt_show_packets"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_color_space",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_string",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@ffprobe_show_program_version"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_primaries",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_string",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@xml_print_str"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_color_trc",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_string",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@log_callback"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_chroma_location",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_string",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@read_key"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_log",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_header",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@finish_stream"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_log",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_string",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_section"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_log",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_integer",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@forward_report"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_log",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_thread_queue.c@tq_receive"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_log",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@clear_log",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@do_video_out"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_packet",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_header",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@opt_show_streams"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_packet",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_string",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_opt_common.c@show_buildconf"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_packet",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@value_string",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@init_output_stream_encode"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_packet",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@print_ambient_viewing_environment"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_subtitle",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_header",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@new_data_stream"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_subtitle",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_string",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_sync_queue.c@sq_set_tb"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_subtitle",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@json_print_int"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_frame",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_header",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@show_packet"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_frame",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_string",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@sub2video_update"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_frame",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_time",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_opt_common.c@print_buildconf"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_frame",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@value_string",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_cmdutils.c@init_dynload"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_frame",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_tags",
+        "neg": "resources/ffmpeg-kit/linux/src/FFmpegKitConfig.cpp@avutil_log_get_level_str"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_frame",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_log",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_chroma_location"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_frame",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_integer",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@show_subtitle"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_frame",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@transcode_subtitles"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@process_frame",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@clear_log",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_cmdutils.c@parse_loglevel"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@read_packets",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@read_interval_packets",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@opt_bitrate"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_stream",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_header",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_thread_queue.c@tq_send_finish"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_stream",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_string",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_filter.c@get_compliance_normal_pix_fmts"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_stream",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@value_string",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@show_help_default_ffprobe"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_stream",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@show_help_children"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_streams",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_header",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_sync_queue.c@sq_add_stream"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_streams",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@print_program_info"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_program",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_header",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_opt.c@opt_default_new"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_program",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_sync_queue.c@receive_internal"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_programs",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_header",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@opt_filter_complex"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_programs",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_cmdutils.c@parse_option"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_chapters",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_header",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/ffmpegkit.c@ffmpegkit_log_callback_function"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_chapters",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_hw.c@hw_device_get_by_type"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_format",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_header",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_show_program_version"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_format",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_string",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_demux.c@ifile_duration_update"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_format",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@value_string",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@show_usage"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_format",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@choose_decoder"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_error",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_header",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_opt.c@find_codec_or_die"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_error",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_integer",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@open_input_file"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_error",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_string",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@map_auto_audio"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_error",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@opt_bitrate"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@open_input_file",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@print_error",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@send_frame_to_filters"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@probe_file",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@open_input_file",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@writer_print_data"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@probe_file",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_header",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux_init.c@map_auto_subtitle"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@probe_file",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@read_packets",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@sigterm_handler"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@probe_file",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@transcode_step"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@probe_file",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_programs",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_opt_common.c@show_help_muxer"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@probe_file",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_streams",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_data_codec"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@probe_file",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_chapters",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_opt.c@opt_audio_filters"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@probe_file",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_format",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@copy_av_subtitle"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@probe_file",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@close_input_file",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@show_packet"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_show_program_version",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_header",
+        "neg": "resources/ffmpeg-kit/tools/protocols/libavformat_file.c@saf_check"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_show_program_version",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@video_sync_process"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_show_library_versions",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_header",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_sync_queue.c@frame_move"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_show_library_versions",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_string",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux.c@fc_close"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_show_library_versions",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_integer",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@opt_show_program_version"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_show_library_versions",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@opt_vstats"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_show_pixel_formats",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_header",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/ffmpegkit.c@monitorNotify"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_show_pixel_formats",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_string",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_hw.c@hw_device_get_by_name"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_show_pixel_formats",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_integer",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@opt_recording_timestamp"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_show_pixel_formats",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@flat_escape_value_str"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@opt_show_optional_fields",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_number_or_die",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@opt_show_versions"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@mark_section_show_entries",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@mark_section_show_entries",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux.c@thread_submit_packet"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@match_section",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@mark_section_show_entries",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@show_dispositions"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@opt_input_file",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_demux.c@seek_to_start"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@opt_input_file_i",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@opt_input_file",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@set_dispositions"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@opt_output_file",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux.c@ms_from_ost"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@opt_output_file_o",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@opt_output_file",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@parse_read_intervals"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_help_default_ffprobe",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_usage",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@writer_print_section_footer"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_help_default_ffprobe",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@show_help_options",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@forced_kf_apply"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@parse_read_intervals",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@parse_read_interval",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@writer_print_ts"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@opt_read_intervals",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@parse_read_intervals",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@compact_print_str"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_section",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_section",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux.c@queue_packet"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@opt_sections",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_section",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@print_codecs"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@check_section_show_entries",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@check_section_show_entries",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/ffmpegkit.c@avutil_log_format_line"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_execute",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_var_cleanup",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_w8_printf"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_execute",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@init_dynload",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@allocate_array_elem"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_execute",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@register_exit",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@finish_stream"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_execute",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_loglevel",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_opt.c@opt_timecode"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_execute",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_banner",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_sync_queue.c@frame_null"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_execute",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@check_section_show_entries",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_opt_common.c@show_colors"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_execute",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_register_all",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux_init.c@choose_encoder"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_execute",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_get_by_name",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@opt_output_file"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_execute",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_open",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux_init.c@process_forced_keyframes"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_execute",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_header",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux.c@thread_start"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_execute",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_show_program_version",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@opt_filter_hw_device"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_execute",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_show_library_versions",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux_init.c@mux_alloc"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_execute",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_show_pixel_formats",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux.c@of_filesize"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_execute",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_usage",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@forced_kf_apply"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_execute",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@probe_file",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@init_encoder_time_base"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_execute",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_error",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@get_benchmark_time_stamps"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_execute",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer",
+        "neg": "resources/ffmpeg-kit/linux/src/FFmpegKitConfig.cpp@removeSession"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_execute",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_close",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux.c@print_sdp"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@ffprobe_execute",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@uninit_opts",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@need_output"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@parse_and_set_vsync",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux_init.c@mux_stream_alloc"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@parse_and_set_vsync",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_number_or_die",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@adjust_frame_pts_to_encoder_tb"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@apply_sync_offsets",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_opt_common.c@opt_loglevel"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_stats_period",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_time_or_die",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@compact_print_int"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_audio_codec",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_option",
+        "neg": "resources/ffmpeg-kit/linux/src/FFmpegKitConfig.cpp@avutil_log_format_line"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_video_codec",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_option",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_filter.c@graph_opts_apply"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_subtitle_codec",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_option",
+        "neg": "resources/ffmpeg-kit/linux/src/FFmpegKitConfig.cpp@process_log"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_data_codec",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_option",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_packet"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_map",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@grow_array",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux_init.c@setup_sync_queues"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_map",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@output_file_item_name"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_attach",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@grow_array",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@get_benchmark_time_stamps"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_map_channel",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@grow_array",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@choose_encoder"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_map_channel",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@get_ost_filters"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_init_hw_device",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux.c@bsf_init"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_init_hw_device",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_hw.c@hw_device_init_from_string",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@opt_show_versions"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_filter_hw_device",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_hw.c@hw_device_get_by_name",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@do_audio_out"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_recording_timestamp",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_time_or_die",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@show_program"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_recording_timestamp",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_option",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_opt_common.c@show_buildconf"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@find_codec_or_die",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ifilter_send_frame"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@assert_file_overwrite",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_filter.c@choose_pixel_fmt"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@assert_file_overwrite",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@term_exit",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@show_pix_fmts"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@assert_file_overwrite",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@read_yesno",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/ffmpegkit.c@mutexLock"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@assert_file_overwrite",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@term_init",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@send_filter_eof"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_streamid",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux.c@muxer_thread"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_streamid",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_number_or_die",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@forced_kf_apply"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_streamid",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@grow_array",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@opt_show_entries"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@init_complex_filters",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_filter.c@init_complex_filtergraph",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@parse_meta_type"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_target",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_get_by_name"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_target",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_video_codec",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@compact_print_int"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_target",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_audio_codec",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@json_get_name"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_target",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_option",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@show_filters"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_target",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@opt_default",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@flat_print_section_header"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_vstats",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@is_device"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_vstats",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_vstats_file",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_hw.c@hw_device_add"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_video_frames",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_option",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_cmdutils.c@opt_find"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_audio_frames",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_option",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_section_footer"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_data_frames",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_option",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_cmdutils.c@parse_loglevel"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_default_new",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@opt_default",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@probe_file"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_preset",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@opt_output_file"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_preset",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_audio_codec",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@parse_forced_key_frames"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_preset",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_video_codec",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux.c@thread_start"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_preset",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_subtitle_codec",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_filter.c@describe_filter_link"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_preset",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_data_codec",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@read_interval_packets"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_preset",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_default_new",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@expand_filename_template"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_old2new",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_option",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@show_format"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_qscale",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_option",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_filter.c@graph_is_meta"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_video_filters",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_option",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_hw.c@hw_device_setup_for_decode"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_audio_filters",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_option",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@show_help_protocol"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_vsync",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@parse_and_set_vsync",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@show_hwaccels"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_timecode",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_option",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@locate_option"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_audio_qscale",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_option",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux_init.c@of_add_programs"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_filter_complex",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@allocate_array_elem",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_opt.c@opt_stats_period"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_filter_complex_script",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@file_read",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@opt_show_library_versions"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_filter_complex_script",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@allocate_array_elem",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_filter.c@choose_pixel_fmt"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@show_help_default_ffmpeg",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@show_usage",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/ffmpegkit.c@avutil_log_sanitize"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@show_help_default_ffmpeg",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@show_help_options",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@set_tty_echo"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@show_help_default_ffmpeg",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@show_help_children",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@show_help_default_ffmpeg"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@open_files",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@init_options",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@get_benchmark_time_stamps"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@open_files",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_optgroup",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@validate_enc_avopt"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@open_files",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@uninit_options",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@log_callback"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@ffmpeg_parse_options",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@split_commandline",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux.c@of_write_trailer"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@ffmpeg_parse_options",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@term_init",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux.c@ost_free"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@ffmpeg_parse_options",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@open_files",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@opt_show_programs"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@ffmpeg_parse_options",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@init_complex_filters",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@decode_flush"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@ffmpeg_parse_options",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@correct_input_start_times",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@opt_read_intervals"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@ffmpeg_parse_options",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@apply_sync_offsets",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@prepare_app_arguments"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@ffmpeg_parse_options",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_filter.c@check_filter_outputs",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@transcode_step"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@ffmpeg_parse_options",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@uninit_parse_context",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@get_benchmark_time_stamps"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_banner",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@locate_option",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@ffmpeg_var_cleanup"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_help_codec",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@print_codec",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@json_print_section_header"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_help",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@show_help_default_ffmpeg",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@sub2video_copy_rect"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_help",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@show_help_default_ffprobe",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@writer_register"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_help",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_help_codec",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@decode_video"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_help",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_help_demuxer",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_filter.c@describe_filter_link"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_help",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_help_muxer",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_demux.c@seek_to_start"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_help",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_help_protocol",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_hw.c@hwaccel_retrieve_data"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_help",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_help_bsf",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@default_get_name"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@get_codecs_sorted",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@xml_print_int"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_decoders",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@print_codecs",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_map_channel"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_encoders",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@print_codecs",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_sync_queue.c@sq_set_tb"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_formats",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_formats_devices",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@default_print_section_footer"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_muxers",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_formats_devices",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@xml_print_section_header"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_demuxers",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_formats_devices",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux_init.c@enc_stats_init"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_devices",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_formats_devices",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_demux.c@ifile_get_packet"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@log_callback_report",
+        "pos": "resources/ffmpeg-kit/linux/src/FFmpegKitConfig.cpp@ffmpegkit_log_callback_function",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_opt.c@opt_attach"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@init_report",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ifilter_parameters_from_codecpar"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@opt_max_alloc",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_opt.c@opt_abort_on"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@opt_loglevel",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@xml_print_section_footer"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@sub2video_update",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@sub2video_get_blank_frame",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux.c@pkt_move"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@sub2video_update",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@sub2video_push_ref",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@strip_specifiers"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@sub2video_heartbeat",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@sub2video_update",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@writer_open"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@sub2video_heartbeat",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@sub2video_push_ref",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_sync_queue.c@receive_internal"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@sub2video_flush",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@sub2video_update",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_opt_common.c@show_dispositions"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@term_exit",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@term_exit_sigsafe",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux.c@thread_set_name"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@sigterm_handler",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@term_exit_sigsafe",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_cmdutils.c@report_and_exit"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ffmpeg_cleanup",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@getmaxrss",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux_init.c@map_auto_subtitle"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ffmpeg_cleanup",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux.c@of_close",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@default_print_str"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ffmpeg_cleanup",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@ifile_close",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@show_stream"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ffmpeg_cleanup",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux_init.c@of_enc_stats_close",
+        "neg": "resources/ffmpeg-kit/linux/src/FFmpegKitConfig.cpp@removeSession"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ffmpeg_cleanup",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@uninit_opts",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux_init.c@new_subtitle_stream"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ffmpeg_cleanup",
+        "pos": "resources/ffmpeg-kit/linux/src/FFmpegKitConfig.cpp@cancelRequested",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@print_error"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ffmpeg_cleanup",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@term_exit",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@print_section"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@assert_avoptions",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@show_banner"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@abort_codec_experimental",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux_init.c@new_attachment_stream"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@update_benchmark",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@get_benchmark_time_stamps",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_cmdutils.c@write_option"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@check_recording_time",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@close_output_stream",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_cmdutils.c@init_dynload"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@init_output_stream_wrapper",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@map_auto_video"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@update_video_stats",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_opt_common.c@log_callback_report"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@encode_frame",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@enc_stats_write",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@send_frame_to_filters"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@encode_frame",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@update_benchmark",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@opt_filter_hw_device"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@encode_frame",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@ffmpeg_var_cleanup"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@submit_encode_frame",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@sq_send",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_sync_queue.c@sq_limit_frames"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@submit_encode_frame",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@close_output_stream",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@json_init"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@do_audio_out",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@output_file_item_name"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@do_subtitle_out",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@log_read_interval"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@do_video_out",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@init_output_stream_wrapper",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@process_subtitle"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@do_video_out",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@video_sync_process",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_w8_avio"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@do_video_out",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_cmdutils.c@allocate_array_elem"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@reap_filters",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ost_iter",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@update_video_stats"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@reap_filters",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@init_output_stream_wrapper",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_demux.c@thread_stop"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@reap_filters",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@do_video_out",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@show_help_muxer"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@print_final_stats",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ost_iter",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_qscale"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@print_report",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux.c@of_filesize",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@enc_stats_init"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@print_report",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ost_iter",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux_init.c@create_streams"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@print_report",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@psnr",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@xml_print_section_footer"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@print_report",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@forward_report",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@show_help_muxer"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@print_report",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@print_final_stats",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux.c@muxer_thread"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@flush_encoders",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ost_iter",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@ts_discontinuity_detect"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@flush_encoders",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@flat_init"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@flush_encoders",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ifilter_has_all_input_formats",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_cmdutils.c@read_yesno"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@flush_encoders",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_filter.c@configure_filtergraph",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_vsync"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@flush_encoders",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux.c@of_output_packet",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/ffmpegkit.c@addSession"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@flush_encoders",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@init_output_stream_wrapper",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@parse_meta_type"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@do_streamcopy",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@close_output_stream",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@json_print_str"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@do_streamcopy",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@show_stream"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@check_decode_result",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_opt_common.c@next_codec_for_id"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ifilter_send_frame",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ifilter_has_all_input_formats",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@do_subtitle_out"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ifilter_send_frame",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@reap_filters",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_sync_queue.c@receive_internal"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ifilter_send_frame",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_filter.c@configure_filtergraph",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@sub2video_heartbeat"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ifilter_send_eof",
+        "pos": "resources/ffmpeg-kit/linux/src/FFmpegKitConfig.cpp@cancelRequested",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_filter_complex_script"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@decode_audio",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@update_benchmark",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_demux.c@add_input_streams"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@decode_audio",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@check_decode_result",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@new_video_stream"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@decode_video",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@update_benchmark",
+        "neg": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_hw.c@hwaccel_decode_init"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@decode_video",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@check_decode_result",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_video_filters"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@process_subtitle",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@sub2video_update",
+        "neg": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_filter.c@choose_pix_fmts"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@process_subtitle",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@exit_program",
+        "neg": "resources/ffmpeg-kit/linux/src/FFmpegKitConfig.cpp@process_log"
+    },
+    {
+        "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@process_subtitle",
+        "pos": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@ost_iter",
+        "neg": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_filter.c@filter_is_buffersrc"
+    }
+]

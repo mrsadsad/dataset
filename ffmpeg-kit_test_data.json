@@ -1,0 +1,324 @@
+[
+  {
+    "query": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux.c@ms_from_ost",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux.c@write_packet",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux.c@queue_packet",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux.c@of_output_packet",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux.c@of_stream_init",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux.c@ost_free"
+    ],
+    "pos_list_logic": [
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux_init.c@parse_meta_type",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@value_string"
+    ]
+  },
+  {
+    "query": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@value_string",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@writer_print_time",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@show_packet",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@show_frame",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@show_stream",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@show_format"
+    ],
+    "pos_list_logic": [
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@process_input",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@opt_audio_qscale"
+    ]
+  },
+  {
+    "query": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux.c@ms_from_ost",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux.c@write_packet",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux.c@queue_packet",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux.c@of_output_packet",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux.c@of_stream_init",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux.c@ost_free"
+    ],
+    "pos_list_logic": [
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@opt_vstats_file"
+    ]
+  },
+  {
+    "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@show_help_children",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@show_help_children",
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@show_help_default_ffmpeg",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@show_help_default_ffmpeg",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_opt.c@show_help_default_ffmpeg"
+    ],
+    "pos_list_logic": [
+      "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@print_chroma_location",
+      "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@show_devices"
+    ]
+  },
+  {
+    "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@locate_option",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_loglevel",
+      "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_banner",
+      "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@show_banner",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_opt_common.c@show_banner"
+    ],
+    "pos_list_logic": [
+      "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@opt_find"
+    ]
+  },
+  {
+    "query": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/android_lts_support.c@log2",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@value_string",
+      "resources/ffmpeg-kit/linux/src/fftools_ffprobe.c@value_string",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@value_string",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/android_lts_support.c@log2f"
+    ],
+    "pos_list_logic": [
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@ffmpeg_var_cleanup"
+    ]
+  },
+  {
+    "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@parse_and_set_vsync",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_vsync",
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux_init.c@new_video_stream",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@new_video_stream",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux_init.c@new_video_stream"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_formats_devices",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_formats",
+      "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_muxers",
+      "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_demuxers",
+      "resources/ffmpeg-kit/apple/src/fftools_opt_common.c@show_devices"
+    ],
+    "pos_list_logic": [
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@transcode_init"
+    ]
+  },
+  {
+    "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@close_output_stream",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@check_recording_time",
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@submit_encode_frame",
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@do_streamcopy",
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@transcode_from_filter"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@enc_stats_write",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@encode_frame",
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux.c@write_packet",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux.c@write_packet",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux.c@write_packet"
+    ],
+    "pos_list_logic": [
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@copy_chapters",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux_init.c@map_auto_subtitle"
+    ]
+  },
+  {
+    "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@init_output_stream_wrapper",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@do_video_out",
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@reap_filters",
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@flush_encoders",
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@transcode_step"
+    ],
+    "pos_list_logic": [
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffprobe.c@default_print_section_footer",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_hw.c@hw_device_init_from_string"
+    ]
+  },
+  {
+    "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_filter.c@filtergraph_is_simple",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@transcode_init",
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_filter.c@configure_filtergraph",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@transcode_init",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@transcode_init"
+    ],
+    "pos_list_logic": [
+      "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@show_colors",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_filter.c@configure_output_video_filter"
+    ]
+  },
+  {
+    "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux.c@mux_check_init",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux_init.c@of_open",
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_mux.c@of_stream_init",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_mux_init.c@of_open",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_mux_init.c@of_open"
+    ],
+    "pos_list_logic": [
+      "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@show_layouts"
+    ]
+  },
+  {
+    "query": "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@show_formats_devices",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@show_formats",
+      "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@show_muxers",
+      "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@show_demuxers",
+      "resources/ffmpeg-kit/linux/src/fftools_opt_common.c@show_devices"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@close_output_stream",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@check_recording_time",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@submit_encode_frame",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@do_streamcopy",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@transcode_from_filter"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@init_output_stream_wrapper",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@do_video_out",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@reap_filters",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@flush_encoders",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg.c@transcode_step"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/ffmpegkit.c@mutexLock",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/ffmpegkit.c@logCallbackDataAdd",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/ffmpegkit.c@statisticsCallbackDataAdd",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/ffmpegkit.c@callbackDataRemove",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/ffmpegkit.c@enableNativeRedirection"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/ffmpegkit.c@mutexUnlock",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/ffmpegkit.c@logCallbackDataAdd",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/ffmpegkit.c@statisticsCallbackDataAdd",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/ffmpegkit.c@callbackDataRemove",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/ffmpegkit.c@enableNativeRedirection"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_opt_common.c@show_formats_devices",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_opt_common.c@show_formats",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_opt_common.c@show_muxers",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_opt_common.c@show_demuxers",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_opt_common.c@show_devices"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@close_output_stream",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@check_recording_time",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@submit_encode_frame",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@do_streamcopy",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@transcode_from_filter"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@init_output_stream_wrapper",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@do_video_out",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@reap_filters",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@flush_encoders",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg.c@transcode_step"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@find_option",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_option",
+      "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@locate_option",
+      "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@split_commandline"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@finish_stream",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@stream_update_ts",
+      "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@sq_send",
+      "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@sq_limit_frames"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/ffmpeg-kit/apple/src/fftools_objpool.c@objpool_alloc_frames",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/apple/src/fftools_sync_queue.c@sq_alloc",
+      "resources/ffmpeg-kit/linux/src/fftools_sync_queue.c@sq_alloc",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_sync_queue.c@sq_alloc"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg.c@remove_avoptions",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_demux.c@ifile_open",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_demux.c@ifile_open",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_demux.c@ifile_open"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@writer_print_rational",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_dynamic_hdr10_plus",
+      "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_dynamic_hdr_vivid",
+      "resources/ffmpeg-kit/apple/src/fftools_ffprobe.c@print_ambient_viewing_environment"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_hw.c@hw_device_init_from_string",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@opt_init_hw_device",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@opt_init_hw_device",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_opt.c@opt_init_hw_device"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@read_yesno",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@assert_file_overwrite",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@assert_file_overwrite",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_opt.c@assert_file_overwrite"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_filter.c@init_complex_filtergraph",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@init_complex_filters",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@init_complex_filters",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_opt.c@init_complex_filters"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/ffmpeg-kit/apple/src/fftools_cmdutils.c@parse_optgroup",
+    "pos_list_dependence": [
+      "resources/ffmpeg-kit/apple/src/fftools_ffmpeg_opt.c@open_files",
+      "resources/ffmpeg-kit/linux/src/fftools_ffmpeg_opt.c@open_files",
+      "resources/ffmpeg-kit/android/ffmpeg-kit-android-lib/src/main/cpp/fftools_ffmpeg_opt.c@open_files"
+    ],
+    "pos_list_logic": []
+  }
+]

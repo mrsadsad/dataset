@@ -1,0 +1,1287 @@
+[
+    {
+        "query": "resources/antiword/xml.c@ucPopStack",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/notes.c@vGet8FootnotesInfo"
+    },
+    {
+        "query": "resources/antiword/xml.c@vPrintFootnote",
+        "pos": "resources/antiword/notes.c@szGetFootnootText",
+        "neg": "resources/antiword/dib2sprt.c@iReduceColor"
+    },
+    {
+        "query": "resources/antiword/xml.c@vPrintFootnote",
+        "pos": "resources/antiword/xml.c@ucReadStack",
+        "neg": "resources/antiword/notes.c@vDestroyNotesInfoLists"
+    },
+    {
+        "query": "resources/antiword/xml.c@vPrintFootnote",
+        "pos": "resources/antiword/xml.c@vAddEndTag",
+        "neg": "resources/antiword/hdrftrlist.c@vCreat2HdrFtrInfoList"
+    },
+    {
+        "query": "resources/antiword/xml.c@vPrintFootnote",
+        "pos": "resources/antiword/xml.c@vPrintChar",
+        "neg": "resources/antiword/datalist.c@ulGetDataOffset"
+    },
+    {
+        "query": "resources/antiword/xml.c@vPrintSpecialChar",
+        "pos": "resources/antiword/chartrans.c@ulTranslateCharacters",
+        "neg": "resources/antiword/pdf.c@vEndPageObject"
+    },
+    {
+        "query": "resources/antiword/xml.c@vPrintSpecialChar",
+        "pos": "resources/antiword/xml.c@vPrintChar",
+        "neg": "resources/antiword/chartrans.c@iCompare"
+    },
+    {
+        "query": "resources/antiword/xml.c@vPrintSpecialString",
+        "pos": "resources/antiword/xml.c@vPrintSpecialChar",
+        "neg": "resources/antiword/Win32-only/misc.c@iInteger2Alpha"
+    },
+    {
+        "query": "resources/antiword/xml.c@vAddStartTag",
+        "pos": "resources/antiword/xml.c@vPrintLevel",
+        "neg": "resources/antiword/misc.c@bGetCodesetFromLocale"
+    },
+    {
+        "query": "resources/antiword/xml.c@vAddStartTag",
+        "pos": "resources/antiword/xml.c@vPushStack",
+        "neg": "resources/antiword/listlist.c@vRestartListValues"
+    },
+    {
+        "query": "resources/antiword/xml.c@vAddEndTag",
+        "pos": "resources/antiword/xml.c@ucPopStack",
+        "neg": "resources/antiword/notes.c@vGet2FootnotesText"
+    },
+    {
+        "query": "resources/antiword/xml.c@vAddEndTag",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/misc.c@tUcs2Utf8"
+    },
+    {
+        "query": "resources/antiword/xml.c@vAddEndTag",
+        "pos": "resources/antiword/xml.c@vPrintLevel",
+        "neg": "resources/antiword/drawfile.c@pVerifyText"
+    },
+    {
+        "query": "resources/antiword/xml.c@vAddEndTagOptional",
+        "pos": "resources/antiword/xml.c@ucReadStack",
+        "neg": "resources/antiword/xml.c@vEndOfParagraphXML"
+    },
+    {
+        "query": "resources/antiword/xml.c@vAddEndTagOptional",
+        "pos": "resources/antiword/xml.c@vAddEndTag",
+        "neg": "resources/antiword/text.c@vMove2NextLineTXT"
+    },
+    {
+        "query": "resources/antiword/xml.c@vAddCombinedTag",
+        "pos": "resources/antiword/xml.c@vPrintLevel",
+        "neg": "resources/antiword/drawfile.c@Drawfile_RenderDiagram"
+    },
+    {
+        "query": "resources/antiword/xml.c@vAddEndTagsUntil2",
+        "pos": "resources/antiword/xml.c@ucReadStack",
+        "neg": "resources/antiword/datalist.c@usNextWord"
+    },
+    {
+        "query": "resources/antiword/xml.c@vAddEndTagsUntil2",
+        "pos": "resources/antiword/xml.c@vAddEndTag",
+        "neg": "resources/antiword/blocklist.c@vDestroyTextBlockList"
+    },
+    {
+        "query": "resources/antiword/xml.c@vCreateBookIntro",
+        "pos": "resources/antiword/wordlib.c@bIsOldMacFile",
+        "neg": "resources/antiword/wordwin.c@iInitDocumentWIN"
+    },
+    {
+        "query": "resources/antiword/xml.c@vCreateBookIntro",
+        "pos": "resources/antiword/summary.c@szGetTitle",
+        "neg": "resources/antiword/fontlist.c@pGetNextFontInfoListItem"
+    },
+    {
+        "query": "resources/antiword/xml.c@vCreateBookIntro",
+        "pos": "resources/antiword/summary.c@szGetSubject",
+        "neg": "resources/antiword/startup.c@bIsMatch"
+    },
+    {
+        "query": "resources/antiword/xml.c@vCreateBookIntro",
+        "pos": "resources/antiword/summary.c@szGetAuthor",
+        "neg": "resources/antiword/dib2sprt.c@bTranslateDIB"
+    },
+    {
+        "query": "resources/antiword/xml.c@vCreateBookIntro",
+        "pos": "resources/antiword/summary.c@szGetLastSaveDtm",
+        "neg": "resources/antiword/xml.c@vPrintLevel"
+    },
+    {
+        "query": "resources/antiword/xml.c@vCreateBookIntro",
+        "pos": "resources/antiword/summary.c@szGetCompany",
+        "neg": "resources/antiword/utf8.c@iWcWidth"
+    },
+    {
+        "query": "resources/antiword/xml.c@vCreateBookIntro",
+        "pos": "resources/antiword/summary.c@szGetLanguage",
+        "neg": "resources/antiword/fail.c@__fail"
+    },
+    {
+        "query": "resources/antiword/xml.c@vCreateBookIntro",
+        "pos": "resources/antiword/xml.c@vAddStartTag",
+        "neg": "resources/antiword/pdf.c@vEndPageObject"
+    },
+    {
+        "query": "resources/antiword/xml.c@vCreateBookIntro",
+        "pos": "resources/antiword/xml.c@vPrintSpecialString",
+        "neg": "resources/antiword/summary.c@tFiletime"
+    },
+    {
+        "query": "resources/antiword/xml.c@vCreateBookIntro",
+        "pos": "resources/antiword/xml.c@vAddEndTag",
+        "neg": "resources/antiword/misc.c@szBasename"
+    },
+    {
+        "query": "resources/antiword/xml.c@vEpilogueXML",
+        "pos": "resources/antiword/xml.c@vAddEndTagsUntil2",
+        "neg": "resources/antiword/output.c@vPrologue1"
+    },
+    {
+        "query": "resources/antiword/xml.c@vEpilogueXML",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/prop8.c@vGet8FontInfo"
+    },
+    {
+        "query": "resources/antiword/xml.c@vPrintXML",
+        "pos": "resources/antiword/xml.c@ucReadStack",
+        "neg": "resources/antiword/propmod.c@vAdd2PropModList"
+    },
+    {
+        "query": "resources/antiword/xml.c@vPrintXML",
+        "pos": "resources/antiword/xml.c@vAddEndTag",
+        "neg": "resources/antiword/imgexam.c@tFind6Image"
+    },
+    {
+        "query": "resources/antiword/xml.c@vPrintXML",
+        "pos": "resources/antiword/xml.c@vStartOfParagraphXML",
+        "neg": "resources/antiword/dib2sprt.c@vDecodeRle4"
+    },
+    {
+        "query": "resources/antiword/xml.c@vPrintXML",
+        "pos": "resources/antiword/xml.c@vAddStartTag",
+        "neg": "resources/antiword/main_ros.c@vTemplates"
+    },
+    {
+        "query": "resources/antiword/xml.c@vPrintXML",
+        "pos": "resources/antiword/xml.c@vPrintChar",
+        "neg": "resources/antiword/postscript.c@vStartOfParagraphPS"
+    },
+    {
+        "query": "resources/antiword/xml.c@vSubstringXML",
+        "pos": "resources/antiword/xml.c@vPrintXML",
+        "neg": "resources/antiword/blocklist.c@usNextChar"
+    },
+    {
+        "query": "resources/antiword/xml.c@vEndOfParagraphXML",
+        "pos": "resources/antiword/xml.c@ucReadStack",
+        "neg": "resources/antiword/prop6.c@bGet6PicInfo"
+    },
+    {
+        "query": "resources/antiword/xml.c@vEndOfParagraphXML",
+        "pos": "resources/antiword/xml.c@vAddEndTag",
+        "neg": "resources/antiword/summary.c@vSetSummaryInfoOLE"
+    },
+    {
+        "query": "resources/antiword/xml.c@vEndOfParagraphXML",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/blocklist.c@vSpitList"
+    },
+    {
+        "query": "resources/antiword/xml.c@vEndOfPageXML",
+        "pos": "resources/antiword/xml.c@vEndOfParagraphXML",
+        "neg": "resources/antiword/Win32-only/misc.c@bReadBuffer"
+    },
+    {
+        "query": "resources/antiword/xml.c@vEndOfPageXML",
+        "pos": "resources/antiword/xml.c@vStartOfParagraphXML",
+        "neg": "resources/antiword/out2window.c@vJustify2Window"
+    },
+    {
+        "query": "resources/antiword/xml.c@vCloseHeaderLevels",
+        "pos": "resources/antiword/xml.c@ucReadStack",
+        "neg": "resources/antiword/prop2.c@vGet2SectionInfo"
+    },
+    {
+        "query": "resources/antiword/xml.c@vCloseHeaderLevels",
+        "pos": "resources/antiword/xml.c@vAddEndTag",
+        "neg": "resources/antiword/prop2.c@vGet2SepInfo"
+    },
+    {
+        "query": "resources/antiword/xml.c@vSetHeadersXML",
+        "pos": "resources/antiword/xml.c@vCloseHeaderLevels",
+        "neg": "resources/antiword/blocklist.c@usGetNextChar"
+    },
+    {
+        "query": "resources/antiword/xml.c@vStartOfListXML",
+        "pos": "resources/antiword/xml.c@vEndOfTableXML",
+        "neg": "resources/antiword/notes.c@vGet6NotesInfo"
+    },
+    {
+        "query": "resources/antiword/xml.c@vStartOfListXML",
+        "pos": "resources/antiword/xml.c@vAddStartTag",
+        "neg": "resources/antiword/blocklist.c@usToFootnotePosition"
+    },
+    {
+        "query": "resources/antiword/xml.c@vEndOfListXML",
+        "pos": "resources/antiword/xml.c@vAddEndTagsUntil2",
+        "neg": "resources/antiword/misc.c@szGetDefaultMappingFile"
+    },
+    {
+        "query": "resources/antiword/xml.c@vStartOfListItemXML",
+        "pos": "resources/antiword/xml.c@ucReadStack",
+        "neg": "resources/antiword/word2text.c@bOutputContainsText"
+    },
+    {
+        "query": "resources/antiword/xml.c@vStartOfListItemXML",
+        "pos": "resources/antiword/xml.c@vAddEndTagsUntil2",
+        "neg": "resources/antiword/text.c@vStartOfParagraphTXT"
+    },
+    {
+        "query": "resources/antiword/xml.c@vStartOfListItemXML",
+        "pos": "resources/antiword/xml.c@vAddStartTag",
+        "neg": "resources/antiword/blocklist.c@usGetNextByte"
+    },
+    {
+        "query": "resources/antiword/xml.c@vStartOfTable",
+        "pos": "resources/antiword/xml.c@ucReadStack",
+        "neg": "resources/antiword/out2window.c@vSetLeftIndentation"
+    },
+    {
+        "query": "resources/antiword/xml.c@vStartOfTable",
+        "pos": "resources/antiword/xml.c@vAddEndTag",
+        "neg": "resources/antiword/fonts.c@vCorrect4CyrPS"
+    },
+    {
+        "query": "resources/antiword/xml.c@vStartOfTable",
+        "pos": "resources/antiword/xml.c@vAddStartTag",
+        "neg": "resources/antiword/summary.c@vDestroySummaryInfo"
+    },
+    {
+        "query": "resources/antiword/xml.c@vStartOfTableGroup",
+        "pos": "resources/antiword/xml.c@vAddStartTag",
+        "neg": "resources/antiword/xml.c@vStartOfTableGroup"
+    },
+    {
+        "query": "resources/antiword/xml.c@vStartOfTableGroup",
+        "pos": "resources/antiword/xml.c@vAddCombinedTag",
+        "neg": "resources/antiword/out2window.c@vResetStyles"
+    },
+    {
+        "query": "resources/antiword/xml.c@vEndOfTableXML",
+        "pos": "resources/antiword/xml.c@vAddEndTag",
+        "neg": "resources/antiword/text.c@vEndOfParagraphTXT"
+    },
+    {
+        "query": "resources/antiword/xml.c@vAddTableRowXML",
+        "pos": "resources/antiword/xml.c@vAddEndTagOptional",
+        "neg": "resources/antiword/main_ros.c@bBarInfo"
+    },
+    {
+        "query": "resources/antiword/xml.c@vAddTableRowXML",
+        "pos": "resources/antiword/xml.c@vStartOfTable",
+        "neg": "resources/antiword/out2window.c@vResetStyles"
+    },
+    {
+        "query": "resources/antiword/xml.c@vAddTableRowXML",
+        "pos": "resources/antiword/xml.c@vStartOfTableGroup",
+        "neg": "resources/antiword/summary.c@vSet6SummaryInfo"
+    },
+    {
+        "query": "resources/antiword/xml.c@vAddTableRowXML",
+        "pos": "resources/antiword/xml.c@vAddEndTag",
+        "neg": "resources/antiword/stylesheet.c@vGet8Stylesheet"
+    },
+    {
+        "query": "resources/antiword/pictlist.c@vDestroyPictInfoList",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/startup.c@tGetTaskHandle"
+    },
+    {
+        "query": "resources/antiword/wordole.c@ulReadLong",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/imgexam.c@bExamineJPEG"
+    },
+    {
+        "query": "resources/antiword/wordole.c@tReadBlockIndices",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/Win32-only/misc.c@uiColor2Color"
+    },
+    {
+        "query": "resources/antiword/wordole.c@vComputePPSlevels",
+        "pos": "resources/antiword/wordole.c@vComputePPSlevels",
+        "neg": "resources/antiword/fail.c@__fail"
+    },
+    {
+        "query": "resources/antiword/wordole.c@bGetPPS",
+        "pos": "resources/antiword/wordole.c@vComputePPSlevels",
+        "neg": "resources/antiword/datalist.c@ulDataPos2FileOffset"
+    },
+    {
+        "query": "resources/antiword/wordole.c@bGetPPS",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/out2window.c@iComputeHoles"
+    },
+    {
+        "query": "resources/antiword/wordole.c@bGetPPS",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/dib2eps.c@bTranslateDIB"
+    },
+    {
+        "query": "resources/antiword/wordole.c@bGetDocumentText",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/main_u.c@pStdin2TmpFile"
+    },
+    {
+        "query": "resources/antiword/wordole.c@bGetDocumentText",
+        "pos": "resources/antiword/blocklist.c@vSplitBlockList",
+        "neg": "resources/antiword/sectlist.c@vAdd2SectionInfoList"
+    },
+    {
+        "query": "resources/antiword/wordole.c@bGetDocumentText",
+        "pos": "resources/antiword/blocklist.c@vDestroyTextBlockList",
+        "neg": "resources/antiword/misc.c@bGetCodesetFromLocale"
+    },
+    {
+        "query": "resources/antiword/wordole.c@vGetDocumentData",
+        "pos": "resources/antiword/options.c@vGetOptions",
+        "neg": "resources/antiword/datalist.c@ulNextLong"
+    },
+    {
+        "query": "resources/antiword/wordole.c@vGetDocumentData",
+        "pos": "resources/antiword/datalist.c@vDestroyDataBlockList",
+        "neg": "resources/antiword/saveas.c@bSaveDrawfile"
+    },
+    {
+        "query": "resources/antiword/wordole.c@vGetDocumentData",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/dib2sprt.c@iReduceColor"
+    },
+    {
+        "query": "resources/antiword/wordole.c@iInitDocumentOLE",
+        "pos": "resources/antiword/wordole.c@vGetBbdList",
+        "neg": "resources/antiword/utf8.c@is_locale_utf8"
+    },
+    {
+        "query": "resources/antiword/wordole.c@iInitDocumentOLE",
+        "pos": "resources/antiword/depot.c@vDestroySmallBlockList",
+        "neg": "resources/antiword/output.c@bAddDummyImage"
+    },
+    {
+        "query": "resources/antiword/wordole.c@iInitDocumentOLE",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/fonts_r.c@tGetCharacterLength"
+    },
+    {
+        "query": "resources/antiword/wordole.c@iInitDocumentOLE",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/chartrans.c@ucGetNbspCharacter"
+    },
+    {
+        "query": "resources/antiword/wordole.c@iInitDocumentOLE",
+        "pos": "resources/antiword/Win32-only/misc.c@iGetVersionNumber",
+        "neg": "resources/antiword/pdf.c@bAddDummyImagePDF"
+    },
+    {
+        "query": "resources/antiword/wordwin.c@bGetDocumentText",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/rowlist.c@vAdd2RowInfoList"
+    },
+    {
+        "query": "resources/antiword/wordwin.c@bGetDocumentText",
+        "pos": "resources/antiword/blocklist.c@bAdd2TextBlockList",
+        "neg": "resources/antiword/icons.c@vUpdateWriteable"
+    },
+    {
+        "query": "resources/antiword/wordwin.c@bGetDocumentText",
+        "pos": "resources/antiword/blocklist.c@vSplitBlockList",
+        "neg": "resources/antiword/drawfile.c@pVerifySprite"
+    },
+    {
+        "query": "resources/antiword/wordwin.c@bGetDocumentText",
+        "pos": "resources/antiword/blocklist.c@vDestroyTextBlockList",
+        "neg": "resources/antiword/draw.c@vStartOfParagraph2"
+    },
+    {
+        "query": "resources/antiword/wordwin.c@vGetDocumentData",
+        "pos": "resources/antiword/options.c@vGetOptions",
+        "neg": "resources/antiword/pictlist.c@vDestroyPictInfoList"
+    },
+    {
+        "query": "resources/antiword/wordwin.c@vGetDocumentData",
+        "pos": "resources/antiword/datalist.c@vDestroyDataBlockList",
+        "neg": "resources/antiword/worddos.c@bGetDocumentText"
+    },
+    {
+        "query": "resources/antiword/wordwin.c@vGetDocumentData",
+        "pos": "resources/antiword/datalist.c@bAdd2DataBlockList",
+        "neg": "resources/antiword/xml.c@vEndOfTableXML"
+    },
+    {
+        "query": "resources/antiword/wordwin.c@vGetDocumentData",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/wordole.c@vName2String"
+    },
+    {
+        "query": "resources/antiword/wordwin.c@iInitDocumentWIN",
+        "pos": "resources/antiword/Win32-only/misc.c@iGetVersionNumber",
+        "neg": "resources/antiword/postscript.c@vMove2NextPage"
+    },
+    {
+        "query": "resources/antiword/wordwin.c@iInitDocumentWIN",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/datalist.c@tSkipBytes"
+    },
+    {
+        "query": "resources/antiword/wordwin.c@iInitDocumentWIN",
+        "pos": "resources/antiword/wordwin.c@vGetDocumentData",
+        "neg": "resources/antiword/output.c@vMove2NextLine"
+    },
+    {
+        "query": "resources/antiword/worddos.c@bGetDocumentText",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/xml.c@vEndOfTableXML"
+    },
+    {
+        "query": "resources/antiword/worddos.c@bGetDocumentText",
+        "pos": "resources/antiword/blocklist.c@bAdd2TextBlockList",
+        "neg": "resources/antiword/main_ros.c@bMenuSelect"
+    },
+    {
+        "query": "resources/antiword/worddos.c@iInitDocumentDOS",
+        "pos": "resources/antiword/Win32-only/misc.c@iGetVersionNumber",
+        "neg": "resources/antiword/drawfile.c@pVerifyText"
+    },
+    {
+        "query": "resources/antiword/worddos.c@iInitDocumentDOS",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/utf8.c@utf8_strwidth"
+    },
+    {
+        "query": "resources/antiword/png2eps.c@bTranslatePNG",
+        "pos": "resources/antiword/output.c@vImagePrologue",
+        "neg": "resources/antiword/dib2sprt.c@pCreateBlankSprite"
+    },
+    {
+        "query": "resources/antiword/png2eps.c@bTranslatePNG",
+        "pos": "resources/antiword/output.c@vImageEpilogue",
+        "neg": "resources/antiword/prop6.c@vGet6HdrFtrInfo"
+    },
+    {
+        "query": "resources/antiword/findtext.c@bAddTextBlocks",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/dib2sprt.c@pCreateBlankSprite"
+    },
+    {
+        "query": "resources/antiword/findtext.c@bAddTextBlocks",
+        "pos": "resources/antiword/blocklist.c@bAdd2TextBlockList",
+        "neg": "resources/antiword/postscript.c@vAddFooter"
+    },
+    {
+        "query": "resources/antiword/findtext.c@bGet6DocumentText",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/output.c@vEndOfPage"
+    },
+    {
+        "query": "resources/antiword/findtext.c@bGet6DocumentText",
+        "pos": "resources/antiword/propmod.c@vAdd2PropModList",
+        "neg": "resources/antiword/drawfile.c@Drawfile_AppendObject"
+    },
+    {
+        "query": "resources/antiword/findtext.c@bGet6DocumentText",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/prop2.c@vGet2ChrInfo"
+    },
+    {
+        "query": "resources/antiword/findtext.c@bGet8DocumentText",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/draw.c@bScaleKeyPressed"
+    },
+    {
+        "query": "resources/antiword/findtext.c@bGet8DocumentText",
+        "pos": "resources/antiword/propmod.c@vAdd2PropModList",
+        "neg": "resources/antiword/main_ros.c@bMenuClick"
+    },
+    {
+        "query": "resources/antiword/findtext.c@bGet8DocumentText",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/findtext.c@bAddTextBlocks"
+    },
+    {
+        "query": "resources/antiword/wordmac.c@bGetDocumentText",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/stylelist.c@pGetNextTextStyle"
+    },
+    {
+        "query": "resources/antiword/wordmac.c@bGetDocumentText",
+        "pos": "resources/antiword/blocklist.c@bAdd2TextBlockList",
+        "neg": "resources/antiword/pdf.c@vPrintPDF"
+    },
+    {
+        "query": "resources/antiword/wordmac.c@iInitDocumentMAC",
+        "pos": "resources/antiword/Win32-only/misc.c@iGetVersionNumber",
+        "neg": "resources/antiword/imgexam.c@bExamineDIB"
+    },
+    {
+        "query": "resources/antiword/wordmac.c@iInitDocumentMAC",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/output.c@vEndOfList"
+    },
+    {
+        "query": "resources/antiword/blocklist.c@pFreeOneList",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/xml.c@vStartOfTableGroup"
+    },
+    {
+        "query": "resources/antiword/blocklist.c@vDestroyTextBlockList",
+        "pos": "resources/antiword/blocklist.c@pFreeOneList",
+        "neg": "resources/antiword/draw.c@pCreateDiagram"
+    },
+    {
+        "query": "resources/antiword/blocklist.c@bAdd2TextBlockList",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/misc.c@vGetBulletValue"
+    },
+    {
+        "query": "resources/antiword/blocklist.c@vSplitBlockList",
+        "pos": "resources/antiword/blocklist.c@vSpitList",
+        "neg": "resources/antiword/prop6.c@vGet6StyleInfo"
+    },
+    {
+        "query": "resources/antiword/blocklist.c@vSplitBlockList",
+        "pos": "resources/antiword/blocklist.c@pFreeOneList",
+        "neg": "resources/antiword/Win32-only/misc.c@iInteger2Roman"
+    },
+    {
+        "query": "resources/antiword/blocklist.c@ulCharPos2FileOffset",
+        "pos": "resources/antiword/blocklist.c@ulCharPos2FileOffsetX",
+        "neg": "resources/antiword/imgexam.c@bExamineDIB"
+    },
+    {
+        "query": "resources/antiword/notes.c@vDestroyNotesInfoLists",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/Win32-only/misc.c@iGetVersionNumber"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGet0FootnotesInfoAndText",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/draw.c@vForceRedraw"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGet0NotesInfo",
+        "pos": "resources/antiword/notes.c@vGet0FootnotesInfoAndText",
+        "neg": "resources/antiword/imgexam.c@bExamineJPEG"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGet2FootnotesInfo",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/xml.c@vPrintSpecialString"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGet2FootnotesText",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/drawfile.c@pFillError"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGet2NotesInfo",
+        "pos": "resources/antiword/notes.c@vGet2FootnotesInfo",
+        "neg": "resources/antiword/imgexam.c@tFind8Image"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGet2NotesInfo",
+        "pos": "resources/antiword/notes.c@vGet2FootnotesText",
+        "neg": "resources/antiword/xml.c@vEpilogueXML"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGet6FootnotesInfo",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/out2window.c@vAlign2Window"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGet6FootnotesText",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/postscript.c@vAddFooter"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGet6EndnotesInfo",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/wordlib.c@bIsWordPerfectFile"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGet6NotesInfo",
+        "pos": "resources/antiword/notes.c@vGet6FootnotesInfo",
+        "neg": "resources/antiword/dib2sprt.c@iReduceColor"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGet6NotesInfo",
+        "pos": "resources/antiword/notes.c@vGet6FootnotesText",
+        "neg": "resources/antiword/fonts_u.c@tGetCharacterLength"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGet6NotesInfo",
+        "pos": "resources/antiword/notes.c@vGet6EndnotesInfo",
+        "neg": "resources/antiword/fontlist.c@vDestroyFontInfoList"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGet8FootnotesInfo",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/fontlist.c@vCorrectFontValues"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGet8FootnotesText",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/stylelist.c@eGetNumType"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGet8EndnotesInfo",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/asc85enc.c@vASCII85EncodeArray"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGet8NotesInfo",
+        "pos": "resources/antiword/notes.c@vGet8FootnotesInfo",
+        "neg": "resources/antiword/stylelist.c@pGetNextTextStyle"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGet8NotesInfo",
+        "pos": "resources/antiword/notes.c@vGet8FootnotesText",
+        "neg": "resources/antiword/png2eps.c@tFindFirstPixelData"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGet8NotesInfo",
+        "pos": "resources/antiword/notes.c@vGet8EndnotesInfo",
+        "neg": "resources/antiword/startup.c@main"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGetNotesInfo",
+        "pos": "resources/antiword/notes.c@vGet0NotesInfo",
+        "neg": "resources/antiword/summary.c@vSet2SummaryInfo"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGetNotesInfo",
+        "pos": "resources/antiword/notes.c@vGet2NotesInfo",
+        "neg": "resources/antiword/draw.c@vImage2Diagram"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGetNotesInfo",
+        "pos": "resources/antiword/notes.c@vGet6NotesInfo",
+        "neg": "resources/antiword/draw.c@bDestroyDiagram"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGetNotesInfo",
+        "pos": "resources/antiword/notes.c@vGet8NotesInfo",
+        "neg": "resources/antiword/dib2sprt.c@vDecodeRle8"
+    },
+    {
+        "query": "resources/antiword/notes.c@vGetNotesInfo",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/notes.c@vGet2NotesInfo"
+    },
+    {
+        "query": "resources/antiword/chartrans.c@ucGetBulletCharacter",
+        "pos": "resources/antiword/chartrans.c@pGetCharTableRecord",
+        "neg": "resources/antiword/stylesheet.c@vGet2Stylesheet"
+    },
+    {
+        "query": "resources/antiword/chartrans.c@ucGetNbspCharacter",
+        "pos": "resources/antiword/chartrans.c@pGetCharTableRecord",
+        "neg": "resources/antiword/fonts.c@vCreateFontTable"
+    },
+    {
+        "query": "resources/antiword/chartrans.c@bReadCharacterMappingTable",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/postscript.c@vEndOfParagraphPS"
+    },
+    {
+        "query": "resources/antiword/chartrans.c@ulTranslateCharacters",
+        "pos": "resources/antiword/notes.c@eGetNotetype",
+        "neg": "resources/antiword/pictlist.c@ulGetPictInfoListItem"
+    },
+    {
+        "query": "resources/antiword/chartrans.c@ulTranslateCharacters",
+        "pos": "resources/antiword/chartrans.c@pGetCharTableRecord",
+        "neg": "resources/antiword/wordole.c@bGetBBD"
+    },
+    {
+        "query": "resources/antiword/chartrans.c@ulTranslateCharacters",
+        "pos": "resources/antiword/chartrans.c@ucGetBulletCharacter",
+        "neg": "resources/antiword/xml.c@vAddTableRowXML"
+    },
+    {
+        "query": "resources/antiword/fonts_u.c@pOpenFontTableFile",
+        "pos": "resources/antiword/misc.c@szGetAntiwordDirectory",
+        "neg": "resources/antiword/DOS-only/dos.c@iGetCodepage"
+    },
+    {
+        "query": "resources/antiword/fonts_u.c@pOpenFontTableFile",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/misc.c@iFindSplit"
+    },
+    {
+        "query": "resources/antiword/fonts_u.c@pOpenFontTableFile",
+        "pos": "resources/antiword/Win32-only/misc.c@szGetHomeDirectory",
+        "neg": "resources/antiword/xml.c@vAddCombinedTag"
+    },
+    {
+        "query": "resources/antiword/fonts_u.c@tOpenFont",
+        "pos": "resources/antiword/options.c@vGetOptions",
+        "neg": "resources/antiword/notes.c@vGetNotesInfo"
+    },
+    {
+        "query": "resources/antiword/fonts_u.c@tOpenFont",
+        "pos": "resources/antiword/fonts.c@iGetFontByNumber",
+        "neg": "resources/antiword/stylesheet.c@vGetBuildinFont"
+    },
+    {
+        "query": "resources/antiword/fonts_u.c@tOpenFont",
+        "pos": "resources/antiword/fonts.c@szGetOurFontname",
+        "neg": "resources/antiword/asc85enc.c@vASCII85EncodeByte"
+    },
+    {
+        "query": "resources/antiword/fonts_u.c@tOpenTableFont",
+        "pos": "resources/antiword/options.c@vGetOptions",
+        "neg": "resources/antiword/misc.c@bAllZero"
+    },
+    {
+        "query": "resources/antiword/fonts_u.c@tOpenTableFont",
+        "pos": "resources/antiword/fonts.c@iFontname2Fontnumber",
+        "neg": "resources/antiword/draw.c@pCreateDiagram"
+    },
+    {
+        "query": "resources/antiword/fonts_u.c@tOpenTableFont",
+        "pos": "resources/antiword/fonts_u.c@tOpenFont",
+        "neg": "resources/antiword/dib2eps.c@vDecode1bpp"
+    },
+    {
+        "query": "resources/antiword/saveas.c@bWrite2File",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/pictlist.c@ulGetPictInfoListItem"
+    },
+    {
+        "query": "resources/antiword/saveas.c@bText2File",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/wordlib.c@iGetVersionNumber"
+    },
+    {
+        "query": "resources/antiword/saveas.c@bDraw2File",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/prop6.c@vGet6SepInfo"
+    },
+    {
+        "query": "resources/antiword/saveas.c@bDraw2File",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/postscript.c@vPrintPS"
+    },
+    {
+        "query": "resources/antiword/dib2sprt.c@vDecode1bpp",
+        "pos": "resources/antiword/dib2sprt.c@iGetByteWidth",
+        "neg": "resources/antiword/misc.c@szBasename"
+    },
+    {
+        "query": "resources/antiword/dib2sprt.c@vDecode4bpp",
+        "pos": "resources/antiword/dib2sprt.c@iGetByteWidth",
+        "neg": "resources/antiword/misc.c@tUcs2Utf8"
+    },
+    {
+        "query": "resources/antiword/dib2sprt.c@vDecode8bpp",
+        "pos": "resources/antiword/dib2sprt.c@iGetByteWidth",
+        "neg": "resources/antiword/main_ros.c@vSendAck"
+    },
+    {
+        "query": "resources/antiword/dib2sprt.c@vDecode8bpp",
+        "pos": "resources/antiword/dib2sprt.c@iReduceColor",
+        "neg": "resources/antiword/out2window.c@tStyle2Window"
+    },
+    {
+        "query": "resources/antiword/dib2sprt.c@vDecode24bpp",
+        "pos": "resources/antiword/dib2sprt.c@iGetByteWidth",
+        "neg": "resources/antiword/main_ros.c@vBarInfoSetText"
+    },
+    {
+        "query": "resources/antiword/dib2sprt.c@vDecode24bpp",
+        "pos": "resources/antiword/dib2sprt.c@iReduceColor",
+        "neg": "resources/antiword/wordwin.c@iInitDocumentWIN"
+    },
+    {
+        "query": "resources/antiword/dib2sprt.c@vDecodeRle4",
+        "pos": "resources/antiword/dib2sprt.c@iGetByteWidth",
+        "neg": "resources/antiword/wordlib.c@bIsWordForDosFile"
+    },
+    {
+        "query": "resources/antiword/dib2sprt.c@vDecodeRle8",
+        "pos": "resources/antiword/dib2sprt.c@iGetByteWidth",
+        "neg": "resources/antiword/summary.c@vSet6SummaryInfo"
+    },
+    {
+        "query": "resources/antiword/dib2sprt.c@vDecodeRle8",
+        "pos": "resources/antiword/dib2sprt.c@iReduceColor",
+        "neg": "resources/antiword/summary.c@vDestroySummaryInfo"
+    },
+    {
+        "query": "resources/antiword/dib2sprt.c@vDecodeDIB",
+        "pos": "resources/antiword/dib2sprt.c@vDecode1bpp",
+        "neg": "resources/antiword/misc.c@tUcs2Utf8"
+    },
+    {
+        "query": "resources/antiword/dib2sprt.c@vDecodeDIB",
+        "pos": "resources/antiword/dib2sprt.c@vDecodeRle4",
+        "neg": "resources/antiword/options.c@szCreateSuffix"
+    },
+    {
+        "query": "resources/antiword/dib2sprt.c@vDecodeDIB",
+        "pos": "resources/antiword/dib2sprt.c@vDecode4bpp",
+        "neg": "resources/antiword/finddata.c@bAddDataBlocks"
+    },
+    {
+        "query": "resources/antiword/dib2sprt.c@vDecodeDIB",
+        "pos": "resources/antiword/dib2sprt.c@vDecodeRle8",
+        "neg": "resources/antiword/postscript.c@vAddFontsPS"
+    },
+    {
+        "query": "resources/antiword/dib2sprt.c@vDecodeDIB",
+        "pos": "resources/antiword/dib2sprt.c@vDecode8bpp",
+        "neg": "resources/antiword/wordole.c@vGetDocumentData"
+    },
+    {
+        "query": "resources/antiword/dib2sprt.c@vDecodeDIB",
+        "pos": "resources/antiword/dib2sprt.c@vDecode24bpp",
+        "neg": "resources/antiword/output.c@vSetHeaders"
+    },
+    {
+        "query": "resources/antiword/dib2sprt.c@bTranslateDIB",
+        "pos": "resources/antiword/dib2sprt.c@vDecodeDIB",
+        "neg": "resources/antiword/prop8.c@vGet8DopInfo"
+    },
+    {
+        "query": "resources/antiword/imgtrans.c@bTranslateImage",
+        "pos": "resources/antiword/options.c@vGetOptions",
+        "neg": "resources/antiword/drawfile.c@pVerifyPath"
+    },
+    {
+        "query": "resources/antiword/imgtrans.c@bTranslateImage",
+        "pos": "resources/antiword/draw.c@bAddDummyImage",
+        "neg": "resources/antiword/text.c@vEndOfParagraphTXT"
+    },
+    {
+        "query": "resources/antiword/prop0.c@vGet0DopInfo",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/asc85enc.c@vASCII85EncodeArray"
+    },
+    {
+        "query": "resources/antiword/prop0.c@vGet0DopInfo",
+        "pos": "resources/antiword/doclist.c@vCreateDocumentInfoList",
+        "neg": "resources/antiword/pdf.c@vAddFontsPDF"
+    },
+    {
+        "query": "resources/antiword/prop0.c@vGet0SepInfo",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/wordlib.c@bCheckBytes"
+    },
+    {
+        "query": "resources/antiword/prop0.c@vGet0PapInfo",
+        "pos": "resources/antiword/stylesheet.c@vFillStyleFromStylesheet",
+        "neg": "resources/antiword/Win32-only/misc.c@szGetHomeDirectory"
+    },
+    {
+        "query": "resources/antiword/prop0.c@vGet0PapInfo",
+        "pos": "resources/antiword/prop0.c@vGet0StyleInfo",
+        "neg": "resources/antiword/dib2sprt.c@vDecodeRle8"
+    },
+    {
+        "query": "resources/antiword/prop0.c@vGet0PapInfo",
+        "pos": "resources/antiword/stylelist.c@vAdd2StyleInfoList",
+        "neg": "resources/antiword/main_u.c@bProcessFile"
+    },
+    {
+        "query": "resources/antiword/prop0.c@vGet0ChrInfo",
+        "pos": "resources/antiword/stylesheet.c@vFillFontFromStylesheet",
+        "neg": "resources/antiword/fonts.c@vCorrect4PDF"
+    },
+    {
+        "query": "resources/antiword/prop0.c@vGet0ChrInfo",
+        "pos": "resources/antiword/prop0.c@vGet0FontInfo",
+        "neg": "resources/antiword/prop0.c@vGet0SectionInfo"
+    },
+    {
+        "query": "resources/antiword/prop0.c@vGet0ChrInfo",
+        "pos": "resources/antiword/fontlist.c@vAdd2FontInfoList",
+        "neg": "resources/antiword/main_ros.c@bMouseButtonClick"
+    },
+    {
+        "query": "resources/antiword/finddata.c@bAddDataBlocks",
+        "pos": "resources/antiword/datalist.c@bAdd2DataBlockList",
+        "neg": "resources/antiword/asc85enc.c@vASCII85EncodeFile"
+    },
+    {
+        "query": "resources/antiword/finddata.c@bGet6DocumentData",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/pictlist.c@vDestroyPictInfoList"
+    },
+    {
+        "query": "resources/antiword/finddata.c@bGet6DocumentData",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/pdf.c@vAddFooter"
+    },
+    {
+        "query": "resources/antiword/datalist.c@vDestroyDataBlockList",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/dib2eps.c@vDecode8bpp"
+    },
+    {
+        "query": "resources/antiword/datalist.c@bAdd2DataBlockList",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/fonts.c@szGetDefaultFont"
+    },
+    {
+        "query": "resources/antiword/DOS-only/dos.c@iGetCodepage",
+        "pos": "resources/antiword/DOS-only/dos.c@iGetVersion",
+        "neg": "resources/antiword/out2window.c@vRemoveRowEnd"
+    },
+    {
+        "query": "resources/antiword/tabstop.c@vSet2DefaultTabWidth",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/word2text.c@ulGetChar"
+    },
+    {
+        "query": "resources/antiword/tabstop.c@vSet6DefaultTabWidth",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/drawfile.c@Drawfile_QueryBox"
+    },
+    {
+        "query": "resources/antiword/tabstop.c@vSet8DefaultTabWidth",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/dib2eps.c@vDecodeRle8"
+    },
+    {
+        "query": "resources/antiword/tabstop.c@vSetDefaultTabWidth",
+        "pos": "resources/antiword/tabstop.c@vSet0DefaultTabWidth",
+        "neg": "resources/antiword/prop6.c@vGet6DopInfo"
+    },
+    {
+        "query": "resources/antiword/tabstop.c@vSetDefaultTabWidth",
+        "pos": "resources/antiword/tabstop.c@vSet2DefaultTabWidth",
+        "neg": "resources/antiword/draw.c@vShowDiagram"
+    },
+    {
+        "query": "resources/antiword/tabstop.c@vSetDefaultTabWidth",
+        "pos": "resources/antiword/tabstop.c@vSet6DefaultTabWidth",
+        "neg": "resources/antiword/draw.c@vEndOfTable"
+    },
+    {
+        "query": "resources/antiword/tabstop.c@vSetDefaultTabWidth",
+        "pos": "resources/antiword/tabstop.c@vSet8DefaultTabWidth",
+        "neg": "resources/antiword/postscript.c@vStartOfParagraphPS"
+    },
+    {
+        "query": "resources/antiword/tabstop.c@vSetDefaultTabWidth",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/out2window.c@vString2Diagram"
+    },
+    {
+        "query": "resources/antiword/sectlist.c@vDestroySectionInfoList",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/fonts.c@iGetFontByNumber"
+    },
+    {
+        "query": "resources/antiword/sectlist.c@vAdd2SectionInfoList",
+        "pos": "resources/antiword/xmalloc.c@xmalloc",
+        "neg": "resources/antiword/listlist.c@vDestroyListInfoList"
+    },
+    {
+        "query": "resources/antiword/sectlist.c@vDefault2SectionInfoList",
+        "pos": "resources/antiword/sectlist.c@vGetDefaultSection",
+        "neg": "resources/antiword/main_ros.c@bAutoRedrawWindow"
+    },
+    {
+        "query": "resources/antiword/sectlist.c@vDefault2SectionInfoList",
+        "pos": "resources/antiword/sectlist.c@vAdd2SectionInfoList",
+        "neg": "resources/antiword/fonts_u.c@tOpenTableFont"
+    },
+    {
+        "query": "resources/antiword/sectlist.c@pGetSectionInfo",
+        "pos": "resources/antiword/sectlist.c@vDefault2SectionInfoList",
+        "neg": "resources/antiword/Win32-only/misc.c@iInteger2Alpha"
+    },
+    {
+        "query": "resources/antiword/propmod.c@vDestroyPropModList",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/prop2.c@eGet2RowInfo"
+    },
+    {
+        "query": "resources/antiword/fonts_r.c@pOpenFontTableFile",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/output.c@vSubstring2Diagram"
+    },
+    {
+        "query": "resources/antiword/fonts_r.c@pOpenFontTableFile",
+        "pos": "resources/antiword/riscos.c@bMakeDirectory",
+        "neg": "resources/antiword/wordlib.c@bIsWordPerfectFile"
+    },
+    {
+        "query": "resources/antiword/fonts_r.c@tOpenFont",
+        "pos": "resources/antiword/fonts.c@iGetFontByNumber",
+        "neg": "resources/antiword/findtext.c@bGet8DocumentText"
+    },
+    {
+        "query": "resources/antiword/fonts_r.c@tOpenFont",
+        "pos": "resources/antiword/fonts.c@szGetOurFontname",
+        "neg": "resources/antiword/chartrans.c@pGetCharTableRecord"
+    },
+    {
+        "query": "resources/antiword/fonts_r.c@tOpenTableFont",
+        "pos": "resources/antiword/fonts.c@iFontname2Fontnumber",
+        "neg": "resources/antiword/postscript.c@vEpiloguePS"
+    },
+    {
+        "query": "resources/antiword/fonts_r.c@tOpenTableFont",
+        "pos": "resources/antiword/fonts_r.c@tOpenFont",
+        "neg": "resources/antiword/misc.c@bReadBytes"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/options.c@vGetOptions",
+        "neg": "resources/antiword/propmod.c@vDestroyPropModList"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop0.c@vGet0DopInfo",
+        "neg": "resources/antiword/out2window.c@vJustify2Window"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop0.c@vGet0SepInfo",
+        "neg": "resources/antiword/xml.c@vPrintChar"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop0.c@vGet0PapInfo",
+        "neg": "resources/antiword/fonts_r.c@lComputeStringWidth"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop0.c@vGet0ChrInfo",
+        "neg": "resources/antiword/prop2.c@vGet2SepInfo"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/fonts.c@vCreate0FontTable",
+        "neg": "resources/antiword/draw.c@vStartOfListItem"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/summary.c@vSet0SummaryInfo",
+        "neg": "resources/antiword/misc.c@lComputeLeading"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/stylesheet.c@vGet2Stylesheet",
+        "neg": "resources/antiword/xml.c@vCreateBookIntro"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop2.c@vGet2DopInfo",
+        "neg": "resources/antiword/text.c@vMoveTo"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop2.c@vGet2SepInfo",
+        "neg": "resources/antiword/saveas.c@bDraw2File"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop2.c@vGet2PapInfo",
+        "neg": "resources/antiword/stylelist.c@pGetNextTextStyle"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop2.c@vGet2HdrFtrInfo",
+        "neg": "resources/antiword/fonts_u.c@tCountColumns"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop2.c@vGet2ChrInfo",
+        "neg": "resources/antiword/xml.c@vPrintFootnote"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/fonts.c@vCreate2FontTable",
+        "neg": "resources/antiword/summary.c@vSetSummaryInfoOLE"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/summary.c@vSet2SummaryInfo",
+        "neg": "resources/antiword/worddos.c@bGetDocumentText"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/stylesheet.c@vGet6Stylesheet",
+        "neg": "resources/antiword/asc85enc.c@vASCII85EncodeFile"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop6.c@vGet6DopInfo",
+        "neg": "resources/antiword/wordlib.c@bIsOldMacFile"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop6.c@vGet6SepInfo",
+        "neg": "resources/antiword/utf8.c@utf8_to_ucs"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop6.c@vGet6PapInfo",
+        "neg": "resources/antiword/pdf.c@vAddFooter"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop6.c@vGet6HdrFtrInfo",
+        "neg": "resources/antiword/fonts.c@iGetFontByNumber"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop6.c@vGet6ChrInfo",
+        "neg": "resources/antiword/xml.c@vEpilogueXML"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/fonts.c@vCreate6FontTable",
+        "neg": "resources/antiword/out2window.c@vString2Diagram"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/summary.c@vSet6SummaryInfo",
+        "neg": "resources/antiword/output.c@vEndOfList"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop8.c@vGet8LstInfo",
+        "neg": "resources/antiword/text.c@vSubstringTXT"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/stylesheet.c@vGet8Stylesheet",
+        "neg": "resources/antiword/postscript.c@vEndOfParagraphPS"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop8.c@vGet8DopInfo",
+        "neg": "resources/antiword/Win32-only/misc.c@bReadBuffer"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop8.c@vGet8SepInfo",
+        "neg": "resources/antiword/text.c@vEndOfPageTXT"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop8.c@vGet8PapInfo",
+        "neg": "resources/antiword/fonts.c@vCreate0FontTable"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop8.c@vGet8HdrFtrInfo",
+        "neg": "resources/antiword/sectlist.c@vDefault2SectionInfoList"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/prop8.c@vGet8ChrInfo",
+        "neg": "resources/antiword/stylesheet.c@vGet2Stylesheet"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/fonts.c@vCreate8FontTable",
+        "neg": "resources/antiword/wordlib.c@bIsOldMacFile"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/summary.c@vSet8SummaryInfo",
+        "neg": "resources/antiword/wordole.c@bGetDocumentText"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/startup.c@main"
+    },
+    {
+        "query": "resources/antiword/properties.c@vGetPropertyInfo",
+        "pos": "resources/antiword/fonts.c@vCorrectFontTable",
+        "neg": "resources/antiword/Win32-only/misc.c@pSplitList"
+    },
+    {
+        "query": "resources/antiword/properties.c@ePropMod2RowInfo",
+        "pos": "resources/antiword/propmod.c@aucReadPropModListItem",
+        "neg": "resources/antiword/saveas.c@bWrite2File"
+    },
+    {
+        "query": "resources/antiword/properties.c@ePropMod2RowInfo",
+        "pos": "resources/antiword/prop2.c@eGet2RowInfo",
+        "neg": "resources/antiword/saveas.c@bDraw2File"
+    },
+    {
+        "query": "resources/antiword/properties.c@ePropMod2RowInfo",
+        "pos": "resources/antiword/prop6.c@eGet6RowInfo",
+        "neg": "resources/antiword/wordwin.c@iInitDocumentWIN"
+    },
+    {
+        "query": "resources/antiword/properties.c@ePropMod2RowInfo",
+        "pos": "resources/antiword/prop8.c@eGet8RowInfo",
+        "neg": "resources/antiword/xmalloc.c@xcalloc"
+    },
+    {
+        "query": "resources/antiword/Win32-only/misc.c@szGetHomeDirectory",
+        "pos": "resources/antiword/unix.c@werr",
+        "neg": "resources/antiword/draw.c@vEndOfList"
+    },
+    {
+        "query": "resources/antiword/asc85enc.c@vASCII85EncodeByte",
+        "pos": "resources/antiword/asc85enc.c@vOutputByte",
+        "neg": "resources/antiword/prop8.c@sGetLeftIndent"
+    },
+    {
+        "query": "resources/antiword/asc85enc.c@vASCII85EncodeFile",
+        "pos": "resources/antiword/asc85enc.c@vASCII85EncodeArray",
+        "neg": "resources/antiword/worddos.c@bGetDocumentText"
+    },
+    {
+        "query": "resources/antiword/stylesheet.c@vDestroyStylesheetList",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/utf8.c@iWcWidth"
+    },
+    {
+        "query": "resources/antiword/stylesheet.c@vGetBuildinStyle",
+        "pos": "resources/antiword/stylesheet.c@vGetDefaultStyle",
+        "neg": "resources/antiword/dib2sprt.c@bTranslateDIB"
+    },
+    {
+        "query": "resources/antiword/stylesheet.c@vGetBuildinFont",
+        "pos": "resources/antiword/stylesheet.c@vGetDefaultFont",
+        "neg": "resources/antiword/Win32-only/misc.c@szGetHomeDirectory"
+    },
+    {
+        "query": "resources/antiword/stylesheet.c@vGet2Stylesheet",
+        "pos": "resources/antiword/xmalloc.c@xfree",
+        "neg": "resources/antiword/stylelist.c@usGetIstd"
+    },
+    {
+        "query": "resources/antiword/stylesheet.c@vGet2Stylesheet",
+        "pos": "resources/antiword/stylesheet.c@vGetDefaultStyle",
+        "neg": "resources/antiword/word2text.c@vPutIndentation"
+    },
+    {
+        "query": "resources/antiword/stylesheet.c@vGet2Stylesheet",
+        "pos": "resources/antiword/stylesheet.c@vGetDefaultFont",
+        "neg": "resources/antiword/xml.c@vStartOfTableGroup"
+    },
+    {
+        "query": "resources/antiword/stylesheet.c@vGet2Stylesheet",
+        "pos": "resources/antiword/stylesheet.c@vGetBuildinStyle",
+        "neg": "resources/antiword/word2text.c@pStartNewOutput"
+    }
+]

@@ -1,0 +1,270 @@
+[
+  {
+    "query": "resources/jemalloc/src/prof_data.c@prof_dump_print_cnts",
+    "pos_list_dependence": [
+      "resources/jemalloc/src/prof_data.c@prof_tctx_dump_iter",
+      "resources/jemalloc/src/prof_data.c@prof_tdata_dump_iter",
+      "resources/jemalloc/src/prof_data.c@prof_dump_header",
+      "resources/jemalloc/src/prof_data.c@prof_dump_gctx"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/test/unit/hook.c@set_args_raw",
+    "pos_list_dependence": [
+      "resources/jemalloc/test/unit/hook.c@test_alloc_hook",
+      "resources/jemalloc/test/unit/hook.c@test_dalloc_hook",
+      "resources/jemalloc/test/unit/hook.c@test_expand_hook"
+    ],
+    "pos_list_logic": [
+      "resources/jemalloc/test/unit/prof_log.c@expect_rep"
+    ]
+  },
+  {
+    "query": "resources/jemalloc/test/stress/batch_alloc.c@release_and_clear",
+    "pos_list_dependence": [
+      "resources/jemalloc/test/stress/batch_alloc.c@batch_alloc_with_free",
+      "resources/jemalloc/test/stress/batch_alloc.c@item_alloc_with_free",
+      "resources/jemalloc/test/stress/batch_alloc.c@compare_without_free"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/src/decay.c@decay_deadline_init",
+    "pos_list_dependence": [
+      "resources/jemalloc/src/decay.c@decay_reinit",
+      "resources/jemalloc/src/decay.c@decay_maybe_update_time",
+      "resources/jemalloc/src/decay.c@decay_maybe_advance_epoch"
+    ],
+    "pos_list_logic": [
+      "resources/jemalloc/src/ctl.c@stats_arenas_i_index",
+      "resources/jemalloc/test/unit/batch_alloc.c@main",
+      "resources/jemalloc/test/analyze/prof_bias.c@mock_backtrace"
+    ]
+  },
+  {
+    "query": "resources/jemalloc/src/nstime.c@nstime_set_initialized",
+    "pos_list_dependence": [
+      "resources/jemalloc/src/nstime.c@nstime_initialize_operand",
+      "resources/jemalloc/src/nstime.c@nstime_init",
+      "resources/jemalloc/src/nstime.c@nstime_init2"
+    ],
+    "pos_list_logic": [
+      "resources/jemalloc/src/ctl.c@stats_arenas_i_hpa_shard_empty_slabs_ndirty_huge_ctl",
+      "resources/jemalloc/test/unit/junk_free.c@main",
+      "resources/jemalloc/test/unit/seq.c@seq_reader_thd"
+    ]
+  },
+  {
+    "query": "resources/jemalloc/src/prof_data.c@prof_enter",
+    "pos_list_dependence": [
+      "resources/jemalloc/src/prof_data.c@prof_gctx_try_destroy",
+      "resources/jemalloc/src/prof_data.c@prof_lookup_global",
+      "resources/jemalloc/src/prof_data.c@prof_dump_prep"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/src/prof_data.c@prof_leave",
+    "pos_list_dependence": [
+      "resources/jemalloc/src/prof_data.c@prof_gctx_try_destroy",
+      "resources/jemalloc/src/prof_data.c@prof_lookup_global",
+      "resources/jemalloc/src/prof_data.c@prof_dump_prep"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/test/unit/hpa.c@node_check",
+    "pos_list_dependence": [
+      "resources/jemalloc/test/unit/hpa.c@node_insert",
+      "resources/jemalloc/test/unit/hpa.c@node_remove"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/test/unit/prof_active.c@mallctl_bool_get",
+    "pos_list_dependence": [
+      "resources/jemalloc/test/unit/prof_active.c@mallctl_prof_active_get_impl",
+      "resources/jemalloc/test/unit/prof_active.c@mallctl_thread_prof_active_get_impl"
+    ],
+    "pos_list_logic": [
+      "resources/jemalloc/test/stress/mallctl.c@mallctl_short",
+      "resources/jemalloc/src/ctl.c@opt_background_thread_ctl",
+      "resources/jemalloc/src/large.c@large_dalloc_finish"
+    ]
+  },
+  {
+    "query": "resources/jemalloc/test/unit/prof_active.c@mallctl_bool_set",
+    "pos_list_dependence": [
+      "resources/jemalloc/test/unit/prof_active.c@mallctl_prof_active_set_impl",
+      "resources/jemalloc/test/unit/prof_active.c@mallctl_thread_prof_active_set_impl"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/test/unit/prof_log.c@f3",
+    "pos_list_dependence": [
+      "resources/jemalloc/test/unit/prof_log.c@TEST_BEGIN",
+      "resources/jemalloc/test/unit/prof_log.c@f1"
+    ],
+    "pos_list_logic": [
+      "resources/jemalloc/src/ckh.c@ckh_try_bucket_insert",
+      "resources/jemalloc/src/cache_bin.c@cache_bin_init_disabled",
+      "resources/jemalloc/src/witness.c@witness_postfork_child"
+    ]
+  },
+  {
+    "query": "resources/jemalloc/test/unit/ql.c@init_entries",
+    "pos_list_dependence": [
+      "resources/jemalloc/test/unit/ql.c@TEST_BEGIN",
+      "resources/jemalloc/test/unit/ql.c@test_concat_split_entries"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/test/unit/rb.c@node_remove",
+    "pos_list_dependence": [
+      "resources/jemalloc/test/unit/rb.c@remove_iterate_cb",
+      "resources/jemalloc/test/unit/rb.c@remove_reverse_iterate_cb"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/test/stress/batch_alloc.c@batch_alloc_wrapper",
+    "pos_list_dependence": [
+      "resources/jemalloc/test/stress/batch_alloc.c@batch_alloc_without_free",
+      "resources/jemalloc/test/stress/batch_alloc.c@batch_alloc_with_free"
+    ],
+    "pos_list_logic": [
+      "resources/jemalloc/test/unit/sec.c@pai_test_allocator_expand"
+    ]
+  },
+  {
+    "query": "resources/jemalloc/test/stress/batch_alloc.c@item_alloc_wrapper",
+    "pos_list_dependence": [
+      "resources/jemalloc/test/stress/batch_alloc.c@item_alloc_without_free",
+      "resources/jemalloc/test/stress/batch_alloc.c@item_alloc_with_free"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/test/stress/batch_alloc.c@batch_alloc_without_free",
+    "pos_list_dependence": [
+      "resources/jemalloc/test/stress/batch_alloc.c@batch_alloc_without_free_tiny",
+      "resources/jemalloc/test/stress/batch_alloc.c@batch_alloc_without_free_huge"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/test/stress/batch_alloc.c@item_alloc_without_free",
+    "pos_list_dependence": [
+      "resources/jemalloc/test/stress/batch_alloc.c@item_alloc_without_free_tiny",
+      "resources/jemalloc/test/stress/batch_alloc.c@item_alloc_without_free_huge"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/test/stress/batch_alloc.c@batch_alloc_with_free",
+    "pos_list_dependence": [
+      "resources/jemalloc/test/stress/batch_alloc.c@batch_alloc_with_free_tiny",
+      "resources/jemalloc/test/stress/batch_alloc.c@batch_alloc_with_free_huge"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/test/stress/batch_alloc.c@item_alloc_with_free",
+    "pos_list_dependence": [
+      "resources/jemalloc/test/stress/batch_alloc.c@item_alloc_with_free_tiny",
+      "resources/jemalloc/test/stress/batch_alloc.c@item_alloc_with_free_huge"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/test/src/SFMT.c@gen_rand_all",
+    "pos_list_dependence": [
+      "resources/jemalloc/test/src/SFMT.c@gen_rand32",
+      "resources/jemalloc/test/src/SFMT.c@gen_rand64"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/test/src/SFMT.c@gen_rand_array",
+    "pos_list_dependence": [
+      "resources/jemalloc/test/src/SFMT.c@fill_array32",
+      "resources/jemalloc/test/src/SFMT.c@fill_array64"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/src/peak_event.c@peak_event_update",
+    "pos_list_dependence": [
+      "resources/jemalloc/src/peak_event.c@peak_alloc_event_handler",
+      "resources/jemalloc/src/peak_event.c@peak_dalloc_event_handler"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/src/peak_event.c@peak_event_activity_callback",
+    "pos_list_dependence": [
+      "resources/jemalloc/src/peak_event.c@peak_alloc_event_handler",
+      "resources/jemalloc/src/peak_event.c@peak_dalloc_event_handler"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/src/witness.c@witness_print_witnesses",
+    "pos_list_dependence": [
+      "resources/jemalloc/src/witness.c@witness_lock_error_impl",
+      "resources/jemalloc/src/witness.c@witness_depth_error_impl"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/src/mutex.c@mutex_prof_data_init",
+    "pos_list_dependence": [
+      "resources/jemalloc/src/mutex.c@malloc_mutex_prof_data_reset",
+      "resources/jemalloc/src/mutex.c@malloc_mutex_init"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/src/hpa.c@hpa_shard_nonderived_stats_accum",
+    "pos_list_dependence": [
+      "resources/jemalloc/src/hpa.c@hpa_shard_stats_accum",
+      "resources/jemalloc/src/hpa.c@hpa_shard_stats_merge"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/src/arena.c@arena_large_malloc_stats_update",
+    "pos_list_dependence": [
+      "resources/jemalloc/src/arena.c@arena_large_ralloc_stats_update",
+      "resources/jemalloc/src/arena.c@arena_extent_alloc_large"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/src/arena.c@arena_large_dalloc_stats_update",
+    "pos_list_dependence": [
+      "resources/jemalloc/src/arena.c@arena_large_ralloc_stats_update",
+      "resources/jemalloc/src/arena.c@arena_extent_dalloc_large_prep"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/src/arena.c@arena_handle_deferred_work",
+    "pos_list_dependence": [
+      "resources/jemalloc/src/arena.c@arena_slab_dalloc",
+      "resources/jemalloc/src/arena.c@arena_slab_alloc"
+    ],
+    "pos_list_logic": []
+  },
+  {
+    "query": "resources/jemalloc/src/arena.c@arena_bin_slabs_full_insert",
+    "pos_list_dependence": [
+      "resources/jemalloc/src/arena.c@arena_bin_refill_slabcur_no_fresh_slab",
+      "resources/jemalloc/src/arena.c@arena_bin_lower_slab"
+    ],
+    "pos_list_logic": []
+  }
+]

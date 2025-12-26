@@ -1,0 +1,4177 @@
+[
+    {
+        "query": "resources/libbpf/fuzz/bpf-object-fuzzer.c@LLVMFuzzerTestOneInput",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_get_error",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@is_pow_of_2"
+    },
+    {
+        "query": "resources/libbpf/fuzz/bpf-object-fuzzer.c@LLVMFuzzerTestOneInput",
+        "pos": "resources/libbpf/src/libbpf.c@bpf_object__close",
+        "neg": "resources/libbpf/src/libbpf.c@__perf_buffer__new"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/strset.c@btf_is_enum",
+        "neg": "resources/libbpf/src/btf.c@btf_func_linkage"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/strset.c@btf_is_enum64",
+        "neg": "resources/libbpf/src/libbpf.c@init_map_in_map_slots"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@btf_kind_core_compat",
+        "pos": "resources/libbpf/src/strset.c@btf_is_any_enum",
+        "neg": "resources/libbpf/src/linker.c@find_sym_by_name"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/strset.c@btf_members",
+        "neg": "resources/libbpf/src/linker.c@finalize_btf"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/strset.c@btf_kflag",
+        "neg": "resources/libbpf/src/libbpf.c@perf_buffer__process_records"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/strset.c@btf_members",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object_prepare_token"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/strset.c@btf_kflag",
+        "neg": "resources/libbpf/src/ringbuf.c@ring_buffer__free"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@libbpf_validate_opts",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf.c@btf_is_array"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/strset.c@dup_good_fd",
+        "neg": "resources/libbpf/src/elf.c@btf_kind_core_compat"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/btf_dump.c@dup_good_fd"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@reuse_fd",
+        "pos": "resources/libbpf/src/strset.c@sys_dup2",
+        "neg": "resources/libbpf/src/bpf.c@bpf_btf_get_fd_by_id_opts"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@strset_hash_fn",
+        "pos": "resources/libbpf/src/strset.c@str_hash",
+        "neg": "resources/libbpf/src/btf.c@btf_equal_enum64_members"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@strset__new",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap__new",
+        "neg": "resources/libbpf/src/libbpf.c@libbpf_major_version"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@strset__new",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap_insert",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__init_kconfig_map"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@strset__new",
+        "pos": "resources/libbpf/src/strset.c@strset__free",
+        "neg": "resources/libbpf/src/features.c@btf_is_typedef"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@strset__free",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap__free",
+        "neg": "resources/libbpf/src/bpf.c@libbpf_set_memlock_rlim"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@strset_add_str_mem",
+        "pos": "resources/libbpf/src/btf.c@libbpf_add_mem",
+        "neg": "resources/libbpf/src/relo_core.c@str_is_empty"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@strset__find_str",
+        "pos": "resources/libbpf/src/strset.c@strset_add_str_mem",
+        "neg": "resources/libbpf/src/bpf.c@bpf_prog_get_info_by_fd"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@strset__find_str",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap_find",
+        "neg": "resources/libbpf/src/bpf.c@bpf_token_create"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@strset__add_str",
+        "pos": "resources/libbpf/src/strset.c@strset_add_str_mem",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@btf_kflag"
+    },
+    {
+        "query": "resources/libbpf/src/strset.c@strset__add_str",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap_insert",
+        "neg": "resources/libbpf/src/zip.c@btf_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/relo_core.c@btf_is_enum",
+        "neg": "resources/libbpf/src/features.c@probe_perf_link"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/relo_core.c@btf_is_enum64",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_name_dups"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@btf_kind_core_compat",
+        "pos": "resources/libbpf/src/relo_core.c@btf_is_any_enum",
+        "neg": "resources/libbpf/src/libbpf_errno.c@libbpf_err_ptr"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/relo_core.c@btf_members",
+        "neg": "resources/libbpf/src/usdt.c@str_hash"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/relo_core.c@btf_kflag",
+        "neg": "resources/libbpf/src/btf.c@is_host_big_endian"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/relo_core.c@btf_members",
+        "neg": "resources/libbpf/src/libbpf.c@libbpf_err_errno"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/relo_core.c@btf_kflag",
+        "neg": "resources/libbpf/src/zip.c@btf_kind"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@libbpf_validate_opts",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/btf_dump.c@ptr_is_aligned"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/relo_core.c@dup_good_fd",
+        "neg": "resources/libbpf/src/gen_loader.c@skel_finalize_map_data"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__resolve_ksym_var_btf_id"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@reuse_fd",
+        "pos": "resources/libbpf/src/relo_core.c@sys_dup2",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__set_log_level"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@__bpf_core_types_are_compat",
+        "pos": "resources/libbpf/src/relo_core.c@btf_kind_core_compat",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__set_log_level"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@__bpf_core_types_are_compat",
+        "pos": "resources/libbpf/src/relo_core.c@btf_array",
+        "neg": "resources/libbpf/src/ringbuf.c@btf_is_datasec"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@__bpf_core_types_are_compat",
+        "pos": "resources/libbpf/src/relo_core.c@btf_params",
+        "neg": "resources/libbpf/src/btf.c@btf__raw_data"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@__bpf_core_types_are_compat",
+        "pos": "resources/libbpf/src/libbpf.c@skip_mods_and_typedefs",
+        "neg": "resources/libbpf/src/ringbuf.c@btf_func_linkage"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@__bpf_core_types_are_compat",
+        "pos": "resources/libbpf/src/libbpf.c@btf_kind_str",
+        "neg": "resources/libbpf/src/zip.c@btf_func_linkage"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_parse_spec",
+        "pos": "resources/libbpf/src/relo_core.c@btf_is_composite",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_map__pin"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_parse_spec",
+        "pos": "resources/libbpf/src/relo_core.c@btf_members",
+        "neg": "resources/libbpf/src/usdt.c@bpf_link_usdt_detach"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_parse_spec",
+        "pos": "resources/libbpf/src/relo_core.c@btf_is_array",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump__emit_type_decl"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_parse_spec",
+        "pos": "resources/libbpf/src/relo_core.c@btf_array",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_parse_spec",
+        "pos": "resources/libbpf/src/relo_core.c@is_flex_arr",
+        "neg": "resources/libbpf/src/libbpf_errno.c@sys_dup2"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_fields_are_compat",
+        "pos": "resources/libbpf/src/relo_core.c@btf_is_composite",
+        "neg": "resources/libbpf/src/btf.c@btf_add_type_offs_mem"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_fields_are_compat",
+        "pos": "resources/libbpf/src/relo_core.c@btf_kind_core_compat",
+        "neg": "resources/libbpf/src/features.c@probe_kern_prog_name"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_fields_are_compat",
+        "pos": "resources/libbpf/src/libbpf.c@bpf_core_essential_name_len",
+        "neg": "resources/libbpf/src/libbpf_probes.c@probe_prog_load"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_fields_are_compat",
+        "pos": "resources/libbpf/src/relo_core.c@btf_array",
+        "neg": "resources/libbpf/src/btf.c@btf_int_encoding"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_match_member",
+        "pos": "resources/libbpf/src/relo_core.c@btf_is_composite",
+        "neg": "resources/libbpf/src/libbpf.c@libbpf_major_version"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_match_member",
+        "pos": "resources/libbpf/src/relo_core.c@btf_members",
+        "neg": "resources/libbpf/src/libbpf_errno.c@btf_is_void"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_match_member",
+        "pos": "resources/libbpf/src/relo_core.c@str_is_empty",
+        "neg": "resources/libbpf/src/elf.c@btf_is_typedef"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_spec_match",
+        "pos": "resources/libbpf/src/relo_core.c@btf_is_any_enum",
+        "neg": "resources/libbpf/src/libbpf_probes.c@btf_is_const"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_spec_match",
+        "pos": "resources/libbpf/src/libbpf.c@bpf_core_essential_name_len",
+        "neg": "resources/libbpf/src/libbpf.c@btf_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_spec_match",
+        "pos": "resources/libbpf/src/relo_core.c@btf_is_array",
+        "neg": "resources/libbpf/src/libbpf.c@libbpf_reallocarray"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_spec_match",
+        "pos": "resources/libbpf/src/relo_core.c@btf_array",
+        "neg": "resources/libbpf/src/netlink.c@btf_is_func"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_spec_match",
+        "pos": "resources/libbpf/src/relo_core.c@is_flex_arr",
+        "neg": "resources/libbpf/src/linker.c@is_dwarf_sec_name"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_calc_field_relo",
+        "pos": "resources/libbpf/src/relo_core.c@btf_members",
+        "neg": "resources/libbpf/src/linker.c@find_glob_sym_btf"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_calc_enumval_relo",
+        "pos": "resources/libbpf/src/relo_core.c@btf_is_enum",
+        "neg": "resources/libbpf/src/btf.c@btf_member_bit_offset"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_calc_enumval_relo",
+        "pos": "resources/libbpf/src/relo_core.c@btf_enum",
+        "neg": "resources/libbpf/src/gen_loader.c@libbpf_validate_opts"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_calc_enumval_relo",
+        "pos": "resources/libbpf/src/relo_core.c@btf_enum64",
+        "neg": "resources/libbpf/src/gen_loader.c@skel_map_update_elem"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_calc_relo",
+        "pos": "resources/libbpf/src/relo_core.c@btf_is_ptr",
+        "neg": "resources/libbpf/src/ringbuf.c@libbpf_reallocarray"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_poison_insn",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/netlink.c@libbpf_err"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_patch_insn",
+        "pos": "resources/libbpf/src/relo_core.c@is_ldimm64_insn",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__attach_tracepoint_opts"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_patch_insn",
+        "pos": "resources/libbpf/src/relo_core.c@bpf_core_poison_insn",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__attach_trace"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_patch_insn",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/linker.c@is_ignored_sec"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_patch_insn",
+        "pos": "resources/libbpf/src/relo_core.c@insn_bpf_size_to_bytes",
+        "neg": "resources/libbpf/src/libbpf_probes.c@btf_array"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_format_spec",
+        "pos": "resources/libbpf/src/relo_core.c@btf_is_enum",
+        "neg": "resources/libbpf/src/gen_loader.c@emit_sys_close_blob"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_format_spec",
+        "pos": "resources/libbpf/src/relo_core.c@btf_enum",
+        "neg": "resources/libbpf/src/linker.c@linker_fixup_btf"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_format_spec",
+        "pos": "resources/libbpf/src/relo_core.c@btf_enum64",
+        "neg": "resources/libbpf/src/btf.c@btf__add_union"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_calc_relo_insn",
+        "pos": "resources/libbpf/src/relo_core.c@bpf_core_parse_spec",
+        "neg": "resources/libbpf/src/btf.c@btf__add_int"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_calc_relo_insn",
+        "pos": "resources/libbpf/src/relo_core.c@bpf_core_format_spec",
+        "neg": "resources/libbpf/src/btf.c@btf_func_linkage"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_calc_relo_insn",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/netlink.c@btf_var_secinfos"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_calc_relo_insn",
+        "pos": "resources/libbpf/src/relo_core.c@str_is_empty",
+        "neg": "resources/libbpf/src/nlattr.c@btf_is_array"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_calc_relo_insn",
+        "pos": "resources/libbpf/src/relo_core.c@bpf_core_calc_relo",
+        "neg": "resources/libbpf/src/btf.c@btf__new_empty"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_names_match",
+        "pos": "resources/libbpf/src/relo_core.c@str_is_empty",
+        "neg": "resources/libbpf/src/gen_loader.c@bpf_gen__map_freeze"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_names_match",
+        "pos": "resources/libbpf/src/libbpf.c@bpf_core_essential_name_len",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump__emit_type_decl"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@bpf_core_composites_match",
+        "pos": "resources/libbpf/src/relo_core.c@btf_members",
+        "neg": "resources/libbpf/src/zip.c@btf_kflag"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@__bpf_core_types_match",
+        "pos": "resources/libbpf/src/relo_core.c@btf_is_any_enum",
+        "neg": "resources/libbpf/src/libbpf_probes.c@btf_is_fwd"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@__bpf_core_types_match",
+        "pos": "resources/libbpf/src/relo_core.c@bpf_core_enums_match",
+        "neg": "resources/libbpf/src/bpf.c@sys_bpf_fd"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@__bpf_core_types_match",
+        "pos": "resources/libbpf/src/relo_core.c@bpf_core_composites_match",
+        "neg": "resources/libbpf/src/linker.c@add_btf_ext_rec"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@__bpf_core_types_match",
+        "pos": "resources/libbpf/src/relo_core.c@btf_array",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_map__pin"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@__bpf_core_types_match",
+        "pos": "resources/libbpf/src/relo_core.c@btf_params",
+        "neg": "resources/libbpf/src/linker.c@btf_type_info"
+    },
+    {
+        "query": "resources/libbpf/src/relo_core.c@__bpf_core_types_match",
+        "pos": "resources/libbpf/src/libbpf.c@btf_kind_str",
+        "neg": "resources/libbpf/src/bpf.c@btf_is_int"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/linker.c@btf_is_enum",
+        "neg": "resources/libbpf/src/libbpf.c@adjust_ringbuf_sz"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/linker.c@btf_is_enum64",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_link__fd"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@btf_kind_core_compat",
+        "pos": "resources/libbpf/src/linker.c@btf_is_any_enum",
+        "neg": "resources/libbpf/src/libbpf.c@btf_params"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/linker.c@btf_members",
+        "neg": "resources/libbpf/src/libbpf.c@libbpf_needs_btf"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/linker.c@btf_kflag",
+        "neg": "resources/libbpf/src/relo_core.c@btf_params"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/linker.c@btf_members",
+        "neg": "resources/libbpf/src/libbpf.c@insn_is_pseudo_func"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/linker.c@btf_kflag",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_resize"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@libbpf_validate_opts",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/gen_loader.c@emit_bpf_kallsyms_lookup_name"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/linker.c@dup_good_fd",
+        "neg": "resources/libbpf/src/libbpf_errno.c@btf_is_any_enum"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf.c@determine_uprobe_retprobe_bit"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@reuse_fd",
+        "pos": "resources/libbpf/src/linker.c@sys_dup2",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_datasec_data"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__free",
+        "pos": "resources/libbpf/src/strset.c@strset__free",
+        "neg": "resources/libbpf/src/libbpf.c@perf_buffer__free_cpu_buf"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__free",
+        "pos": "resources/libbpf/src/btf.c@btf__free",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__set_log_level"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__free",
+        "pos": "resources/libbpf/src/btf.c@btf_ext__free",
+        "neg": "resources/libbpf/src/ringbuf.c@btf_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__new",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf.c@btf_member_bitfield_size"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__new",
+        "pos": "resources/libbpf/src/linker.c@init_output_elf",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_map__lookup_elem"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__new",
+        "pos": "resources/libbpf/src/linker.c@bpf_linker__free",
+        "neg": "resources/libbpf/src/strset.c@reuse_fd"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@add_dst_sec",
+        "pos": "resources/libbpf/src/linker.c@libbpf_reallocarray",
+        "neg": "resources/libbpf/src/btf.c@btf_type_size"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@init_output_elf",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/features.c@btf_is_enum"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@init_output_elf",
+        "pos": "resources/libbpf/src/strset.c@strset__new",
+        "neg": "resources/libbpf/src/btf.c@btf__parse"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@init_output_elf",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_get_error",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_is_union"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@init_output_elf",
+        "pos": "resources/libbpf/src/linker.c@add_dst_sec",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program_fixup_func_info"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@init_output_elf",
+        "pos": "resources/libbpf/src/strset.c@strset__add_str",
+        "neg": "resources/libbpf/src/libbpf.c@init_prog_array_slots"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@init_output_elf",
+        "pos": "resources/libbpf/src/btf.c@btf__new_empty",
+        "neg": "resources/libbpf/src/gen_loader.c@btf_is_restrict"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__add_file",
+        "pos": "resources/libbpf/src/linker.c@linker_load_obj_file",
+        "neg": "resources/libbpf/src/ringbuf.c@btf_is_mod"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__add_file",
+        "pos": "resources/libbpf/src/linker.c@linker_append_sec_data",
+        "neg": "resources/libbpf/src/nlattr.c@btf_array"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__add_file",
+        "pos": "resources/libbpf/src/linker.c@linker_append_elf_syms",
+        "neg": "resources/libbpf/src/features.c@ensure_good_fd"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__add_file",
+        "pos": "resources/libbpf/src/linker.c@linker_append_elf_relos",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__expected_attach_type"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__add_file",
+        "pos": "resources/libbpf/src/linker.c@linker_append_btf",
+        "neg": "resources/libbpf/src/nlattr.c@btf_kind_core_compat"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__add_file",
+        "pos": "resources/libbpf/src/linker.c@linker_append_btf_ext",
+        "neg": "resources/libbpf/src/bpf.c@bpf_prog_query_opts"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__add_file",
+        "pos": "resources/libbpf/src/btf.c@btf__free",
+        "neg": "resources/libbpf/src/gen_loader.c@skel_map_get_fd_by_id"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__add_file",
+        "pos": "resources/libbpf/src/btf.c@btf_ext__free",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__check_endianness"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__add_file",
+        "pos": "resources/libbpf/src/linker.c@libbpf_err",
+        "neg": "resources/libbpf/src/netlink.c@btf_vlen"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@is_ignored_sec",
+        "pos": "resources/libbpf/src/linker.c@is_dwarf_sec_name",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__next_program"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@add_src_sec",
+        "pos": "resources/libbpf/src/linker.c@libbpf_reallocarray",
+        "neg": "resources/libbpf/src/btf.c@btf__parse_raw"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_load_obj_file",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/elf.c@libbpf_is_mem_zeroed"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_load_obj_file",
+        "pos": "resources/libbpf/src/linker.c@add_src_sec",
+        "neg": "resources/libbpf/src/features.c@btf_is_struct"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_load_obj_file",
+        "pos": "resources/libbpf/src/linker.c@is_ignored_sec",
+        "neg": "resources/libbpf/src/bpf.c@bpf_prog_test_run_opts"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_load_obj_file",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_get_error",
+        "neg": "resources/libbpf/src/linker.c@sys_dup2"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_load_obj_file",
+        "pos": "resources/libbpf/src/linker.c@linker_sanity_check_elf",
+        "neg": "resources/libbpf/src/bpf.c@bpf_prog_get_info_by_fd"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_load_obj_file",
+        "pos": "resources/libbpf/src/linker.c@linker_sanity_check_btf",
+        "neg": "resources/libbpf/src/relo_core.c@btf_member_bitfield_size"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_load_obj_file",
+        "pos": "resources/libbpf/src/linker.c@linker_sanity_check_btf_ext",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@btf_int_offset"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_load_obj_file",
+        "pos": "resources/libbpf/src/linker.c@linker_fixup_btf",
+        "neg": "resources/libbpf/src/libbpf.c@find_member_by_name"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_sanity_check_elf",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_mark_referenced"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_sanity_check_elf",
+        "pos": "resources/libbpf/src/linker.c@is_dwarf_sec_name",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__resolve_externs"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_sanity_check_elf",
+        "pos": "resources/libbpf/src/linker.c@linker_sanity_check_elf_symtab",
+        "neg": "resources/libbpf/src/usdt.c@parse_usdt_arg"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_sanity_check_elf",
+        "pos": "resources/libbpf/src/linker.c@linker_sanity_check_elf_relos",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__relocate"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_sanity_check_elf_symtab",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/linker.c@linker_sanity_check_elf_relos"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_sanity_check_elf_relos",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/usdt.c@btf_is_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@init_sec",
+        "pos": "resources/libbpf/src/strset.c@strset__add_str",
+        "neg": "resources/libbpf/src/relo_core.c@sys_dup2"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@secs_match",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/gen_loader.c@emit_bpf_find_by_name_kind"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@extend_sec",
+        "pos": "resources/libbpf/src/linker.c@init_sec",
+        "neg": "resources/libbpf/src/btf.c@validate_type_id"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_sec_data",
+        "pos": "resources/libbpf/src/linker.c@is_data_sec",
+        "neg": "resources/libbpf/src/linker.c@btf_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_sec_data",
+        "pos": "resources/libbpf/src/linker.c@find_dst_sec_by_name",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_is_enum"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_sec_data",
+        "pos": "resources/libbpf/src/linker.c@add_dst_sec",
+        "neg": "resources/libbpf/src/features.c@probe_kern_btf_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_sec_data",
+        "pos": "resources/libbpf/src/linker.c@init_sec",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_struct_data"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_sec_data",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_get_bitfield_value"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_sec_data",
+        "pos": "resources/libbpf/src/linker.c@secs_match",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_is_enum"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_sec_data",
+        "pos": "resources/libbpf/src/linker.c@sec_content_is_same",
+        "neg": "resources/libbpf/src/libbpf.c@glob_match"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_sec_data",
+        "pos": "resources/libbpf/src/linker.c@extend_sec",
+        "neg": "resources/libbpf/src/libbpf_errno.c@libbpf_validate_opts"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_elf_syms",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf.c@perf_buffer__consume_buffer"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@find_glob_sym",
+        "pos": "resources/libbpf/src/strset.c@strset__data",
+        "neg": "resources/libbpf/src/usdt.c@collect_usdt_targets"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@add_glob_sym",
+        "pos": "resources/libbpf/src/linker.c@libbpf_reallocarray",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_int_encoding"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@glob_sym_btf_matches",
+        "pos": "resources/libbpf/src/linker.c@btf_is_fwd",
+        "neg": "resources/libbpf/src/libbpf.c@sec_def_matches"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@glob_sym_btf_matches",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf.c@btf_members"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@glob_sym_btf_matches",
+        "pos": "resources/libbpf/src/linker.c@btf_kflag",
+        "neg": "resources/libbpf/src/zip.c@btf_is_typedef"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@glob_sym_btf_matches",
+        "pos": "resources/libbpf/src/linker.c@btf_is_union",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_is_datasec"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@glob_sym_btf_matches",
+        "pos": "resources/libbpf/src/linker.c@btf_is_struct",
+        "neg": "resources/libbpf/src/gen_loader.c@btf_is_datasec"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@glob_sym_btf_matches",
+        "pos": "resources/libbpf/src/libbpf.c@btf_kind_str",
+        "neg": "resources/libbpf/src/ringbuf.c@btf_is_float"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@glob_sym_btf_matches",
+        "pos": "resources/libbpf/src/linker.c@btf_array",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_map__reuse_fd"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@glob_sym_btf_matches",
+        "pos": "resources/libbpf/src/linker.c@btf_members",
+        "neg": "resources/libbpf/src/netlink.c@libbpf_reallocarray"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@glob_sym_btf_matches",
+        "pos": "resources/libbpf/src/linker.c@btf_params",
+        "neg": "resources/libbpf/src/elf.c@btf_var"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@map_defs_match",
+        "pos": "resources/libbpf/src/linker.c@map_defs_match",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__pin"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@map_defs_match",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf.c@insn_is_subprog_call"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@glob_map_defs_match",
+        "pos": "resources/libbpf/src/linker.c@btf_is_var",
+        "neg": "resources/libbpf/src/btf.c@btf__add_typedef"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@glob_map_defs_match",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__free_relocs"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@glob_map_defs_match",
+        "pos": "resources/libbpf/src/libbpf.c@parse_btf_map_def",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program_fixup_func_info"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@glob_map_defs_match",
+        "pos": "resources/libbpf/src/linker.c@map_defs_match",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__resolve_ksym_func_btf_id"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@glob_syms_match",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/relo_core.c@bpf_core_calc_relo"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@glob_syms_match",
+        "pos": "resources/libbpf/src/linker.c@btf_is_var",
+        "neg": "resources/libbpf/src/libbpf.c@btf_is_array"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@glob_syms_match",
+        "pos": "resources/libbpf/src/linker.c@btf_is_func",
+        "neg": "resources/libbpf/src/btf.c@btf_is_void"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@glob_syms_match",
+        "pos": "resources/libbpf/src/libbpf.c@btf_kind_str",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__open_skeleton"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@find_glob_sym_btf",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/usdt.c@btf_is_typedef"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@find_glob_sym_btf",
+        "pos": "resources/libbpf/src/linker.c@btf_is_non_static",
+        "neg": "resources/libbpf/src/netlink.c@btf_var"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@find_glob_sym_btf",
+        "pos": "resources/libbpf/src/linker.c@btf_is_datasec",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__sanitize_btf"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@find_glob_sym_btf",
+        "pos": "resources/libbpf/src/linker.c@btf_var_secinfos",
+        "neg": "resources/libbpf/src/libbpf.c@sym_is_subprog"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@complete_extern_btf_info",
+        "pos": "resources/libbpf/src/linker.c@btf_is_var",
+        "neg": "resources/libbpf/src/bpf.c@reuse_fd"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@complete_extern_btf_info",
+        "pos": "resources/libbpf/src/linker.c@btf_params",
+        "neg": "resources/libbpf/src/relo_core.c@btf_params"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@complete_extern_btf_info",
+        "pos": "resources/libbpf/src/btf.c@btf__add_str",
+        "neg": "resources/libbpf/src/zip.c@btf_is_decl_tag"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_elf_sym",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/ringbuf.c@user_ring_buffer__submit"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_elf_sym",
+        "pos": "resources/libbpf/src/linker.c@find_src_sec_by_name",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__unpin"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_elf_sym",
+        "pos": "resources/libbpf/src/linker.c@find_glob_sym",
+        "neg": "resources/libbpf/src/zip.c@btf_is_any_enum"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_elf_sym",
+        "pos": "resources/libbpf/src/strset.c@strset__add_str",
+        "neg": "resources/libbpf/src/netlink.c@str_has_sfx"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_elf_sym",
+        "pos": "resources/libbpf/src/linker.c@add_glob_sym",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__flags"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_elf_relos",
+        "pos": "resources/libbpf/src/linker.c@is_relo_sec",
+        "neg": "resources/libbpf/src/features.c@is_pow_of_2"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_elf_relos",
+        "pos": "resources/libbpf/src/linker.c@find_dst_sec_by_name",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_drop_mods"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_elf_relos",
+        "pos": "resources/libbpf/src/linker.c@add_dst_sec",
+        "neg": "resources/libbpf/src/ringbuf.c@btf_kind_core_compat"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_elf_relos",
+        "pos": "resources/libbpf/src/linker.c@init_sec",
+        "neg": "resources/libbpf/src/netlink.c@btf_decl_tag"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_elf_relos",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/ringbuf.c@ringbuf_free_ring"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_elf_relos",
+        "pos": "resources/libbpf/src/linker.c@secs_match",
+        "neg": "resources/libbpf/src/strset.c@btf_is_func_proto"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_elf_relos",
+        "pos": "resources/libbpf/src/linker.c@extend_sec",
+        "neg": "resources/libbpf/src/relo_core.c@btf_is_type_tag"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_fixup_btf",
+        "pos": "resources/libbpf/src/linker.c@find_src_sec_by_name",
+        "neg": "resources/libbpf/src/zip.c@ensure_good_fd"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_fixup_btf",
+        "pos": "resources/libbpf/src/linker.c@add_src_sec",
+        "neg": "resources/libbpf/src/nlattr.c@btf_members"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_fixup_btf",
+        "pos": "resources/libbpf/src/linker.c@btf_var_secinfos",
+        "neg": "resources/libbpf/src/linker.c@btf_is_any_enum"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_fixup_btf",
+        "pos": "resources/libbpf/src/linker.c@btf_var",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__load_vmlinux_btf"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_fixup_btf",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/zip.c@btf_enum"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_btf",
+        "pos": "resources/libbpf/src/linker.c@btf_is_non_static",
+        "neg": "resources/libbpf/src/libbpf.c@perf_buffer__consume_buffer"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_btf",
+        "pos": "resources/libbpf/src/linker.c@find_glob_sym",
+        "neg": "resources/libbpf/src/ringbuf.c@str_is_empty"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_btf",
+        "pos": "resources/libbpf/src/btf.c@btf__add_type",
+        "neg": "resources/libbpf/src/btf.c@btf_func_linkage"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_btf",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/netlink.c@btf_var_secinfos"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_btf",
+        "pos": "resources/libbpf/src/linker.c@btf_var_secinfos",
+        "neg": "resources/libbpf/src/libbpf_errno.c@str_is_empty"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_btf_ext",
+        "pos": "resources/libbpf/src/linker.c@find_src_sec_by_name",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_cast"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_btf_ext",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/netlink.c@tc_get_tcm_parent"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@linker_append_btf_ext",
+        "pos": "resources/libbpf/src/btf.c@btf__add_str",
+        "neg": "resources/libbpf/src/bpf.c@btf_var"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__finalize",
+        "pos": "resources/libbpf/src/linker.c@finalize_btf",
+        "neg": "resources/libbpf/src/features.c@btf_int_offset"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__finalize",
+        "pos": "resources/libbpf/src/linker.c@libbpf_err",
+        "neg": "resources/libbpf/src/relo_core.c@btf_type_info"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__finalize",
+        "pos": "resources/libbpf/src/strset.c@strset__data_size",
+        "neg": "resources/libbpf/src/linker.c@btf_is_datasec"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__finalize",
+        "pos": "resources/libbpf/src/strset.c@strset__data",
+        "neg": "resources/libbpf/src/nlattr.c@nla_type"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@bpf_linker__finalize",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/bpf.c@bpf_prog_detach"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@emit_elf_data_sec",
+        "pos": "resources/libbpf/src/strset.c@strset__add_str",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__init_maps"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@finalize_btf",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/bpf.c@bpf_map_delete_batch"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@finalize_btf",
+        "pos": "resources/libbpf/src/linker.c@finalize_btf_ext",
+        "neg": "resources/libbpf/src/btf_dump.c@reuse_fd"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@finalize_btf",
+        "pos": "resources/libbpf/src/btf.c@btf__dedup",
+        "neg": "resources/libbpf/src/zip.c@btf_members"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@emit_btf_ext_data",
+        "pos": "resources/libbpf/src/btf.c@btf__add_str",
+        "neg": "resources/libbpf/src/ringbuf.c@btf_is_restrict"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@finalize_btf_ext",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_get_error",
+        "neg": "resources/libbpf/src/btf.c@btf__find_str"
+    },
+    {
+        "query": "resources/libbpf/src/linker.c@finalize_btf_ext",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/nlattr.c@btf_var_secinfos"
+    },
+    {
+        "query": "resources/libbpf/src/zip.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/zip.c@btf_is_enum",
+        "neg": "resources/libbpf/src/relo_core.c@btf_is_func_proto"
+    },
+    {
+        "query": "resources/libbpf/src/zip.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/zip.c@btf_is_enum64",
+        "neg": "resources/libbpf/src/libbpf.c@skip_mods_and_typedefs"
+    },
+    {
+        "query": "resources/libbpf/src/zip.c@btf_kind_core_compat",
+        "pos": "resources/libbpf/src/zip.c@btf_is_any_enum",
+        "neg": "resources/libbpf/src/bpf.c@btf_is_decl_tag"
+    },
+    {
+        "query": "resources/libbpf/src/zip.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/zip.c@btf_members",
+        "neg": "resources/libbpf/src/relo_core.c@btf_is_typedef"
+    },
+    {
+        "query": "resources/libbpf/src/zip.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/zip.c@btf_kflag",
+        "neg": "resources/libbpf/src/libbpf_probes.c@btf_is_restrict"
+    },
+    {
+        "query": "resources/libbpf/src/zip.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/zip.c@btf_members",
+        "neg": "resources/libbpf/src/btf.c@btf_last_type"
+    },
+    {
+        "query": "resources/libbpf/src/zip.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/zip.c@btf_kflag",
+        "neg": "resources/libbpf/src/btf.c@btf_ext_setup_line_info"
+    },
+    {
+        "query": "resources/libbpf/src/zip.c@libbpf_validate_opts",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/relo_core.c@libbpf_err"
+    },
+    {
+        "query": "resources/libbpf/src/zip.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/zip.c@dup_good_fd",
+        "neg": "resources/libbpf/src/relo_core.c@btf_decl_tag"
+    },
+    {
+        "query": "resources/libbpf/src/zip.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf_errno.c@btf_enum64_value"
+    },
+    {
+        "query": "resources/libbpf/src/zip.c@reuse_fd",
+        "pos": "resources/libbpf/src/zip.c@sys_dup2",
+        "neg": "resources/libbpf/src/libbpf.c@find_extern_by_name"
+    },
+    {
+        "query": "resources/libbpf/src/zip.c@zip_archive_open",
+        "pos": "resources/libbpf/src/zip.c@find_cd",
+        "neg": "resources/libbpf/src/zip.c@libbpf_err"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_probes.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/libbpf_probes.c@btf_is_enum",
+        "neg": "resources/libbpf/src/nlattr.c@btf_is_any_enum"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_probes.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/libbpf_probes.c@btf_is_enum64",
+        "neg": "resources/libbpf/src/libbpf_probes.c@libbpf_probe_bpf_helper"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_probes.c@btf_kind_core_compat",
+        "pos": "resources/libbpf/src/libbpf_probes.c@btf_is_any_enum",
+        "neg": "resources/libbpf/src/nlattr.c@libbpf_err"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_probes.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/libbpf_probes.c@btf_members",
+        "neg": "resources/libbpf/src/relo_core.c@btf_params"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_probes.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/libbpf_probes.c@btf_kflag",
+        "neg": "resources/libbpf/fuzz/bpf-object-fuzzer.c@libbpf_print_fn"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_probes.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/libbpf_probes.c@btf_members",
+        "neg": "resources/libbpf/src/btf.c@btf_enum64_value"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_probes.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/libbpf_probes.c@btf_kflag",
+        "neg": "resources/libbpf/src/features.c@feat_supported"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_probes.c@libbpf_validate_opts",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/elf.c@btf_is_var"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_probes.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/libbpf_probes.c@dup_good_fd",
+        "neg": "resources/libbpf/src/usdt.c@btf_int_offset"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_probes.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/netlink.c@bpf_tc_hook_destroy"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_probes.c@reuse_fd",
+        "pos": "resources/libbpf/src/libbpf_probes.c@sys_dup2",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_map__update_elem"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_probes.c@libbpf_probe_bpf_prog_type",
+        "pos": "resources/libbpf/src/libbpf_probes.c@libbpf_err",
+        "neg": "resources/libbpf/src/ringbuf.c@btf_is_enum"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_probes.c@probe_map_create",
+        "pos": "resources/libbpf/src/libbpf_probes.c@load_local_storage_btf",
+        "neg": "resources/libbpf/src/bpf.c@btf_int_offset"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_probes.c@libbpf_probe_bpf_map_type",
+        "pos": "resources/libbpf/src/libbpf_probes.c@libbpf_err",
+        "neg": "resources/libbpf/src/btf.c@btf_is_union"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_probes.c@libbpf_probe_bpf_helper",
+        "pos": "resources/libbpf/src/libbpf_probes.c@libbpf_err",
+        "neg": "resources/libbpf/src/libbpf.c@remove_uprobe_event_legacy"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_errno.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/libbpf_errno.c@btf_is_enum",
+        "neg": "resources/libbpf/src/ringbuf.c@str_has_sfx"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_errno.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/libbpf_errno.c@btf_is_enum64",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@btf_is_array"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_errno.c@btf_kind_core_compat",
+        "pos": "resources/libbpf/src/libbpf_errno.c@btf_is_any_enum",
+        "neg": "resources/libbpf/src/linker.c@glob_map_defs_match"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_errno.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/libbpf_errno.c@btf_members",
+        "neg": "resources/libbpf/src/zip.c@btf_is_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_errno.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/libbpf_errno.c@btf_kflag",
+        "neg": "resources/libbpf/src/libbpf.c@find_ksym_btf_id"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_errno.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/libbpf_errno.c@btf_members",
+        "neg": "resources/libbpf/src/libbpf.c@append_to_file"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_errno.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/libbpf_errno.c@btf_kflag",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_emit_name"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_errno.c@libbpf_validate_opts",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/elf.c@btf_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_errno.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/libbpf_errno.c@dup_good_fd",
+        "neg": "resources/libbpf/src/libbpf.c@is_call_insn"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_errno.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf.c@need_func_arg_type_fixup"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_errno.c@reuse_fd",
+        "pos": "resources/libbpf/src/libbpf_errno.c@sys_dup2",
+        "neg": "resources/libbpf/src/libbpf.c@fixup_log_missing_map_load"
+    },
+    {
+        "query": "resources/libbpf/src/libbpf_errno.c@libbpf_strerror",
+        "pos": "resources/libbpf/src/libbpf_errno.c@libbpf_err_errno",
+        "neg": "resources/libbpf/src/nlattr.c@btf_is_fwd"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_is_enum",
+        "neg": "resources/libbpf/src/libbpf_errno.c@btf_is_union"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_is_enum64",
+        "neg": "resources/libbpf/src/btf.c@btf__str_by_offset"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_kind_core_compat",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_is_any_enum",
+        "neg": "resources/libbpf/src/netlink.c@libbpf_nla_getattr_u8"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_members",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__attach_lsm"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_kflag",
+        "neg": "resources/libbpf/src/btf.c@btf_bswap_type_base"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_members",
+        "neg": "resources/libbpf/src/nlattr.c@is_ldimm64_insn"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_kflag",
+        "neg": "resources/libbpf/src/linker.c@libbpf_reallocarray"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@libbpf_validate_opts",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/btf.c@btf_member_bit_offset"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/btf_dump.c@dup_good_fd",
+        "neg": "resources/libbpf/src/ringbuf.c@btf_int_offset"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_map__set_value_size"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@reuse_fd",
+        "pos": "resources/libbpf/src/btf_dump.c@sys_dup2",
+        "neg": "resources/libbpf/src/btf.c@btf_load_into_kernel"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@str_hash_fn",
+        "pos": "resources/libbpf/src/btf_dump.c@str_hash",
+        "neg": "resources/libbpf/src/elf.c@btf_enum"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump__new",
+        "pos": "resources/libbpf/src/btf.c@btf__pointer_size",
+        "neg": "resources/libbpf/src/libbpf_errno.c@btf_is_decl_tag"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump__new",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap__new",
+        "neg": "resources/libbpf/src/libbpf_probes.c@btf_is_typedef"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump__new",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_resize",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__destroy_skeleton"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump__new",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump__free",
+        "neg": "resources/libbpf/src/libbpf_errno.c@libbpf_err_ptr"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump__new",
+        "pos": "resources/libbpf/src/btf_dump.c@libbpf_err_ptr",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__attach_freplace"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_resize",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_mark_referenced",
+        "neg": "resources/libbpf/src/bpf.c@libbpf_is_mem_zeroed"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_free_names",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap__free",
+        "neg": "resources/libbpf/src/libbpf.c@libbpf_available_kprobes_parse"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump__free",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_free_names",
+        "neg": "resources/libbpf/src/relo_core.c@core_relo_is_field_based"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump__dump_type",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_resize",
+        "neg": "resources/libbpf/src/libbpf.c@load_module_btfs"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump__dump_type",
+        "pos": "resources/libbpf/src/btf_dump.c@libbpf_err",
+        "neg": "resources/libbpf/src/features.c@btf_is_typedef"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump__dump_type",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type",
+        "neg": "resources/libbpf/src/libbpf.c@has_available_filter_functions_addrs"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_mark_referenced",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_array",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_is_union"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_mark_referenced",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_members",
+        "neg": "resources/libbpf/src/linker.c@linker_append_btf"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_mark_referenced",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_params",
+        "neg": "resources/libbpf/src/libbpf.c@cmp_relo_by_insn_idx"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_mark_referenced",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_var_secinfos",
+        "neg": "resources/libbpf/src/nlattr.c@libbpf_nla_getattr_str"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_order_type",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_is_composite",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@reuse_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_order_type",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_array",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program_attach_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_order_type",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_members",
+        "neg": "resources/libbpf/src/gen_loader.c@sys_dup2"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_order_type",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_params",
+        "neg": "resources/libbpf/src/libbpf.c@attach_trace"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_emit_struct_fwd",
+        "neg": "resources/libbpf/src/bpf.c@btf_enum"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_printf",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_decl"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_emit_typedef_def",
+        "neg": "resources/libbpf/src/bpf.c@libbpf_set_memlock_rlim"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_emit_missing_aliases",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@btf_kflag"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_emit_enum_def",
+        "neg": "resources/libbpf/src/libbpf.c@init_struct_ops_maps"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type",
+        "neg": "resources/libbpf/src/features.c@btf_is_restrict"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_array",
+        "neg": "resources/libbpf/src/strset.c@btf_is_union"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_emit_fwd_def",
+        "neg": "resources/libbpf/src/usdt.c@btf_enum64_value"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_members",
+        "neg": "resources/libbpf/src/usdt.c@usdt_manager_free"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_emit_struct_def",
+        "neg": "resources/libbpf/src/gen_loader.c@skel_link_create"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_params",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_link__update_map"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_is_struct_packed",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_members",
+        "neg": "resources/libbpf/src/btf.c@btf_parse"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_bit_padding",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_printf",
+        "neg": "resources/libbpf/src/relo_core.c@bpf_core_fields_are_compat"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_bit_padding",
+        "pos": "resources/libbpf/src/btf_dump.c@pfx",
+        "neg": "resources/libbpf/src/libbpf_probes.c@libbpf_is_mem_zeroed"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_struct_fwd",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_is_struct",
+        "neg": "resources/libbpf/src/libbpf.c@btf_params"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_struct_def",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_members",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__attach"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_struct_def",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_is_struct",
+        "neg": "resources/libbpf/src/bpf.c@is_pow_of_2"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_struct_def",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_printf",
+        "neg": "resources/libbpf/src/gen_loader.c@emit_relos"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_struct_def",
+        "pos": "resources/libbpf/src/btf_dump.c@pfx",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_is_struct"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_missing_aliases",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_printf",
+        "neg": "resources/libbpf/src/linker.c@find_src_sec_by_name"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_enum32_val",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_enum",
+        "neg": "resources/libbpf/src/nlattr.c@btf_members"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_enum32_val",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_kflag",
+        "neg": "resources/libbpf/src/strset.c@strset_add_str_mem"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_enum32_val",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_name_dups",
+        "neg": "resources/libbpf/src/bpf.c@btf_is_func"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_enum32_val",
+        "pos": "resources/libbpf/src/btf_dump.c@pfx",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__detach_skeleton"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_enum64_val",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_enum64",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump__dump_type"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_enum64_val",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_kflag",
+        "neg": "resources/libbpf/src/linker.c@btf_func_linkage"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_enum64_val",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_name_dups",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_chain"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_enum_def",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_printf",
+        "neg": "resources/libbpf/src/btf.c@btf_dedup_is_equiv"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_enum_def",
+        "pos": "resources/libbpf/src/btf_dump.c@pfx",
+        "neg": "resources/libbpf/src/libbpf_probes.c@btf_int_offset"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_enum_def",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_is_enum",
+        "neg": "resources/libbpf/src/bpf.c@btf_func_linkage"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_fwd_def",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_kflag",
+        "neg": "resources/libbpf/src/btf.c@btf_hash_struct"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_fwd_def",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_printf",
+        "neg": "resources/libbpf/src/bpf.c@bpf_prog_get_info_by_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_typedef_def",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_printf",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__init_prog"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_typedef_def",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_decl",
+        "neg": "resources/libbpf/src/gen_loader.c@btf_is_func"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump__emit_type_decl",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_resize",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_map__reuse_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump__emit_type_decl",
+        "pos": "resources/libbpf/src/btf_dump.c@libbpf_err",
+        "neg": "resources/libbpf/src/relo_core.c@btf_is_func_proto"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump__emit_type_decl",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_decl",
+        "neg": "resources/libbpf/src/libbpf_probes.c@btf_array"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_decl",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_is_mod",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_map__set_map_extra"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_decl",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf.c@map_uses_real_name"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_decl",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_array",
+        "neg": "resources/libbpf/src/btf.c@btf_is_var"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_decl",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_chain",
+        "neg": "resources/libbpf/src/ringbuf.c@btf_vlen"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_mods",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_printf",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__attach_netfilter"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_drop_mods",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_is_mod",
+        "neg": "resources/libbpf/src/libbpf.c@perf_buffer__poll"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_name",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_printf",
+        "neg": "resources/libbpf/src/strset.c@btf_is_restrict"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_chain",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_emit_mods",
+        "neg": "resources/libbpf/src/zip.c@str_is_empty"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_chain",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_printf",
+        "neg": "resources/libbpf/src/gen_loader.c@libbpf_ptr"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_chain",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_array",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__init_global_data_maps"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_chain",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_drop_mods",
+        "neg": "resources/libbpf/src/relo_core.c@btf_func_linkage"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_chain",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_emit_name",
+        "neg": "resources/libbpf/src/btf.c@btf_dedup_new"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_chain",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_is_array",
+        "neg": "resources/libbpf/src/linker.c@linker_append_elf_syms"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_chain",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_chain",
+        "neg": "resources/libbpf/src/libbpf.c@__base_pr"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_chain",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_params",
+        "neg": "resources/libbpf/src/nlattr.c@btf_is_composite"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_cast",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_is_var",
+        "neg": "resources/libbpf/src/netlink.c@btf_vlen"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_cast",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_is_datasec",
+        "neg": "resources/libbpf/src/gen_loader.c@btf_is_fwd"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_cast",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_printf",
+        "neg": "resources/libbpf/src/btf.c@btf_sanity_check"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_cast",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_decl",
+        "neg": "resources/libbpf/src/zip.c@zip_archive_open"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_name_dups",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap_find",
+        "neg": "resources/libbpf/src/libbpf.c@btf_needs_sanitization"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_name_dups",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap_insert",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__set_log_buf"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_resolve_name",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_is_fwd",
+        "neg": "resources/libbpf/src/btf.c@btf_type_size"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_resolve_name",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_is_enum",
+        "neg": "resources/libbpf/src/features.c@btf_enum"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_resolve_name",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_name_dups",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_is_type_tag"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_data_pfx",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_printf",
+        "neg": "resources/libbpf/src/btf.c@btf_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_int_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_printf",
+        "neg": "resources/libbpf/src/btf.c@btf_is_typedef"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_int_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_data_delim",
+        "neg": "resources/libbpf/src/linker.c@glob_map_defs_match"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_int_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_data_newline",
+        "neg": "resources/libbpf/src/relo_core.c@btf_members"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_float_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_printf",
+        "neg": "resources/libbpf/src/libbpf_probes.c@btf_is_fwd"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_float_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_data_delim",
+        "neg": "resources/libbpf/src/libbpf.c@libbpf_find_attach_btf_id"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_float_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_data_newline",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_is_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_var_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_printf",
+        "neg": "resources/libbpf/src/btf.c@btf__set_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_array_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_array",
+        "neg": "resources/libbpf/src/ringbuf.c@ring__consumer_pos"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_array_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_is_int",
+        "neg": "resources/libbpf/src/gen_loader.c@btf_kind_core_compat"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_array_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_printf",
+        "neg": "resources/libbpf/src/strset.c@reuse_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_array_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_data_newline",
+        "neg": "resources/libbpf/src/btf.c@btf_is_float"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_array_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_data_pfx",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__attach_raw_tracepoint"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_array_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_data_delim",
+        "neg": "resources/libbpf/src/nlattr.c@is_pow_of_2"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_struct_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_members",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_is_var"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_struct_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_printf",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__name"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_struct_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_data_newline",
+        "neg": "resources/libbpf/src/zip.c@dup_good_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_struct_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_data_pfx",
+        "neg": "resources/libbpf/src/libbpf.c@arch_specific_lib_paths"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_struct_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_data_delim",
+        "neg": "resources/libbpf/src/features.c@btf_is_const"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_ptr_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_printf",
+        "neg": "resources/libbpf/src/btf.c@btf_dedup_hypot_map_add"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_ptr_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_data_delim",
+        "neg": "resources/libbpf/src/btf.c@btf__add_const"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_ptr_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_data_newline",
+        "neg": "resources/libbpf/src/netlink.c@bpf_tc_hook_create"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_get_enum_value",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_kflag",
+        "neg": "resources/libbpf/src/btf.c@btf_dedup_prim_types"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_enum_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_kflag",
+        "neg": "resources/libbpf/src/elf.c@btf_is_fwd"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_enum_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_is_enum",
+        "neg": "resources/libbpf/src/gen_loader.c@bpf_gen__populate_outer_map"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_enum_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_enum",
+        "neg": "resources/libbpf/src/linker.c@is_ldimm64_insn"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_enum_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_data_delim",
+        "neg": "resources/libbpf/src/btf.c@btf_kflag"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_enum_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_data_newline",
+        "neg": "resources/libbpf/src/gen_loader.c@skel_sys_bpf"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_enum_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_enum64",
+        "neg": "resources/libbpf/src/relo_core.c@btf_is_var"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_datasec_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_data_delim",
+        "neg": "resources/libbpf/src/btf.c@btf_is_type_tag"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_datasec_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_data_newline",
+        "neg": "resources/libbpf/src/nlattr.c@btf_is_enum"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_type_data_check_zero",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_array",
+        "neg": "resources/libbpf/src/btf.c@libbpf_ensure_mem"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_type_data_check_zero",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_members",
+        "neg": "resources/libbpf/src/nlattr.c@btf_is_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_dump_type_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_data_pfx",
+        "neg": "resources/libbpf/src/str_error.c@libbpf_strerror_r"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_dump_type_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_printf",
+        "neg": "resources/libbpf/src/nlattr.c@btf_is_const"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump_dump_type_data",
+        "pos": "resources/libbpf/src/btf_dump.c@btf_dump_emit_type_cast",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_is_blacklisted"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump__dump_type_data",
+        "pos": "resources/libbpf/src/btf_dump.c@libbpf_strlcpy",
+        "neg": "resources/libbpf/src/strset.c@btf_vlen"
+    },
+    {
+        "query": "resources/libbpf/src/btf_dump.c@btf_dump__dump_type_data",
+        "pos": "resources/libbpf/src/btf_dump.c@libbpf_err",
+        "neg": "resources/libbpf/src/relo_core.c@is_flex_arr"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/usdt.c@btf_is_enum",
+        "neg": "resources/libbpf/src/strset.c@btf_is_restrict"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/usdt.c@btf_is_enum64",
+        "neg": "resources/libbpf/src/nlattr.c@btf_enum"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@btf_kind_core_compat",
+        "pos": "resources/libbpf/src/usdt.c@btf_is_any_enum",
+        "neg": "resources/libbpf/src/elf.c@btf_is_float"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/usdt.c@btf_members",
+        "neg": "resources/libbpf/src/libbpf_probes.c@btf_is_func_proto"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/usdt.c@btf_kflag",
+        "neg": "resources/libbpf/src/elf.c@elf_resolve_syms_offsets"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/usdt.c@btf_members",
+        "neg": "resources/libbpf/src/libbpf.c@find_extern_sec_btf_id"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/usdt.c@btf_kflag",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_enum_data"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@libbpf_validate_opts",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/ringbuf.c@btf_enum"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/usdt.c@dup_good_fd",
+        "neg": "resources/libbpf/src/netlink.c@btf_var"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/gen_loader.c@bpf_gen__finish"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@reuse_fd",
+        "pos": "resources/libbpf/src/usdt.c@sys_dup2",
+        "neg": "resources/libbpf/src/btf.c@strs_dedup_remap_str_off"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@usdt_manager_new",
+        "pos": "resources/libbpf/src/libbpf.c@bpf_object__find_map_by_name",
+        "neg": "resources/libbpf/src/libbpf_probes.c@libbpf_err_errno"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@usdt_manager_new",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/btf.c@strs_dedup_remap_str_off"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@usdt_manager_new",
+        "pos": "resources/libbpf/src/libbpf.c@kernel_supports",
+        "neg": "resources/libbpf/src/bpf.c@sys_bpf_fd"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@sanity_check_usdt_elf",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/nlattr.c@is_pow_of_2"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@parse_elf_segs",
+        "pos": "resources/libbpf/src/usdt.c@libbpf_reallocarray",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__destroy_skeleton"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@parse_elf_segs",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf.c@perf_buffer__free"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@parse_vma_segs",
+        "pos": "resources/libbpf/src/usdt.c@libbpf_reallocarray",
+        "neg": "resources/libbpf/src/btf.c@btf__add_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@collect_usdt_targets",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/nlattr.c@btf_is_typedef"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@collect_usdt_targets",
+        "pos": "resources/libbpf/src/usdt.c@find_elf_seg",
+        "neg": "resources/libbpf/src/nlattr.c@btf_is_decl_tag"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@collect_usdt_targets",
+        "pos": "resources/libbpf/src/usdt.c@find_vma_seg",
+        "neg": "resources/libbpf/src/libbpf_probes.c@btf_is_fwd"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@collect_usdt_targets",
+        "pos": "resources/libbpf/src/usdt.c@libbpf_reallocarray",
+        "neg": "resources/libbpf/src/btf.c@btf_dedup_resolve_fwd"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@bpf_link_usdt_detach",
+        "pos": "resources/libbpf/src/libbpf.c@bpf_link__destroy",
+        "neg": "resources/libbpf/src/bpf.c@str_has_sfx"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@bpf_link_usdt_detach",
+        "pos": "resources/libbpf/src/bpf.c@bpf_map_delete_elem",
+        "neg": "resources/libbpf/src/ringbuf.c@btf_var_secinfos"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@bpf_link_usdt_detach",
+        "pos": "resources/libbpf/src/libbpf.c@bpf_map__fd",
+        "neg": "resources/libbpf/src/libbpf.c@perf_buffer__process_record"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@bpf_link_usdt_detach",
+        "pos": "resources/libbpf/src/usdt.c@libbpf_reallocarray",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_is_volatile"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@specs_hash_fn",
+        "pos": "resources/libbpf/src/usdt.c@str_hash",
+        "neg": "resources/libbpf/src/netlink.c@parse_xdp_features"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@allocate_spec_id",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap_find",
+        "neg": "resources/libbpf/src/bpf.c@bpf_map_get_next_key"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@allocate_spec_id",
+        "pos": "resources/libbpf/src/usdt.c@libbpf_reallocarray",
+        "neg": "resources/libbpf/src/nlattr.c@nla_data"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@allocate_spec_id",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap_insert",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_map__set_max_entries"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@usdt_manager_attach_usdt",
+        "pos": "resources/libbpf/src/libbpf.c@bpf_map__fd",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_is_fwd"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@usdt_manager_attach_usdt",
+        "pos": "resources/libbpf/src/elf.c@elf_open",
+        "neg": "resources/libbpf/src/hashmap.c@hashmap_find_entry"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@usdt_manager_attach_usdt",
+        "pos": "resources/libbpf/src/usdt.c@libbpf_err_ptr",
+        "neg": "resources/libbpf/src/features.c@btf_vlen"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@usdt_manager_attach_usdt",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap__new",
+        "neg": "resources/libbpf/src/libbpf.c@__perf_buffer__new"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@usdt_manager_attach_usdt",
+        "pos": "resources/libbpf/src/usdt.c@allocate_spec_id",
+        "neg": "resources/libbpf/src/libbpf.c@libbpf_set_print"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@usdt_manager_attach_usdt",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/elf.c@btf_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@usdt_manager_attach_usdt",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_get_error",
+        "neg": "resources/libbpf/src/btf.c@btf_type_visit_str_offs"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@usdt_manager_attach_usdt",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap__free",
+        "neg": "resources/libbpf/src/linker.c@is_dwarf_sec_name"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@usdt_manager_attach_usdt",
+        "pos": "resources/libbpf/src/elf.c@elf_close",
+        "neg": "resources/libbpf/src/features.c@probe_kern_btf_decl_tag"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@usdt_manager_attach_usdt",
+        "pos": "resources/libbpf/src/libbpf.c@bpf_link__destroy",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_enum_data"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@parse_usdt_spec",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/elf.c@btf_is_datasec"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@parse_usdt_spec",
+        "pos": "resources/libbpf/src/usdt.c@parse_usdt_arg",
+        "neg": "resources/libbpf/src/usdt.c@btf_is_func"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@calc_pt_regs_off",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_core_equal_fn"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@parse_usdt_arg",
+        "pos": "resources/libbpf/src/usdt.c@calc_pt_regs_off",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__name"
+    },
+    {
+        "query": "resources/libbpf/src/usdt.c@parse_usdt_arg",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf_errno.c@btf_is_datasec"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/features.c@btf_is_enum",
+        "neg": "resources/libbpf/src/netlink.c@libbpf_nla_getattr_u32"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/features.c@btf_is_enum64",
+        "neg": "resources/libbpf/src/strset.c@btf_is_type_tag"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@btf_kind_core_compat",
+        "pos": "resources/libbpf/src/features.c@btf_is_any_enum",
+        "neg": "resources/libbpf/src/libbpf.c@libbpf_available_kprobes_parse"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/features.c@btf_members",
+        "neg": "resources/libbpf/src/netlink.c@btf_is_func_proto"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/features.c@btf_kflag",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@bpf_prog_linfo__lfind"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/features.c@btf_members",
+        "neg": "resources/libbpf/src/libbpf_probes.c@btf_kind"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/features.c@btf_kflag",
+        "neg": "resources/libbpf/src/ringbuf.c@user_ring_buffer__reserve_blocking"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@libbpf_validate_opts",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object_unload"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/features.c@dup_good_fd",
+        "neg": "resources/libbpf/src/btf.c@btf_dedup_identical_structs"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_kflag"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@reuse_fd",
+        "pos": "resources/libbpf/src/features.c@sys_dup2",
+        "neg": "resources/libbpf/src/btf.c@btf__load_from_kernel_by_id"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@probe_kern_prog_name",
+        "pos": "resources/libbpf/src/features.c@probe_fd",
+        "neg": "resources/libbpf/src/usdt.c@btf_is_array"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@probe_kern_global_data",
+        "pos": "resources/libbpf/src/str_error.c@libbpf_strerror_r",
+        "neg": "resources/libbpf/src/zip.c@btf_kind"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@probe_kern_global_data",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/strset.c@btf_params"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@probe_kern_global_data",
+        "pos": "resources/libbpf/src/features.c@probe_fd",
+        "neg": "resources/libbpf/src/elf.c@btf_is_fwd"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@probe_kern_array_mmap",
+        "pos": "resources/libbpf/src/features.c@probe_fd",
+        "neg": "resources/libbpf/src/bpf.c@alloc_zero_tailing_info"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@probe_kern_exp_attach_type",
+        "pos": "resources/libbpf/src/features.c@probe_fd",
+        "neg": "resources/libbpf/src/bpf.c@bpf_map_freeze"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@probe_kern_probe_read_kernel",
+        "pos": "resources/libbpf/src/features.c@probe_fd",
+        "neg": "resources/libbpf/src/gen_loader.c@libbpf_ptr"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@probe_prog_bind_map",
+        "pos": "resources/libbpf/src/str_error.c@libbpf_strerror_r",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__set_autoattach"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@probe_prog_bind_map",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf_probes.c@btf_member_bitfield_size"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@probe_prog_bind_map",
+        "pos": "resources/libbpf/src/bpf.c@bpf_prog_bind_map",
+        "neg": "resources/libbpf/src/btf.c@btf__base_btf"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@probe_kern_bpf_cookie",
+        "pos": "resources/libbpf/src/features.c@probe_fd",
+        "neg": "resources/libbpf/src/netlink.c@get_xdp_info"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@probe_kern_arg_ctx_tag",
+        "pos": "resources/libbpf/src/libbpf_probes.c@libbpf__load_raw_btf",
+        "neg": "resources/libbpf/src/zip.c@btf_is_union"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@probe_kern_arg_ctx_tag",
+        "pos": "resources/libbpf/src/features.c@probe_fd",
+        "neg": "resources/libbpf/src/elf.c@btf_is_any_enum"
+    },
+    {
+        "query": "resources/libbpf/src/features.c@feat_supported",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/zip.c@is_ldimm64_insn"
+    },
+    {
+        "query": "resources/libbpf/src/bpf_prog_linfo.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/bpf_prog_linfo.c@btf_is_enum",
+        "neg": "resources/libbpf/src/strset.c@btf_is_func"
+    },
+    {
+        "query": "resources/libbpf/src/bpf_prog_linfo.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/bpf_prog_linfo.c@btf_is_enum64",
+        "neg": "resources/libbpf/src/btf.c@btf__new_empty"
+    },
+    {
+        "query": "resources/libbpf/src/bpf_prog_linfo.c@btf_kind_core_compat",
+        "pos": "resources/libbpf/src/bpf_prog_linfo.c@btf_is_any_enum",
+        "neg": "resources/libbpf/src/nlattr.c@btf_is_type_tag"
+    },
+    {
+        "query": "resources/libbpf/src/bpf_prog_linfo.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/bpf_prog_linfo.c@btf_members",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_core_equal_fn"
+    },
+    {
+        "query": "resources/libbpf/src/bpf_prog_linfo.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/bpf_prog_linfo.c@btf_kflag",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_link__pin_path"
+    },
+    {
+        "query": "resources/libbpf/src/bpf_prog_linfo.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/bpf_prog_linfo.c@btf_members",
+        "neg": "resources/libbpf/src/libbpf.c@btf_is_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/bpf_prog_linfo.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/bpf_prog_linfo.c@btf_kflag",
+        "neg": "resources/libbpf/src/libbpf_errno.c@libbpf_is_mem_zeroed"
+    },
+    {
+        "query": "resources/libbpf/src/bpf_prog_linfo.c@libbpf_validate_opts",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/relo_core.c@libbpf_is_mem_zeroed"
+    },
+    {
+        "query": "resources/libbpf/src/bpf_prog_linfo.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/bpf_prog_linfo.c@dup_good_fd",
+        "neg": "resources/libbpf/src/libbpf_errno.c@btf_is_enum"
+    },
+    {
+        "query": "resources/libbpf/src/bpf_prog_linfo.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/linker.c@btf_is_void"
+    },
+    {
+        "query": "resources/libbpf/src/bpf_prog_linfo.c@reuse_fd",
+        "pos": "resources/libbpf/src/bpf_prog_linfo.c@sys_dup2",
+        "neg": "resources/libbpf/src/usdt.c@btf_enum"
+    },
+    {
+        "query": "resources/libbpf/src/bpf_prog_linfo.c@bpf_prog_linfo__new",
+        "pos": "resources/libbpf/src/bpf_prog_linfo.c@bpf_prog_linfo__free",
+        "neg": "resources/libbpf/src/libbpf.c@attach_ksyscall"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/ringbuf.c@btf_is_enum",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_order_type"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/ringbuf.c@btf_is_enum64",
+        "neg": "resources/libbpf/src/btf.c@btf__add_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@btf_kind_core_compat",
+        "pos": "resources/libbpf/src/ringbuf.c@btf_is_any_enum",
+        "neg": "resources/libbpf/src/features.c@btf_is_volatile"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/ringbuf.c@btf_members",
+        "neg": "resources/libbpf/src/libbpf.c@map_is_ringbuf"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/ringbuf.c@btf_kflag",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_link__open"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/ringbuf.c@btf_members",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__name"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/ringbuf.c@btf_kflag",
+        "neg": "resources/libbpf/src/btf.c@btf_is_struct"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@libbpf_validate_opts",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@btf_is_enum"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/ringbuf.c@dup_good_fd",
+        "neg": "resources/libbpf/src/bpf.c@bpf_map_delete_elem"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/features.c@btf_is_fwd"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@reuse_fd",
+        "pos": "resources/libbpf/src/ringbuf.c@sys_dup2",
+        "neg": "resources/libbpf/src/btf_dump.c@dup_good_fd"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@ring_buffer__add",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/relo_core.c@btf_kflag"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@ring_buffer__add",
+        "pos": "resources/libbpf/src/ringbuf.c@libbpf_err",
+        "neg": "resources/libbpf/src/btf.c@sys_dup2"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@ring_buffer__add",
+        "pos": "resources/libbpf/src/ringbuf.c@libbpf_reallocarray",
+        "neg": "resources/libbpf/src/netlink.c@nla_data"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@ring_buffer__add",
+        "pos": "resources/libbpf/src/ringbuf.c@ringbuf_free_ring",
+        "neg": "resources/libbpf/src/elf.c@btf_enum"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@ring_buffer__free",
+        "pos": "resources/libbpf/src/ringbuf.c@ringbuf_free_ring",
+        "neg": "resources/libbpf/src/elf.c@btf_var"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@ring_buffer__new",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_link__update_map"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@ring_buffer__new",
+        "pos": "resources/libbpf/src/ringbuf.c@ring_buffer__add",
+        "neg": "resources/libbpf/src/ringbuf.c@ring_buffer__new"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@ring_buffer__new",
+        "pos": "resources/libbpf/src/ringbuf.c@ring_buffer__free",
+        "neg": "resources/libbpf/src/gen_loader.c@btf_is_enum"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@ring_buffer__consume",
+        "pos": "resources/libbpf/src/ringbuf.c@ringbuf_process_ring",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_get_enum_value"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@ring_buffer__consume",
+        "pos": "resources/libbpf/src/ringbuf.c@libbpf_err",
+        "neg": "resources/libbpf/src/ringbuf.c@ring__size"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@ring_buffer__poll",
+        "pos": "resources/libbpf/src/ringbuf.c@ringbuf_process_ring",
+        "neg": "resources/libbpf/src/strset.c@str_has_sfx"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@ring_buffer__poll",
+        "pos": "resources/libbpf/src/ringbuf.c@libbpf_err",
+        "neg": "resources/libbpf/src/libbpf.c@tracefs_uprobe_events"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@ring__avail_data_size",
+        "pos": "resources/libbpf/src/ringbuf.c@ring__consumer_pos",
+        "neg": "resources/libbpf/src/libbpf.c@attach_trace"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@ring__avail_data_size",
+        "pos": "resources/libbpf/src/ringbuf.c@ring__producer_pos",
+        "neg": "resources/libbpf/src/nlattr.c@nla_data"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@ring__consume",
+        "pos": "resources/libbpf/src/ringbuf.c@ringbuf_process_ring",
+        "neg": "resources/libbpf/src/bpf.c@btf_is_any_enum"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@ring__consume",
+        "pos": "resources/libbpf/src/ringbuf.c@libbpf_err",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_dump_type_data"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@user_ring_buffer__free",
+        "pos": "resources/libbpf/src/ringbuf.c@user_ringbuf_unmap_ring",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__insns"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@user_ringbuf_map",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_emit_name"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@user_ring_buffer__new",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@libbpf_strlcpy"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@user_ring_buffer__new",
+        "pos": "resources/libbpf/src/ringbuf.c@user_ringbuf_map",
+        "neg": "resources/libbpf/src/libbpf.c@__bpf_program__iter"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@user_ring_buffer__new",
+        "pos": "resources/libbpf/src/ringbuf.c@user_ring_buffer__free",
+        "neg": "resources/libbpf/src/bpf.c@str_is_empty"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@user_ring_buffer__discard",
+        "pos": "resources/libbpf/src/ringbuf.c@user_ringbuf_commit",
+        "neg": "resources/libbpf/src/bpf.c@btf_is_float"
+    },
+    {
+        "query": "resources/libbpf/src/ringbuf.c@user_ring_buffer__submit",
+        "pos": "resources/libbpf/src/ringbuf.c@user_ringbuf_commit",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_map__set_type"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/btf.c@btf_is_enum",
+        "neg": "resources/libbpf/src/nlattr.c@btf_is_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/btf.c@btf_is_enum64",
+        "neg": "resources/libbpf/src/libbpf.c@elf_sec_by_name"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_kind_core_compat",
+        "pos": "resources/libbpf/src/btf.c@btf_is_any_enum",
+        "neg": "resources/libbpf/src/nlattr.c@btf_decl_tag"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/btf.c@btf_members",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__reuse_map"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/btf.c@btf_kflag",
+        "neg": "resources/libbpf/src/netlink.c@reuse_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/btf.c@btf_members",
+        "neg": "resources/libbpf/src/ringbuf.c@libbpf_ptr"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/btf.c@btf_kflag",
+        "neg": "resources/libbpf/src/relo_core.c@btf_enum"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@libbpf_validate_opts",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/bpf.c@bpf_obj_get_info_by_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/btf.c@dup_good_fd",
+        "neg": "resources/libbpf/src/gen_loader.c@btf_is_float"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/nlattr.c@btf_is_ptr"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@reuse_fd",
+        "pos": "resources/libbpf/src/btf.c@sys_dup2",
+        "neg": "resources/libbpf/src/libbpf.c@init_map_in_map_slots"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@libbpf_add_mem",
+        "pos": "resources/libbpf/src/btf.c@libbpf_reallocarray",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@libbpf_strlcpy"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@libbpf_ensure_mem",
+        "pos": "resources/libbpf/src/btf.c@libbpf_add_mem",
+        "neg": "resources/libbpf/src/libbpf.c@libbpf_needs_btf"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_parse_hdr",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/bpf.c@bpf_token_create"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_parse_hdr",
+        "pos": "resources/libbpf/src/btf.c@btf_bswap_hdr",
+        "neg": "resources/libbpf/src/zip.c@btf_is_const"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_parse_str_sec",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_core_types_are_compat"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_bswap_type_rest",
+        "pos": "resources/libbpf/src/btf.c@btf_array",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__add_programs"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_bswap_type_rest",
+        "pos": "resources/libbpf/src/btf.c@btf_var",
+        "neg": "resources/libbpf/src/btf.c@btf_add_type_mem"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_bswap_type_rest",
+        "pos": "resources/libbpf/src/btf.c@btf_decl_tag",
+        "neg": "resources/libbpf/src/gen_loader.c@realloc_data_buf"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_parse_type_sec",
+        "pos": "resources/libbpf/src/btf.c@btf_bswap_type_base",
+        "neg": "resources/libbpf/src/btf.c@is_pow_of_2"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_parse_type_sec",
+        "pos": "resources/libbpf/src/btf.c@btf_type_size",
+        "neg": "resources/libbpf/src/gen_loader.c@emit_bpf_kallsyms_lookup_name"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_parse_type_sec",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/btf.c@btf_sanity_check"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_validate_type",
+        "pos": "resources/libbpf/src/btf.c@btf_array",
+        "neg": "resources/libbpf/src/libbpf.c@elf_sec_by_idx"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_validate_type",
+        "pos": "resources/libbpf/src/btf.c@btf_members",
+        "neg": "resources/libbpf/src/bpf.c@libbpf_err"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_validate_type",
+        "pos": "resources/libbpf/src/btf.c@btf_enum",
+        "neg": "resources/libbpf/src/relo_core.c@bpf_core_format_spec"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_validate_type",
+        "pos": "resources/libbpf/src/btf.c@btf_enum64",
+        "neg": "resources/libbpf/src/btf.c@btf_dedup_identical_arrays"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_validate_type",
+        "pos": "resources/libbpf/src/btf.c@btf_params",
+        "neg": "resources/libbpf/src/btf.c@dup_good_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_validate_type",
+        "pos": "resources/libbpf/src/btf.c@btf_var_secinfos",
+        "neg": "resources/libbpf/src/libbpf_errno.c@btf_is_composite"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@determine_ptr_size",
+        "pos": "resources/libbpf/src/btf.c@btf_is_int",
+        "neg": "resources/libbpf/src/libbpf.c@libbpf_get_type_names"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_ptr_sz",
+        "pos": "resources/libbpf/src/btf.c@determine_ptr_size",
+        "neg": "resources/libbpf/src/netlink.c@req_tail"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__pointer_size",
+        "pos": "resources/libbpf/src/btf.c@determine_ptr_size",
+        "neg": "resources/libbpf/src/strset.c@btf_is_datasec"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__endianness",
+        "pos": "resources/libbpf/src/btf.c@is_host_big_endian",
+        "neg": "resources/libbpf/src/btf.c@btf_dedup_is_equiv"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__set_endianness",
+        "pos": "resources/libbpf/src/btf.c@is_host_big_endian",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_map__pin_path"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_type_is_void",
+        "pos": "resources/libbpf/src/btf.c@btf_is_fwd",
+        "neg": "resources/libbpf/src/libbpf_errno.c@btf_is_const"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_type_is_void_or_null",
+        "pos": "resources/libbpf/src/btf.c@btf_type_is_void",
+        "neg": "resources/libbpf/src/gen_loader.c@btf_is_typedef"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__resolve_size",
+        "pos": "resources/libbpf/src/btf.c@btf_type_is_void_or_null",
+        "neg": "resources/libbpf/src/linker.c@btf_is_func"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__resolve_size",
+        "pos": "resources/libbpf/src/btf.c@btf_array",
+        "neg": "resources/libbpf/src/libbpf.c@sys_dup2"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__align_of",
+        "pos": "resources/libbpf/src/btf.c@btf_ptr_sz",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_map__destroy"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__align_of",
+        "pos": "resources/libbpf/src/btf.c@btf_array",
+        "neg": "resources/libbpf/src/bpf.c@ptr_to_u64"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__align_of",
+        "pos": "resources/libbpf/src/btf.c@btf_members",
+        "neg": "resources/libbpf/src/netlink.c@libbpf_err_ptr"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__resolve_type",
+        "pos": "resources/libbpf/src/btf.c@btf_type_is_void_or_null",
+        "neg": "resources/libbpf/src/libbpf_errno.c@btf_is_enum"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__resolve_type",
+        "pos": "resources/libbpf/src/btf.c@btf_is_mod",
+        "neg": "resources/libbpf/src/usdt.c@parse_vma_segs"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__resolve_type",
+        "pos": "resources/libbpf/src/btf.c@btf_is_typedef",
+        "neg": "resources/libbpf/src/btf.c@btf__add_enum64_value"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__resolve_type",
+        "pos": "resources/libbpf/src/btf.c@btf_is_var",
+        "neg": "resources/libbpf/src/gen_loader.c@btf_is_datasec"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__free",
+        "pos": "resources/libbpf/src/btf.c@btf_is_modifiable",
+        "neg": "resources/libbpf/src/nlattr.c@libbpf_is_mem_zeroed"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__free",
+        "pos": "resources/libbpf/src/strset.c@strset__free",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@libbpf_validate_opts"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__new_empty",
+        "pos": "resources/libbpf/src/btf.c@libbpf_ptr",
+        "neg": "resources/libbpf/src/strset.c@str_has_sfx"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__new_empty",
+        "pos": "resources/libbpf/src/btf.c@btf_new_empty",
+        "neg": "resources/libbpf/src/elf.c@dup_good_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__new_empty_split",
+        "pos": "resources/libbpf/src/btf.c@libbpf_ptr",
+        "neg": "resources/libbpf/src/netlink.c@btf_is_struct"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__new_empty_split",
+        "pos": "resources/libbpf/src/btf.c@btf_new_empty",
+        "neg": "resources/libbpf/src/linker.c@add_src_sec"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_new",
+        "pos": "resources/libbpf/src/btf.c@btf_parse_hdr",
+        "neg": "resources/libbpf/src/gen_loader.c@move_stack2ctx"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_new",
+        "pos": "resources/libbpf/src/btf.c@btf_parse_str_sec",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_printf"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_new",
+        "pos": "resources/libbpf/src/btf.c@btf_parse_type_sec",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@libbpf_err_errno"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_new",
+        "pos": "resources/libbpf/src/btf.c@btf_sanity_check",
+        "neg": "resources/libbpf/src/bpf.c@btf_enum"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_new",
+        "pos": "resources/libbpf/src/btf.c@btf__free",
+        "neg": "resources/libbpf/src/btf.c@btf__load_vmlinux_btf"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_parse_elf",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__set_log_buf"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_parse_elf",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_get_error",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_map__initial_value"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_parse_elf",
+        "pos": "resources/libbpf/src/btf.c@btf__set_pointer_size",
+        "neg": "resources/libbpf/src/netlink.c@req_tail"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_parse_elf",
+        "pos": "resources/libbpf/src/btf.c@btf_ext__free",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_core_resolve_relo"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_parse_elf",
+        "pos": "resources/libbpf/src/btf.c@btf__free",
+        "neg": "resources/libbpf/src/usdt.c@usdt_manager_new"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__parse_elf",
+        "pos": "resources/libbpf/src/btf.c@libbpf_ptr",
+        "neg": "resources/libbpf/src/btf.c@btf_dedup_struct_types"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__parse_elf",
+        "pos": "resources/libbpf/src/btf.c@btf_parse_elf",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@libbpf_validate_opts"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__parse_elf_split",
+        "pos": "resources/libbpf/src/btf.c@libbpf_ptr",
+        "neg": "resources/libbpf/src/bpf.c@bpf_map_lookup_elem_flags"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__parse_elf_split",
+        "pos": "resources/libbpf/src/btf.c@btf_parse_elf",
+        "neg": "resources/libbpf/src/libbpf.c@init_arena_map_data"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__parse_raw",
+        "pos": "resources/libbpf/src/btf.c@libbpf_ptr",
+        "neg": "resources/libbpf/src/relo_core.c@is_ldimm64_insn"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__parse_raw",
+        "pos": "resources/libbpf/src/btf.c@btf_parse_raw",
+        "neg": "resources/libbpf/src/btf.c@is_type_mapped"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__parse_raw_split",
+        "pos": "resources/libbpf/src/btf.c@libbpf_ptr",
+        "neg": "resources/libbpf/src/linker.c@libbpf_is_mem_zeroed"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__parse_raw_split",
+        "pos": "resources/libbpf/src/btf.c@btf_parse_raw",
+        "neg": "resources/libbpf/src/libbpf.c@add_kprobe_event_legacy"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_parse",
+        "pos": "resources/libbpf/src/btf.c@btf_parse_raw",
+        "neg": "resources/libbpf/src/btf.c@btf_dedup_new"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_parse",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_get_error",
+        "neg": "resources/libbpf/src/libbpf_errno.c@btf_int_encoding"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_parse",
+        "pos": "resources/libbpf/src/btf.c@btf_parse_elf",
+        "neg": "resources/libbpf/src/zip.c@btf_kind_core_compat"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__parse",
+        "pos": "resources/libbpf/src/btf.c@libbpf_ptr",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__collect_st_ops_relos"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__parse",
+        "pos": "resources/libbpf/src/btf.c@btf_parse",
+        "neg": "resources/libbpf/src/bpf.c@bpf_map_lookup_and_delete_elem"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__parse_split",
+        "pos": "resources/libbpf/src/btf.c@libbpf_ptr",
+        "neg": "resources/libbpf/src/linker.c@btf_kind_core_compat"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__parse_split",
+        "pos": "resources/libbpf/src/btf.c@btf_parse",
+        "neg": "resources/libbpf/src/libbpf.c@array_map_mmap_sz"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_load_into_kernel",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/gen_loader.c@btf_int_encoding"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_load_into_kernel",
+        "pos": "resources/libbpf/src/btf.c@libbpf_err",
+        "neg": "resources/libbpf/src/libbpf.c@reuse_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_strs_data",
+        "pos": "resources/libbpf/src/strset.c@strset__data",
+        "neg": "resources/libbpf/src/linker.c@btf_type_info"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_get_raw_data",
+        "pos": "resources/libbpf/src/btf.c@btf_bswap_hdr",
+        "neg": "resources/libbpf/src/elf.c@elf_resolve_syms_offsets"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_get_raw_data",
+        "pos": "resources/libbpf/src/btf.c@btf_bswap_type_rest",
+        "neg": "resources/libbpf/src/libbpf_errno.c@sys_dup2"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_get_raw_data",
+        "pos": "resources/libbpf/src/btf.c@btf_bswap_type_base",
+        "neg": "resources/libbpf/src/btf.c@btf_is_const"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_get_raw_data",
+        "pos": "resources/libbpf/src/btf.c@btf_strs_data",
+        "neg": "resources/libbpf/src/libbpf.c@btf_is_int"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__str_by_offset",
+        "pos": "resources/libbpf/src/btf.c@btf_strs_data",
+        "neg": "resources/libbpf/src/libbpf_probes.c@btf_is_volatile"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__load_from_kernel_by_id_split",
+        "pos": "resources/libbpf/src/btf.c@btf_get_from_fd",
+        "neg": "resources/libbpf/src/libbpf.c@libbpf_set_print"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__load_from_kernel_by_id_split",
+        "pos": "resources/libbpf/src/btf.c@libbpf_ptr",
+        "neg": "resources/libbpf/src/nlattr.c@libbpf_err"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_ensure_modifiable",
+        "pos": "resources/libbpf/src/btf.c@btf_is_modifiable",
+        "neg": "resources/libbpf/src/usdt.c@ensure_good_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_ensure_modifiable",
+        "pos": "resources/libbpf/src/btf.c@btf_invalidate_raw_data",
+        "neg": "resources/libbpf/src/btf.c@btf__add_const"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_ensure_modifiable",
+        "pos": "resources/libbpf/src/strset.c@strset__free",
+        "neg": "resources/libbpf/src/btf.c@btf_array"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__find_str",
+        "pos": "resources/libbpf/src/btf.c@btf__find_str",
+        "neg": "resources/libbpf/src/features.c@reuse_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__find_str",
+        "pos": "resources/libbpf/src/strset.c@strset__find_str",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_map__max_entries"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__find_str",
+        "pos": "resources/libbpf/src/btf.c@libbpf_err",
+        "neg": "resources/libbpf/src/ringbuf.c@ns_elapsed_timespec"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_str",
+        "pos": "resources/libbpf/src/btf.c@btf__find_str",
+        "neg": "resources/libbpf/src/libbpf_probes.c@btf_is_decl_tag"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_str",
+        "pos": "resources/libbpf/src/strset.c@strset__add_str",
+        "neg": "resources/libbpf/src/hashmap.c@hashmap_add_entry"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_str",
+        "pos": "resources/libbpf/src/btf.c@libbpf_err",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@btf_is_enum"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_str",
+        "pos": "resources/libbpf/src/strset.c@strset__data_size",
+        "neg": "resources/libbpf/src/usdt.c@str_hash"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_type_inc_vlen",
+        "pos": "resources/libbpf/src/btf.c@btf_kflag",
+        "neg": "resources/libbpf/src/nlattr.c@nlmsg_len"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_commit_type",
+        "pos": "resources/libbpf/src/btf.c@libbpf_err",
+        "neg": "resources/libbpf/src/btf.c@btf_type_by_id"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_rewrite_str",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap_find",
+        "neg": "resources/libbpf/src/linker.c@libbpf_strlcpy"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_rewrite_str",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap_insert",
+        "neg": "resources/libbpf/src/relo_core.c@bpf_core_poison_insn"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_type",
+        "pos": "resources/libbpf/src/btf.c@btf_type_size",
+        "neg": "resources/libbpf/src/linker.c@btf_array"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_type",
+        "pos": "resources/libbpf/src/btf.c@libbpf_err",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_link__detach_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_type",
+        "pos": "resources/libbpf/src/btf.c@btf_add_type_mem",
+        "neg": "resources/libbpf/src/nlattr.c@btf_int_bits"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_type",
+        "pos": "resources/libbpf/src/btf.c@btf_commit_type",
+        "neg": "resources/libbpf/src/btf.c@btf_dedup_remap_types"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_btf",
+        "pos": "resources/libbpf/src/btf.c@btf_add_type_mem",
+        "neg": "resources/libbpf/src/netlink.c@libbpf_netlink_resolve_genl_family_id"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_btf",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap__new",
+        "neg": "resources/libbpf/src/libbpf.c@btf_is_volatile"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_btf",
+        "pos": "resources/libbpf/src/btf.c@btf_type_size",
+        "neg": "resources/libbpf/src/elf.c@btf_is_decl_tag"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_btf",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap__free",
+        "neg": "resources/libbpf/src/btf.c@btf_type_info"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_btf",
+        "pos": "resources/libbpf/src/btf.c@libbpf_err",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__read_kallsyms_file"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_int",
+        "pos": "resources/libbpf/src/btf.c@btf_add_type_mem",
+        "neg": "resources/libbpf/src/hashmap.c@hashmap_find_entry"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_int",
+        "pos": "resources/libbpf/src/btf.c@btf__add_str",
+        "neg": "resources/libbpf/src/btf_dump.c@str_is_empty"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_int",
+        "pos": "resources/libbpf/src/btf.c@btf_commit_type",
+        "neg": "resources/libbpf/src/features.c@probe_module_btf"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_float",
+        "pos": "resources/libbpf/src/btf.c@btf_add_type_mem",
+        "neg": "resources/libbpf/src/nlattr.c@btf_kind_core_compat"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_float",
+        "pos": "resources/libbpf/src/btf.c@btf__add_str",
+        "neg": "resources/libbpf/src/features.c@btf_is_array"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_float",
+        "pos": "resources/libbpf/src/btf.c@btf_commit_type",
+        "neg": "resources/libbpf/src/linker.c@libbpf_reallocarray"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_add_ref_kind",
+        "pos": "resources/libbpf/src/btf.c@btf_add_type_mem",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__attach_raw_tracepoint_opts"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_add_ref_kind",
+        "pos": "resources/libbpf/src/btf.c@btf__add_str",
+        "neg": "resources/libbpf/src/strset.c@dup_good_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_add_ref_kind",
+        "pos": "resources/libbpf/src/btf.c@btf_commit_type",
+        "neg": "resources/libbpf/src/linker.c@glob_syms_match"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_array",
+        "pos": "resources/libbpf/src/btf.c@btf_add_type_mem",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object_fixup_btf"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_array",
+        "pos": "resources/libbpf/src/btf.c@btf_array",
+        "neg": "resources/libbpf/src/btf_dump.c@str_is_empty"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_array",
+        "pos": "resources/libbpf/src/btf.c@btf_commit_type",
+        "neg": "resources/libbpf/src/bpf.c@bpf_raw_tracepoint_open_opts"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_add_composite",
+        "pos": "resources/libbpf/src/btf.c@btf_add_type_mem",
+        "neg": "resources/libbpf/src/btf.c@btf__add_datasec_var_info"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_add_composite",
+        "pos": "resources/libbpf/src/btf.c@btf__add_str",
+        "neg": "resources/libbpf/src/libbpf.c@perf_buffer__consume_buffer"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_add_composite",
+        "pos": "resources/libbpf/src/btf.c@btf_commit_type",
+        "neg": "resources/libbpf/src/netlink.c@tc_qdisc_modify"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_field",
+        "pos": "resources/libbpf/src/btf.c@btf_last_type",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__attach_netns"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_field",
+        "pos": "resources/libbpf/src/btf.c@btf_add_type_mem",
+        "neg": "resources/libbpf/src/elf.c@btf_member_bit_offset"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_field",
+        "pos": "resources/libbpf/src/btf.c@btf__add_str",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__find_map_fd_by_name"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_field",
+        "pos": "resources/libbpf/src/btf.c@btf_kflag",
+        "neg": "resources/libbpf/src/ringbuf.c@btf_member_bitfield_size"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_add_enum_common",
+        "pos": "resources/libbpf/src/btf.c@btf_add_type_mem",
+        "neg": "resources/libbpf/src/gen_loader.c@btf_func_linkage"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_add_enum_common",
+        "pos": "resources/libbpf/src/btf.c@btf__add_str",
+        "neg": "resources/libbpf/src/linker.c@btf_is_var"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_add_enum_common",
+        "pos": "resources/libbpf/src/btf.c@btf_commit_type",
+        "neg": "resources/libbpf/src/linker.c@btf_is_non_static"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_enum_value",
+        "pos": "resources/libbpf/src/btf.c@btf_last_type",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_is_float"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_enum_value",
+        "pos": "resources/libbpf/src/btf.c@btf_add_type_mem",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__init_license"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_enum_value",
+        "pos": "resources/libbpf/src/btf.c@btf__add_str",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__prev_program"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_enum_value",
+        "pos": "resources/libbpf/src/btf.c@btf_type_inc_vlen",
+        "neg": "resources/libbpf/src/libbpf.c@btf_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_enum64_value",
+        "pos": "resources/libbpf/src/btf.c@btf_last_type",
+        "neg": "resources/libbpf/src/btf.c@btf_vlen"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_enum64_value",
+        "pos": "resources/libbpf/src/btf.c@btf_add_type_mem",
+        "neg": "resources/libbpf/src/linker.c@btf_is_int"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_enum64_value",
+        "pos": "resources/libbpf/src/btf.c@btf__add_str",
+        "neg": "resources/libbpf/src/usdt.c@btf_kind_core_compat"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_enum64_value",
+        "pos": "resources/libbpf/src/btf.c@btf_type_inc_vlen",
+        "neg": "resources/libbpf/src/relo_core.c@btf_is_type_tag"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_type_tag",
+        "pos": "resources/libbpf/src/btf.c@btf_add_ref_kind",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_map__unpin"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_func",
+        "pos": "resources/libbpf/src/btf.c@btf_add_ref_kind",
+        "neg": "resources/libbpf/src/btf_dump.c@reuse_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_func",
+        "pos": "resources/libbpf/src/btf.c@libbpf_err",
+        "neg": "resources/libbpf/src/bpf.c@btf_is_enum"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_func_proto",
+        "pos": "resources/libbpf/src/btf.c@btf_add_type_mem",
+        "neg": "resources/libbpf/src/relo_core.c@libbpf_validate_opts"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_func_proto",
+        "pos": "resources/libbpf/src/btf.c@btf_commit_type",
+        "neg": "resources/libbpf/src/usdt.c@btf_enum"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_func_param",
+        "pos": "resources/libbpf/src/btf.c@btf_last_type",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__append_subprog_code"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_func_param",
+        "pos": "resources/libbpf/src/btf.c@btf_add_type_mem",
+        "neg": "resources/libbpf/src/btf.c@btf_is_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_func_param",
+        "pos": "resources/libbpf/src/btf.c@btf__add_str",
+        "neg": "resources/libbpf/src/relo_core.c@btf_is_restrict"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_func_param",
+        "pos": "resources/libbpf/src/btf.c@btf_type_inc_vlen",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__free_relocs"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_var",
+        "pos": "resources/libbpf/src/btf.c@btf_add_type_mem",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object_load_prog"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_var",
+        "pos": "resources/libbpf/src/btf.c@btf__add_str",
+        "neg": "resources/libbpf/src/hashmap.c@str_hash"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_var",
+        "pos": "resources/libbpf/src/btf.c@btf_var",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__destroy_subskeleton"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_var",
+        "pos": "resources/libbpf/src/btf.c@btf_commit_type",
+        "neg": "resources/libbpf/src/netlink.c@btf_int_bits"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_datasec",
+        "pos": "resources/libbpf/src/btf.c@btf_add_type_mem",
+        "neg": "resources/libbpf/src/btf.c@str_hash"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_datasec",
+        "pos": "resources/libbpf/src/btf.c@btf__add_str",
+        "neg": "resources/libbpf/src/libbpf_errno.c@btf_is_volatile"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_datasec",
+        "pos": "resources/libbpf/src/btf.c@btf_commit_type",
+        "neg": "resources/libbpf/src/btf.c@btf_dedup_prim_type"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_datasec_var_info",
+        "pos": "resources/libbpf/src/btf.c@btf_last_type",
+        "neg": "resources/libbpf/src/bpf.c@bpf_map_update_elem"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_datasec_var_info",
+        "pos": "resources/libbpf/src/btf.c@btf_add_type_mem",
+        "neg": "resources/libbpf/src/btf.c@btf_dedup_ref_types"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_datasec_var_info",
+        "pos": "resources/libbpf/src/btf.c@btf_type_inc_vlen",
+        "neg": "resources/libbpf/src/features.c@libbpf_err_errno"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_decl_tag",
+        "pos": "resources/libbpf/src/btf.c@btf_add_type_mem",
+        "neg": "resources/libbpf/src/linker.c@libbpf_err_ptr"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_decl_tag",
+        "pos": "resources/libbpf/src/btf.c@btf__add_str",
+        "neg": "resources/libbpf/src/btf.c@btf_ext_setup_line_info"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_decl_tag",
+        "pos": "resources/libbpf/src/btf.c@btf_decl_tag",
+        "neg": "resources/libbpf/src/btf.c@btf__add_datasec_var_info"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__add_decl_tag",
+        "pos": "resources/libbpf/src/btf.c@btf_commit_type",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__resolve_ksyms_btf_id"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_ext_setup_info",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf_errno.c@btf_member_bitfield_size"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_ext_setup_func_info",
+        "pos": "resources/libbpf/src/btf.c@btf_ext_setup_info",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_map_mmap_resize"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_ext_setup_line_info",
+        "pos": "resources/libbpf/src/btf.c@btf_ext_setup_info",
+        "neg": "resources/libbpf/src/relo_core.c@btf_member_bit_offset"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_ext_setup_core_relos",
+        "pos": "resources/libbpf/src/btf.c@btf_ext_setup_info",
+        "neg": "resources/libbpf/src/libbpf.c@insn_is_pseudo_func"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_ext_parse_hdr",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/nlattr.c@btf_kind"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_ext__new",
+        "pos": "resources/libbpf/src/btf.c@btf_ext_setup_func_info",
+        "neg": "resources/libbpf/src/nlattr.c@btf_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_ext__new",
+        "pos": "resources/libbpf/src/btf.c@btf_ext_setup_line_info",
+        "neg": "resources/libbpf/src/libbpf_errno.c@reuse_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_ext__new",
+        "pos": "resources/libbpf/src/btf.c@btf_ext_setup_core_relos",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__close"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_ext__new",
+        "pos": "resources/libbpf/src/btf.c@btf_ext__free",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__read_kconfig_file"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_ext__new",
+        "pos": "resources/libbpf/src/btf.c@libbpf_err_ptr",
+        "neg": "resources/libbpf/src/libbpf.c@parse_cpu_mask_str"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__dedup",
+        "pos": "resources/libbpf/src/btf.c@btf_dedup_new",
+        "neg": "resources/libbpf/src/libbpf_errno.c@libbpf_ptr"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__dedup",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf_errno.c@btf_members"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__dedup",
+        "pos": "resources/libbpf/src/btf.c@btf_ensure_modifiable",
+        "neg": "resources/libbpf/src/btf.c@btf_dedup_identity_hash_fn"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__dedup",
+        "pos": "resources/libbpf/src/btf.c@btf_dedup_prep",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__open_mem"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__dedup",
+        "pos": "resources/libbpf/src/btf.c@btf_dedup_strings",
+        "neg": "resources/libbpf/src/usdt.c@btf_int_offset"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__dedup",
+        "pos": "resources/libbpf/src/btf.c@btf_dedup_prim_types",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__shndx_is_maps"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__dedup",
+        "pos": "resources/libbpf/src/btf.c@btf_dedup_struct_types",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__set_autoattach"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__dedup",
+        "pos": "resources/libbpf/src/btf.c@btf_dedup_resolve_fwds",
+        "neg": "resources/libbpf/src/libbpf.c@probe_kern_syscall_wrapper"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__dedup",
+        "pos": "resources/libbpf/src/btf.c@btf_dedup_ref_types",
+        "neg": "resources/libbpf/src/netlink.c@btf_is_type_tag"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__dedup",
+        "pos": "resources/libbpf/src/btf.c@btf_dedup_compact_types",
+        "neg": "resources/libbpf/src/elf.c@btf_kind_core_compat"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__dedup",
+        "pos": "resources/libbpf/src/btf.c@btf_dedup_remap_types",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_map__type"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__dedup",
+        "pos": "resources/libbpf/src/btf.c@btf_dedup_free",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__resolve_ksym_var_btf_id"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__dedup",
+        "pos": "resources/libbpf/src/btf.c@libbpf_err",
+        "neg": "resources/libbpf/src/btf.c@btf__pointer_size"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_table_add",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap_insert",
+        "neg": "resources/libbpf/src/libbpf.c@btf_vlen"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_free",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap__free",
+        "neg": "resources/libbpf/src/bpf.c@btf_is_array"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_new",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap__new",
+        "neg": "resources/libbpf/src/bpf.c@bpf_link_get_next_id"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_new",
+        "pos": "resources/libbpf/src/btf.c@btf_is_var",
+        "neg": "resources/libbpf/src/netlink.c@btf_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_new",
+        "pos": "resources/libbpf/src/btf.c@btf_is_datasec",
+        "neg": "resources/libbpf/src/zip.c@btf_vlen"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_new",
+        "pos": "resources/libbpf/src/btf.c@btf_dedup_free",
+        "neg": "resources/libbpf/src/gen_loader.c@btf_is_restrict"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_for_each_str_off",
+        "pos": "resources/libbpf/src/btf.c@btf_type_visit_str_offs",
+        "neg": "resources/libbpf/src/relo_core.c@core_relo_kind_str"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_for_each_str_off",
+        "pos": "resources/libbpf/src/btf.c@btf_ext_visit_str_offs",
+        "neg": "resources/libbpf/src/netlink.c@btf_is_array"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@strs_dedup_remap_str_off",
+        "pos": "resources/libbpf/src/btf.c@btf__find_str",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@btf_is_typedef"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@strs_dedup_remap_str_off",
+        "pos": "resources/libbpf/src/strset.c@strset__add_str",
+        "neg": "resources/libbpf/src/btf.c@btf_add_type_offs_mem"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_strings",
+        "pos": "resources/libbpf/src/strset.c@strset__new",
+        "neg": "resources/libbpf/src/usdt.c@btf_is_func_proto"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_strings",
+        "pos": "resources/libbpf/src/strset.c@strset__add_str",
+        "neg": "resources/libbpf/src/bpf.c@btf_is_composite"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_strings",
+        "pos": "resources/libbpf/src/strset.c@strset__free",
+        "neg": "resources/libbpf/src/strset.c@btf_is_composite"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_strings",
+        "pos": "resources/libbpf/src/strset.c@strset__data_size",
+        "neg": "resources/libbpf/src/zip.c@btf_params"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_hash_int_decl_tag",
+        "pos": "resources/libbpf/src/btf.c@btf_hash_common",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@btf_is_type_tag"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_equal_int_tag",
+        "pos": "resources/libbpf/src/btf.c@btf_equal_common",
+        "neg": "resources/libbpf/src/nlattr.c@libbpf_nla_getattr_u64"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_equal_enum_members",
+        "pos": "resources/libbpf/src/btf.c@btf_enum",
+        "neg": "resources/libbpf/src/zip.c@btf_is_volatile"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_equal_enum64_members",
+        "pos": "resources/libbpf/src/btf.c@btf_enum64",
+        "neg": "resources/libbpf/src/usdt.c@btf_var"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_equal_enum",
+        "pos": "resources/libbpf/src/btf.c@btf_equal_common",
+        "neg": "resources/libbpf/src/usdt.c@libbpf_err_ptr"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_equal_enum",
+        "pos": "resources/libbpf/src/btf.c@btf_equal_enum_members",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_is_typedef"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_equal_enum",
+        "pos": "resources/libbpf/src/btf.c@btf_equal_enum64_members",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__set_flags"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_is_enum_fwd",
+        "pos": "resources/libbpf/src/btf.c@btf_is_any_enum",
+        "neg": "resources/libbpf/src/gen_loader.c@skel_alloc"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_compat_enum",
+        "pos": "resources/libbpf/src/btf.c@btf_is_enum_fwd",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_core_equal_fn"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_compat_enum",
+        "pos": "resources/libbpf/src/btf.c@btf_equal_enum",
+        "neg": "resources/libbpf/src/nlattr.c@btf_is_func_proto"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_compat_enum",
+        "pos": "resources/libbpf/src/btf.c@btf_is_any_enum",
+        "neg": "resources/libbpf/src/usdt.c@btf_is_enum"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_hash_struct",
+        "pos": "resources/libbpf/src/btf.c@btf_members",
+        "neg": "resources/libbpf/src/linker.c@linker_sanity_check_btf_ext"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_hash_struct",
+        "pos": "resources/libbpf/src/btf.c@btf_hash_common",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@btf_is_func"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_shallow_equal_struct",
+        "pos": "resources/libbpf/src/btf.c@btf_equal_common",
+        "neg": "resources/libbpf/src/bpf.c@bpf_map_lookup_and_delete_batch"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_shallow_equal_struct",
+        "pos": "resources/libbpf/src/btf.c@btf_members",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@btf_is_composite"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_hash_array",
+        "pos": "resources/libbpf/src/btf.c@btf_array",
+        "neg": "resources/libbpf/src/btf.c@btf__resolve_type"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_hash_array",
+        "pos": "resources/libbpf/src/btf.c@btf_hash_common",
+        "neg": "resources/libbpf/src/libbpf.c@perf_event_open_tracepoint"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_equal_array",
+        "pos": "resources/libbpf/src/btf.c@btf_equal_common",
+        "neg": "resources/libbpf/src/libbpf_errno.c@btf_func_linkage"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_equal_array",
+        "pos": "resources/libbpf/src/btf.c@btf_array",
+        "neg": "resources/libbpf/src/libbpf.c@libbpf_find_vmlinux_btf_id"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_compat_array",
+        "pos": "resources/libbpf/src/btf.c@btf_equal_common",
+        "neg": "resources/libbpf/src/netlink.c@btf_enum"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_compat_array",
+        "pos": "resources/libbpf/src/btf.c@btf_array",
+        "neg": "resources/libbpf/src/features.c@libbpf_err_errno"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_hash_fnproto",
+        "pos": "resources/libbpf/src/btf.c@btf_params",
+        "neg": "resources/libbpf/src/strset.c@btf_int_encoding"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_hash_fnproto",
+        "pos": "resources/libbpf/src/btf.c@btf_hash_common",
+        "neg": "resources/libbpf/src/elf.c@btf_int_offset"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_equal_fnproto",
+        "pos": "resources/libbpf/src/btf.c@btf_equal_common",
+        "neg": "resources/libbpf/src/features.c@btf_member_bit_offset"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_equal_fnproto",
+        "pos": "resources/libbpf/src/btf.c@btf_params",
+        "neg": "resources/libbpf/src/linker.c@btf_is_union"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_compat_fnproto",
+        "pos": "resources/libbpf/src/btf.c@btf_params",
+        "neg": "resources/libbpf/src/nlattr.c@dup_good_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_prep",
+        "pos": "resources/libbpf/src/btf.c@btf_hash_common",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__populate_internal_map"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_prep",
+        "pos": "resources/libbpf/src/btf.c@btf_hash_int_decl_tag",
+        "neg": "resources/libbpf/src/libbpf.c@array_map_mmap_sz"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_prep",
+        "pos": "resources/libbpf/src/btf.c@btf_hash_enum",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__set_log_level"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_prep",
+        "pos": "resources/libbpf/src/btf.c@btf_hash_struct",
+        "neg": "resources/libbpf/src/bpf.c@bpf_map_lookup_and_delete_batch"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_prep",
+        "pos": "resources/libbpf/src/btf.c@btf_hash_array",
+        "neg": "resources/libbpf/src/zip.c@btf_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_prep",
+        "pos": "resources/libbpf/src/btf.c@btf_hash_fnproto",
+        "neg": "resources/libbpf/src/hashmap.c@hashmap__clear"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_prim_type",
+        "pos": "resources/libbpf/src/btf.c@btf_hash_int_decl_tag",
+        "neg": "resources/libbpf/src/features.c@btf_is_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_prim_type",
+        "pos": "resources/libbpf/src/btf.c@hash_bits",
+        "neg": "resources/libbpf/src/libbpf.c@libbpf_find_attach_btf_id"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_prim_type",
+        "pos": "resources/libbpf/src/btf.c@btf_equal_int_tag",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@str_is_empty"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_prim_type",
+        "pos": "resources/libbpf/src/btf.c@btf_hash_enum",
+        "neg": "resources/libbpf/src/libbpf.c@pr_perm_msg"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_prim_type",
+        "pos": "resources/libbpf/src/btf.c@btf_equal_enum",
+        "neg": "resources/libbpf/src/libbpf.c@hash_bits"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_prim_type",
+        "pos": "resources/libbpf/src/btf.c@btf_compat_enum",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__set_autoattach"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_prim_type",
+        "pos": "resources/libbpf/src/btf.c@btf_is_enum_fwd",
+        "neg": "resources/libbpf/src/libbpf.c@btf_kind_core_compat"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_prim_type",
+        "pos": "resources/libbpf/src/btf.c@btf_hash_common",
+        "neg": "resources/libbpf/src/libbpf.c@add_dummy_ksym_var"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_prim_type",
+        "pos": "resources/libbpf/src/btf.c@btf_equal_common",
+        "neg": "resources/libbpf/src/bpf.c@btf_enum"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@resolve_fwd_id",
+        "pos": "resources/libbpf/src/btf.c@is_type_mapped",
+        "neg": "resources/libbpf/src/gen_loader.c@skel_free_map_data"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_identical_arrays",
+        "pos": "resources/libbpf/src/btf.c@btf_is_array",
+        "neg": "resources/libbpf/src/libbpf.c@attach_iter"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_identical_arrays",
+        "pos": "resources/libbpf/src/btf.c@btf_equal_array",
+        "neg": "resources/libbpf/src/libbpf.c@parse_cpu_mask_str"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_identical_structs",
+        "pos": "resources/libbpf/src/btf.c@btf_is_composite",
+        "neg": "resources/libbpf/src/strset.c@btf_params"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_identical_structs",
+        "pos": "resources/libbpf/src/btf.c@btf_shallow_equal_struct",
+        "neg": "resources/libbpf/src/libbpf_errno.c@btf_is_var"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_identical_structs",
+        "pos": "resources/libbpf/src/btf.c@btf_members",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_name_dups"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_is_equiv",
+        "pos": "resources/libbpf/src/btf.c@btf_equal_int_tag",
+        "neg": "resources/libbpf/src/linker.c@add_btf_ext_rec"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_is_equiv",
+        "pos": "resources/libbpf/src/btf.c@btf_compat_enum",
+        "neg": "resources/libbpf/src/linker.c@btf_func_linkage"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_is_equiv",
+        "pos": "resources/libbpf/src/btf.c@btf_equal_common",
+        "neg": "resources/libbpf/src/bpf.c@btf_is_ptr"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_is_equiv",
+        "pos": "resources/libbpf/src/btf.c@btf_compat_array",
+        "neg": "resources/libbpf/src/libbpf.c@add_dummy_ksym_var"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_is_equiv",
+        "pos": "resources/libbpf/src/btf.c@btf_array",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object_adjust_struct_ops_autoload"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_is_equiv",
+        "pos": "resources/libbpf/src/btf.c@btf_shallow_equal_struct",
+        "neg": "resources/libbpf/src/libbpf.c@libbpf_strlcpy"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_is_equiv",
+        "pos": "resources/libbpf/src/btf.c@btf_members",
+        "neg": "resources/libbpf/src/bpf.c@bpf_prog_load"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_is_equiv",
+        "pos": "resources/libbpf/src/btf.c@btf_compat_fnproto",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__open"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_is_equiv",
+        "pos": "resources/libbpf/src/btf.c@btf_params",
+        "neg": "resources/libbpf/src/libbpf_errno.c@btf_member_bitfield_size"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_struct_type",
+        "pos": "resources/libbpf/src/btf.c@btf_hash_struct",
+        "neg": "resources/libbpf/src/ringbuf.c@btf_array"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_struct_type",
+        "pos": "resources/libbpf/src/btf.c@hash_bits",
+        "neg": "resources/libbpf/src/netlink.c@btf_members"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_struct_type",
+        "pos": "resources/libbpf/src/btf.c@btf_shallow_equal_struct",
+        "neg": "resources/libbpf/src/btf.c@btf_is_type_tag"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_struct_type",
+        "pos": "resources/libbpf/src/btf.c@btf_dedup_clear_hypot_map",
+        "neg": "resources/libbpf/src/features.c@btf_is_float"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_struct_type",
+        "pos": "resources/libbpf/src/btf.c@btf_dedup_merge_hypot_map",
+        "neg": "resources/libbpf/src/nlattr.c@btf_is_type_tag"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_ref_type",
+        "pos": "resources/libbpf/src/btf.c@btf_hash_common",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__init_prog"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_ref_type",
+        "pos": "resources/libbpf/src/btf.c@hash_bits",
+        "neg": "resources/libbpf/src/strset.c@btf_is_fwd"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_ref_type",
+        "pos": "resources/libbpf/src/btf.c@btf_equal_common",
+        "neg": "resources/libbpf/src/libbpf_errno.c@libbpf_strlcpy"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_ref_type",
+        "pos": "resources/libbpf/src/btf.c@btf_hash_int_decl_tag",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_link__update_program"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_ref_type",
+        "pos": "resources/libbpf/src/btf.c@btf_equal_int_tag",
+        "neg": "resources/libbpf/src/libbpf.c@btf_int_offset"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_ref_type",
+        "pos": "resources/libbpf/src/btf.c@btf_array",
+        "neg": "resources/libbpf/src/libbpf.c@init_prog_array_slots"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_ref_type",
+        "pos": "resources/libbpf/src/btf.c@btf_hash_array",
+        "neg": "resources/libbpf/src/gen_loader.c@str_is_empty"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_ref_type",
+        "pos": "resources/libbpf/src/btf.c@btf_equal_array",
+        "neg": "resources/libbpf/src/libbpf.c@libbpf_needs_btf"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_ref_type",
+        "pos": "resources/libbpf/src/btf.c@btf_params",
+        "neg": "resources/libbpf/src/bpf.c@bpf_raw_tracepoint_open_opts"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_ref_type",
+        "pos": "resources/libbpf/src/btf.c@btf_hash_fnproto",
+        "neg": "resources/libbpf/src/btf.c@is_pow_of_2"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_ref_type",
+        "pos": "resources/libbpf/src/btf.c@btf_equal_fnproto",
+        "neg": "resources/libbpf/src/btf.c@btf__new_empty"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_ref_types",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap__free",
+        "neg": "resources/libbpf/src/libbpf.c@poison_map_ldimm64"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_resolve_fwd",
+        "pos": "resources/libbpf/src/btf.c@btf_kflag",
+        "neg": "resources/libbpf/src/libbpf.c@patch_log"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_resolve_fwd",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap_find",
+        "neg": "resources/libbpf/src/strset.c@btf_is_restrict"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_resolve_fwds",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap__new",
+        "neg": "resources/libbpf/src/usdt.c@str_hash"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_resolve_fwds",
+        "pos": "resources/libbpf/src/btf.c@btf_dedup_fill_unique_names_map",
+        "neg": "resources/libbpf/src/btf.c@btf_dedup_remap_types"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_resolve_fwds",
+        "pos": "resources/libbpf/src/hashmap.c@hashmap__free",
+        "neg": "resources/libbpf/src/features.c@is_ldimm64_insn"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_dedup_compact_types",
+        "pos": "resources/libbpf/src/btf.c@btf_type_size",
+        "neg": "resources/libbpf/src/bpf.c@bpf_obj_get_info_by_fd"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__load_vmlinux_btf",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/linker.c@find_sym_by_name"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__load_vmlinux_btf",
+        "pos": "resources/libbpf/src/btf.c@btf__parse",
+        "neg": "resources/libbpf/src/libbpf.c@elf_sec_by_idx"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__load_vmlinux_btf",
+        "pos": "resources/libbpf/src/btf.c@libbpf_err_ptr",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__resolve_externs"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__load_vmlinux_btf",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_get_error",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_resize"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf__load_module_btf",
+        "pos": "resources/libbpf/src/btf.c@btf__parse_split",
+        "neg": "resources/libbpf/src/bpf.c@bpf_prog_bind_map"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_type_visit_type_ids",
+        "pos": "resources/libbpf/src/btf.c@btf_array",
+        "neg": "resources/libbpf/src/gen_loader.c@emit_relo_ksym_typeless"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_type_visit_type_ids",
+        "pos": "resources/libbpf/src/btf.c@btf_members",
+        "neg": "resources/libbpf/src/btf.c@libbpf_err_errno"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_type_visit_type_ids",
+        "pos": "resources/libbpf/src/btf.c@btf_params",
+        "neg": "resources/libbpf/src/linker.c@is_relo_sec"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_type_visit_type_ids",
+        "pos": "resources/libbpf/src/btf.c@btf_var_secinfos",
+        "neg": "resources/libbpf/src/btf.c@btf_is_any_enum"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_type_visit_str_offs",
+        "pos": "resources/libbpf/src/btf.c@btf_members",
+        "neg": "resources/libbpf/src/bpf.c@bpf_btf_load"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_type_visit_str_offs",
+        "pos": "resources/libbpf/src/btf.c@btf_enum",
+        "neg": "resources/libbpf/src/elf.c@btf_enum64_value"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_type_visit_str_offs",
+        "pos": "resources/libbpf/src/btf.c@btf_enum64",
+        "neg": "resources/libbpf/src/relo_core.c@bpf_core_calc_relo"
+    },
+    {
+        "query": "resources/libbpf/src/btf.c@btf_type_visit_str_offs",
+        "pos": "resources/libbpf/src/btf.c@btf_params",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@btf_params"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/gen_loader.c@btf_is_enum",
+        "neg": "resources/libbpf/src/btf.c@btf_equal_int_tag"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@btf_is_any_enum",
+        "pos": "resources/libbpf/src/gen_loader.c@btf_is_enum64",
+        "neg": "resources/libbpf/src/nlattr.c@btf_is_const"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@btf_kind_core_compat",
+        "pos": "resources/libbpf/src/gen_loader.c@btf_is_any_enum",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__btf_fd"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/gen_loader.c@btf_members",
+        "neg": "resources/libbpf/src/usdt.c@btf_is_typedef"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@btf_member_bit_offset",
+        "pos": "resources/libbpf/src/gen_loader.c@btf_kflag",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_program__attach_tcx"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/gen_loader.c@btf_members",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_map_mmap_resize"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@btf_member_bitfield_size",
+        "pos": "resources/libbpf/src/gen_loader.c@btf_kflag",
+        "neg": "resources/libbpf/src/btf.c@btf_hash_enum"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@libbpf_validate_opts",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/btf.c@btf_type_size"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/gen_loader.c@dup_good_fd",
+        "neg": "resources/libbpf/src/nlattr.c@btf_is_var"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@ensure_good_fd",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/btf.c@btf__add_restrict"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@reuse_fd",
+        "pos": "resources/libbpf/src/gen_loader.c@sys_dup2",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@btf_int_encoding"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@bpf_gen__init",
+        "pos": "resources/libbpf/src/gen_loader.c@emit_sys_close_blob",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__open_file"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@bpf_gen__init",
+        "pos": "resources/libbpf/src/gen_loader.c@blob_fd_array_off",
+        "neg": "resources/libbpf/src/btf.c@strs_dedup_remap_str_off"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@add_map_fd",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/linker.c@add_btf_ext_rec"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@debug_regs",
+        "pos": "resources/libbpf/src/gen_loader.c@emit_debug",
+        "neg": "resources/libbpf/src/zip.c@btf_is_volatile"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_sys_close_stack",
+        "pos": "resources/libbpf/src/gen_loader.c@__emit_sys_close",
+        "neg": "resources/libbpf/src/linker.c@btf_is_const"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_sys_close_blob",
+        "pos": "resources/libbpf/src/gen_loader.c@__emit_sys_close",
+        "neg": "resources/libbpf/src/nlattr.c@dup_good_fd"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@bpf_gen__finish",
+        "pos": "resources/libbpf/src/gen_loader.c@move_blob2ctx",
+        "neg": "resources/libbpf/src/usdt.c@btf_is_type_tag"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@bpf_gen__finish",
+        "pos": "resources/libbpf/src/gen_loader.c@blob_fd_array_off",
+        "neg": "resources/libbpf/src/elf.c@btf_is_composite"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@bpf_gen__finish",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/bpf.c@str_has_sfx"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@bpf_gen__load_btf",
+        "pos": "resources/libbpf/src/gen_loader.c@emit_check_err",
+        "neg": "resources/libbpf/src/usdt.c@collect_usdt_targets"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@bpf_gen__map_create",
+        "pos": "resources/libbpf/src/gen_loader.c@emit_check_err",
+        "neg": "resources/libbpf/src/libbpf_probes.c@btf_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@bpf_gen__map_create",
+        "pos": "resources/libbpf/src/gen_loader.c@add_map_fd",
+        "neg": "resources/libbpf/src/usdt.c@hash_bits"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_find_attach_target",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf.c@add_uprobe_event_legacy"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_find_attach_target",
+        "pos": "resources/libbpf/src/gen_loader.c@debug_ret",
+        "neg": "resources/libbpf/src/libbpf.c@init_struct_ops_maps"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_find_attach_target",
+        "pos": "resources/libbpf/src/gen_loader.c@emit_check_err",
+        "neg": "resources/libbpf/src/nlattr.c@btf_enum64"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@bpf_gen__record_extern",
+        "pos": "resources/libbpf/src/gen_loader.c@libbpf_reallocarray",
+        "neg": "resources/libbpf/src/libbpf_probes.c@btf_kind"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_bpf_find_by_name_kind",
+        "pos": "resources/libbpf/src/gen_loader.c@debug_ret",
+        "neg": "resources/libbpf/src/libbpf_errno.c@reuse_fd"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_bpf_kallsyms_lookup_name",
+        "pos": "resources/libbpf/src/gen_loader.c@debug_ret",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_emit_enum_fwd"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_relo_kfunc_btf",
+        "pos": "resources/libbpf/src/gen_loader.c@get_ksym_desc",
+        "neg": "resources/libbpf/src/usdt.c@btf_is_func"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_relo_kfunc_btf",
+        "pos": "resources/libbpf/src/gen_loader.c@emit_bpf_find_by_name_kind",
+        "neg": "resources/libbpf/src/libbpf.c@btf_members"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_relo_kfunc_btf",
+        "pos": "resources/libbpf/src/gen_loader.c@emit_check_err",
+        "neg": "resources/libbpf/src/libbpf.c@find_prog_insn_relo"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_relo_kfunc_btf",
+        "pos": "resources/libbpf/src/gen_loader.c@add_kfunc_btf_fd",
+        "neg": "resources/libbpf/src/ringbuf.c@libbpf_is_mem_zeroed"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_relo_kfunc_btf",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/bpf.c@bpf_obj_get"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_relo_ksym_typeless",
+        "pos": "resources/libbpf/src/gen_loader.c@get_ksym_desc",
+        "neg": "resources/libbpf/src/libbpf_errno.c@btf_member_bitfield_size"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_relo_ksym_typeless",
+        "pos": "resources/libbpf/src/gen_loader.c@emit_bpf_kallsyms_lookup_name",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__init_prog"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_relo_ksym_typeless",
+        "pos": "resources/libbpf/src/gen_loader.c@emit_check_err",
+        "neg": "resources/libbpf/src/libbpf.c@array_map_mmap_sz"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_relo_ksym_typeless",
+        "pos": "resources/libbpf/src/gen_loader.c@emit_ksym_relo_log",
+        "neg": "resources/libbpf/fuzz/bpf-object-fuzzer.c@LLVMFuzzerTestOneInput"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_relo_ksym_btf",
+        "pos": "resources/libbpf/src/gen_loader.c@get_ksym_desc",
+        "neg": "resources/libbpf/src/btf.c@resolve_fwd_id"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_relo_ksym_btf",
+        "pos": "resources/libbpf/src/gen_loader.c@emit_bpf_find_by_name_kind",
+        "neg": "resources/libbpf/src/bpf_prog_linfo.c@libbpf_is_mem_zeroed"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_relo_ksym_btf",
+        "pos": "resources/libbpf/src/gen_loader.c@emit_check_err",
+        "neg": "resources/libbpf/src/libbpf.c@adjust_prog_btf_ext_info"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_relo_ksym_btf",
+        "pos": "resources/libbpf/src/gen_loader.c@emit_ksym_relo_log",
+        "neg": "resources/libbpf/src/libbpf_probes.c@btf_enum64_value"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_relo",
+        "pos": "resources/libbpf/src/libbpf.c@libbpf_print",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_map__set_map_extra"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_relo",
+        "pos": "resources/libbpf/src/gen_loader.c@emit_relo_ksym_typeless",
+        "neg": "resources/libbpf/src/btf.c@btf_ext__new"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_relo",
+        "pos": "resources/libbpf/src/gen_loader.c@emit_relo_ksym_btf",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_link__update_map"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_relo",
+        "pos": "resources/libbpf/src/gen_loader.c@emit_relo_kfunc_btf",
+        "neg": "resources/libbpf/src/features.c@sys_dup2"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@emit_relos",
+        "pos": "resources/libbpf/src/gen_loader.c@emit_relo",
+        "neg": "resources/libbpf/src/btf_dump.c@btf_dump_emit_enum32_val"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@cleanup_relos",
+        "pos": "resources/libbpf/src/gen_loader.c@emit_sys_close_blob",
+        "neg": "resources/libbpf/src/libbpf.c@bpf_object__destroy_skeleton"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@cleanup_relos",
+        "pos": "resources/libbpf/src/gen_loader.c@blob_fd_array_off",
+        "neg": "resources/libbpf/src/libbpf_probes.c@btf_member_bit_offset"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@cleanup_relos",
+        "pos": "resources/libbpf/src/gen_loader.c@cleanup_core_relo",
+        "neg": "resources/libbpf/src/elf.c@btf_is_volatile"
+    },
+    {
+        "query": "resources/libbpf/src/gen_loader.c@bpf_gen__prog_load",
+        "pos": "resources/libbpf/src/gen_loader.c@emit_find_attach_target",
+        "neg": "resources/libbpf/src/ringbuf.c@btf_enum64_value"
+    }
+]
