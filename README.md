@@ -2,8 +2,7 @@
 
 This repository provides a **multi-project, function-level dataset** constructed from
 multiple open-source software projects.
-The dataset is designed for research on **code representation learning**, **code search**,
-and **change impact analysis (CIA)**.
+The dataset is designed for research on **change impact analysis (CIA)**.
 
 Each project is processed independently and follows the same data format.
 
@@ -15,8 +14,8 @@ The dataset consists of **function-level triplets** extracted from several open-
 Each triplet contains:
 
 - a **query function**
-- a **positive function** (semantically related)
-- a **negative function** (semantically unrelated)
+- a **positive function** (There is a change impact on the query function)
+- a **negative function** (There is no impact from changes to the query function)
 
 Functions are identified by their source file paths and function names.
 The corresponding function bodies are stored separately.
@@ -43,7 +42,7 @@ Other projects in the repository follow the same naming and format conventions.
 
 For each project, the following three files are provided.
 
-### 3.1 *_train_data.json
+### 3.1 train_data.json
 
 The training dataset is a list of triplets.
 Each triplet has the following structure:
@@ -56,85 +55,59 @@ Each triplet has the following structure:
 }
 query: anchor function
 
-pos: semantically related (positive) function
+pos: There is a change impact on the query function
 
-neg: semantically unrelated (negative) function
+neg: There is no impact from changes to the query function
 
-3.2 *_test_data.json
+
+```
+
+### 3.2 test_data.json
+
 The test dataset follows the same format as the training dataset and is used for evaluation.
 
-3.3 *_functionsID_body.json
+### 3.3 functionsID_body.json
+
 This file provides a mapping from function identifiers to their corresponding source code.
 
 Example format:
 
+```json
 {
   "file_path@function_name": "function source code ..."
 }
+```
+
 All function identifiers referenced in the training and test datasets
 are guaranteed to exist in this file.
 
-4. Function Identifier Format
+## 4. Function Identifier Format
+
 Each function is uniquely identified using the following format:
 
 relative_file_path@function_name
 This identifier maps a function to its location and name within a project.
 
-5. Data Construction
+## 5. Data Construction
+
 Functions are extracted at the function level from each project.
 
 All projects use a consistent representation format.
 
 Triplets are constructed to support contrastive learning and code retrieval.
 
-Positive and negative samples are selected based on semantic relevance.
+Positive and negative samples are selected based on change impact.
 
-6. Dataset Characteristics
-Programming language: C
+## 6. Project link
 
-Granularity: Function-level
+**jemalloc**:[jemalloc/jemalloc](https://github.com/jemalloc/jemalloc)
 
-Number of projects: 6
+**libbpf**:[libbpf/libbpf: Automated upstream mirror for libbpf stand-alone build.](https://github.com/libbpf/libbpf)
 
-Each project contains:
+**FFmpegKit**:[arthenica/ffmpeg-kit at v5.1](https://github.com/arthenica/ffmpeg-kit/tree/v5.1)
 
-a training set
+**librdkafka**:[confluentinc/librdkafka at v2.1.0](https://github.com/confluentinc/librdkafka/tree/v2.1.0)
 
-a test set
+**TheAlgorithms**:[TheAlgorithms/C: Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented in C for educational purposes.](https://github.com/TheAlgorithms/C)
 
-a function body mapping file
-
-Detailed statistics (e.g., number of functions and triplets per project)
-can be obtained by parsing the JSON files.
-
-7. Usage Example
-Below is an example of loading a single project dataset using Python:
-
-import json
-
-with open("antiword_train_data.json", "r") as f:
-    train_data = json.load(f)
-
-with open("antiword_functionsID_body.json", "r") as f:
-    function_bodies = json.load(f)
-
-sample = train_data[0]
-query_body = function_bodies[sample["query"]]
-The same code applies to all other projects in the dataset.
-
-8. Intended Use
-This dataset can be used for:
-
-Code representation learning
-
-Code similarity and retrieval
-
-Contrastive learning on source code
-
-Function-level change impact analysis
-
-Cross-project evaluation
-
-9. License
-This dataset is released for academic research purposes only.
-Please cite the corresponding paper if you use this dataset in your research.
+**antiword**:https://fossies.org/linux/misc/old/antiword-0.37.tar.gz
