@@ -1,0 +1,72 @@
+rd_kafka_Uuid_hash,"int rd_kafka_Uuid_hash(const rd_kafka_Uuid_t *uuid) {
+        unsigned char bytes[16];
+        memcpy(bytes, &uuid->most_significant_bits, 8);
+        memcpy(&bytes[8], &uuid->least_significant_bits, 8);
+        return rd_bytes_hash(bytes, 16);
+}",rd_kafka_topic_partition_by_id_cmp,"int rd_kafka_topic_partition_by_id_cmp(const void *_a, const void *_b) {
+        const rd_kafka_topic_partition_t *a = _a;
+        const rd_kafka_topic_partition_t *b = _b;
+        rd_kafka_Uuid_t topic_id_a  = rd_kafka_topic_partition_get_topic_id(a);
+        rd_kafka_Uuid_t topic_id_b  = rd_kafka_topic_partition_get_topic_id(b);
+        int are_topic_ids_different = rd_kafka_Uuid_cmp(topic_id_a, topic_id_b);
+        return are_topic_ids_different || RD_CMP(a->partition, b->partition);
+}",rd_kafka_topic_partition_get_topic_id,"rd_kafka_Uuid_t rd_kafka_topic_partition_get_topic_id(
+    const rd_kafka_topic_partition_t *rktpar) {
+        const rd_kafka_topic_partition_private_t *parpriv;
+
+        if (!(parpriv = rktpar->_private))
+                return RD_KAFKA_UUID_ZERO;
+
+        return parpriv->topic_id;
+}",rd_kafka_topic_partition_list_add_copy,"void rd_kafka_topic_partition_list_add_copy(
+    rd_kafka_topic_partition_list_t *rktparlist,
+    const rd_kafka_topic_partition_t *rktpar) {
+        rd_kafka_topic_partition_t *dst;
+
+        dst = rd_kafka_topic_partition_list_add0(
+            __FUNCTION__, __LINE__, rktparlist, rktpar->topic,
+            rktpar->partition, NULL, rktpar->_private);
+        rd_kafka_topic_partition_update(dst, rktpar);
+}",rd_kafka_topic_partition_list_add_list,"void rd_kafka_topic_partition_list_add_list(
+    rd_kafka_topic_partition_list_t *dst,
+    const rd_kafka_topic_partition_list_t *src) {
+        int i;
+
+        if (src->cnt == 0)
+                return;
+
+        if (dst->size < dst->cnt + src->cnt)
+                rd_kafka_topic_partition_list_grow(dst, src->cnt);
+
+        for (i = 0; i < src->cnt; i++)
+                rd_kafka_topic_partition_list_add_copy(dst, &src->elems[i]);
+}",rd_kafka_topic_partition_list_destroy,"void rd_kafka_topic_partition_list_destroy(
+    rd_kafka_topic_partition_list_t *rktparlist) {
+        int i;
+
+        for (i = 0; i < rktparlist->cnt; i++)
+                rd_kafka_topic_partition_destroy0(&rktparlist->elems[i], 0);
+
+        if (rktparlist->elems)
+                rd_free(rktparlist->elems);
+
+        rd_free(rktparlist);
+}"
+
+
+
+
+
+
+
+rd_kafka_topic_partition_get_topic_id,"rd_kafka_Uuid_t rd_kafka_topic_partition_get_topic_id(
+    const rd_kafka_topic_partition_t *rktpar) {
+        const rd_kafka_topic_partition_private_t *parpriv;
+
+        if (!(parpriv = rktpar->_private))
+                return RD_KAFKA_UUID_ZERO;
+
+        return parpriv->topic_id;
+}",rd_kafka_topic_partition_destroy,"void rd_kafka_topic_partition_destroy(rd_kafka_topic_partition_t *rktpar) {
+        rd_kafka_topic_partition_destroy0(rktpar, 1);
+}"
