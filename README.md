@@ -53,6 +53,9 @@ Each triplet has the following structure:
   "pos": "file_path@function_name",
   "neg": "file_path@function_name"
 }
+```
+
+
 query: anchor function
 
 pos: There is a change impact on the query function
@@ -60,7 +63,6 @@ pos: There is a change impact on the query function
 neg: There is no impact from changes to the query function
 
 
-```
 
 ### 3.2 test_data.json
 
