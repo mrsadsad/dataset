@@ -27,11 +27,11 @@ The dataset supports training and evaluation for contrastive and retrieval-based
 ## 2. Repository Structure
 
 Each project in the dataset is stored using the same file structure.
-An example project (**Antiword**) is shown below:
+An example project (**jemalloc**) is shown below:
 
-antiword_train_data.json
-antiword_test_data.json
-antiword_functionsID_body.json
+jemalloc_train_data.json
+jemalloc_test_data.json
+jemalloc_functionsID_body.json
 
 
 Other projects in the repository follow the same naming and format conventions.
@@ -111,5 +111,3 @@ Positive and negative samples are selected based on change impact.
 **librdkafka**:[confluentinc/librdkafka at v2.1.0](https://github.com/confluentinc/librdkafka/tree/v2.1.0)
 
 **TheAlgorithms**:[TheAlgorithms/C: Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented in C for educational purposes.](https://github.com/TheAlgorithms/C)
-
-**antiword**:https://fossies.org/linux/misc/old/antiword-0.37.tar.gz
